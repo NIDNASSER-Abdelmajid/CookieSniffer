@@ -1,0 +1,210 @@
+2025-10-23 11:22:26,485 - INFO - Starting crawler with 3198 URLs
+2025-10-23 11:22:26,487 - INFO - [1/3198] Crawling: zoom.us
+2025-10-23 11:22:26,487 - INFO - Using profile: zoom_us
+2025-10-23 11:22:26,823 - INFO - ChromeDriver initialized successfully
+2025-10-23 11:22:26,823 - INFO - Navigating to domain root first: https://zoom.us
+2025-10-23 11:22:51,988 - INFO - Waiting for 180 seconds...
+2025-10-23 11:22:51,988 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-10-23 11:23:53,127 - INFO - Capturing data...
+2025-10-23 11:24:35,484 - INFO - Request https://st1.zoom.us/fe-static/fe-frame-popups/asse... set 1 cookies
+2025-10-23 11:24:35,490 - INFO - Request https://st1.zoom.us/fe-static/fe-frame-popups/asse... set 1 cookies
+2025-10-23 11:24:35,514 - INFO - Request https://ws.zoominfo.com/pixel/collect... set 1 cookies
+2025-10-23 11:24:35,594 - INFO - Request https://us05web.zoom.us/myhome... set 1 cookies
+2025-10-23 11:24:35,597 - INFO - Request https://us05st1.zoom.us/static/6.3.45046/css/fonts... set 1 cookies
+2025-10-23 11:24:35,601 - INFO - Request https://us05st1.zoom.us/static/6.3.45046/css/billi... set 1 cookies
+2025-10-23 11:24:35,612 - INFO - Request https://explore.zoom.us/docs/js/optimizely/optimiz... set 1 cookies
+2025-10-23 11:24:35,623 - INFO - Request https://us05st1.zoom.us/static/6.3.45046/css/fonts... set 1 cookies
+2025-10-23 11:24:35,626 - INFO - Request https://us05st1.zoom.us/static/6.3.45046/css/all.m... set 1 cookies
+2025-10-23 11:24:35,654 - INFO - Request https://us05st1.zoom.us/static/6.3.45046/js/app/op... set 1 cookies
+2025-10-23 11:24:36,086 - INFO - Request https://us05st1.zoom.us/static/6.3.45046/js/app/bi... set 1 cookies
+2025-10-23 11:24:38,016 - INFO - Captured 783 requests with 11 cookies set via network activity
+2025-10-23 11:24:38,037 - INFO - Data saved: 109 cookie entries with request associations
+2025-10-23 11:24:38,037 - ERROR - Error visiting https://zoom.us: cannot access local variable 'csv' where it is not associated with a value
+2025-10-23 11:24:38,150 - ERROR - Error updating CSV: cannot access local variable 'csv' where it is not associated with a value
+2025-10-23 11:24:38,150 - ERROR - Failed to crawl zoom.us, continuing to next...
+2025-10-23 11:24:38,151 - INFO - [2/3198] Crawling: tiktokv.us
+2025-10-23 11:24:38,152 - INFO - Using profile: tiktokv_us
+2025-10-23 11:24:38,552 - INFO - ChromeDriver initialized successfully
+2025-10-23 11:24:38,553 - INFO - Navigating to domain root first: https://tiktokv.us
+2025-10-23 11:24:38,942 - ERROR - Error visiting https://tiktokv.us: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=141.0.7390.122)
+Stacktrace:
+#0 0x60c2c97b0fea <unknown>
+#1 0x60c2c922ed06 <unknown>
+#2 0x60c2c9225c30 <unknown>
+#3 0x60c2c92170e6 <unknown>
+#4 0x60c2c9218efb <unknown>
+#5 0x60c2c9217686 <unknown>
+#6 0x60c2c9216e17 <unknown>
+#7 0x60c2c9216ac9 <unknown>
+#8 0x60c2c9214912 <unknown>
+#9 0x60c2c92150ea <unknown>
+#10 0x60c2c9232239 <unknown>
+#11 0x60c2c92cd705 <unknown>
+#12 0x60c2c92a6e12 <unknown>
+#13 0x60c2c92ccb3b <unknown>
+#14 0x60c2c92a6be3 <unknown>
+#15 0x60c2c92732d2 <unknown>
+#16 0x60c2c9273f91 <unknown>
+#17 0x60c2c97749e8 <unknown>
+#18 0x60c2c977884f <unknown>
+#19 0x60c2c975bec9 <unknown>
+#20 0x60c2c97793f5 <unknown>
+#21 0x60c2c974174f <unknown>
+#22 0x60c2c979dcc8 <unknown>
+#23 0x60c2c979dea3 <unknown>
+#24 0x60c2c97aff83 <unknown>
+#25 0x7c8cc369caa4 <unknown>
+#26 0x7c8cc3729c6c <unknown>
+
+2025-10-23 11:24:39,007 - ERROR - Error updating CSV: cannot access local variable 'csv' where it is not associated with a value
+2025-10-23 11:24:39,007 - ERROR - Failed to crawl tiktokv.us, continuing to next...
+2025-10-23 11:24:39,007 - INFO - [3/3198] Crawling: donmai.us
+2025-10-23 11:24:39,007 - INFO - Using profile: donmai_us
+2025-10-23 11:24:39,297 - INFO - ChromeDriver initialized successfully
+2025-10-23 11:24:39,297 - INFO - Navigating to domain root first: https://donmai.us
+2025-10-23 11:24:40,084 - INFO - Waiting for 180 seconds...
+2025-10-23 11:24:40,084 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-10-23 11:25:04,374 - INFO - Capturing data...
+2025-10-23 11:25:04,510 - INFO - Captured 21 requests with 0 cookies set via network activity
+2025-10-23 11:25:04,512 - INFO - Data saved: 0 cookie entries with request associations
+2025-10-23 11:25:04,512 - ERROR - Error visiting https://donmai.us: cannot access local variable 'csv' where it is not associated with a value
+2025-10-23 11:25:04,575 - ERROR - Error updating CSV: cannot access local variable 'csv' where it is not associated with a value
+2025-10-23 11:25:04,575 - ERROR - Failed to crawl donmai.us, continuing to next...
+2025-10-23 11:25:04,575 - INFO - [4/3198] Crawling: office365.us
+2025-10-23 11:25:04,575 - INFO - Using profile: office365_us
+2025-10-23 11:25:04,880 - INFO - ChromeDriver initialized successfully
+2025-10-23 11:25:04,880 - INFO - Navigating to domain root first: https://office365.us
+2025-10-23 11:25:49,386 - INFO - Waiting for 180 seconds...
+2025-10-23 11:25:49,386 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-10-23 11:25:49,387 - INFO - Capturing data...
+2025-10-23 11:25:49,520 - INFO - Captured 23 requests with 0 cookies set via network activity
+2025-10-23 11:25:49,522 - INFO - Data saved: 0 cookie entries with request associations
+2025-10-23 11:25:49,523 - ERROR - Error visiting https://office365.us: cannot access local variable 'csv' where it is not associated with a value
+2025-10-23 11:25:49,591 - ERROR - Error updating CSV: cannot access local variable 'csv' where it is not associated with a value
+2025-10-23 11:25:49,591 - ERROR - Failed to crawl office365.us, continuing to next...
+2025-10-23 11:25:49,591 - INFO - [5/3198] Crawling: proofpoint.us
+2025-10-23 11:25:49,592 - INFO - Using profile: proofpoint_us
+2025-10-23 11:25:49,911 - INFO - ChromeDriver initialized successfully
+2025-10-23 11:25:49,911 - INFO - Navigating to domain root first: https://proofpoint.us
+2025-10-23 11:25:50,718 - ERROR - Error visiting https://proofpoint.us: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=141.0.7390.122)
+Stacktrace:
+#0 0x5db523126fea <unknown>
+#1 0x5db522ba4d06 <unknown>
+#2 0x5db522b9bc30 <unknown>
+#3 0x5db522b8d0e6 <unknown>
+#4 0x5db522b8eefb <unknown>
+#5 0x5db522b8d686 <unknown>
+#6 0x5db522b8ce17 <unknown>
+#7 0x5db522b8cac9 <unknown>
+#8 0x5db522b8a912 <unknown>
+#9 0x5db522b8b0ea <unknown>
+#10 0x5db522ba8239 <unknown>
+#11 0x5db522c43705 <unknown>
+#12 0x5db522c1ce12 <unknown>
+#13 0x5db522c42b3b <unknown>
+#14 0x5db522c1cbe3 <unknown>
+#15 0x5db522be92d2 <unknown>
+#16 0x5db522be9f91 <unknown>
+#17 0x5db5230ea9e8 <unknown>
+#18 0x5db5230ee84f <unknown>
+#19 0x5db5230d1ec9 <unknown>
+#20 0x5db5230ef3f5 <unknown>
+#21 0x5db5230b774f <unknown>
+#22 0x5db523113cc8 <unknown>
+#23 0x5db523113ea3 <unknown>
+#24 0x5db523125f83 <unknown>
+#25 0x7c9328a9caa4 <unknown>
+#26 0x7c9328b29c6c <unknown>
+
+2025-10-23 11:25:50,774 - ERROR - Error updating CSV: cannot access local variable 'csv' where it is not associated with a value
+2025-10-23 11:25:50,774 - ERROR - Failed to crawl proofpoint.us, continuing to next...
+2025-10-23 11:25:50,774 - INFO - [6/3198] Crawling: microsoft.us
+2025-10-23 11:25:50,775 - INFO - Using profile: microsoft_us
+2025-10-23 11:25:51,054 - INFO - ChromeDriver initialized successfully
+2025-10-23 11:25:51,054 - INFO - Navigating to domain root first: https://microsoft.us
+2025-10-23 11:25:56,515 - ERROR - Error visiting https://microsoft.us: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=141.0.7390.122)
+Stacktrace:
+#0 0x64a44e5f1fea <unknown>
+#1 0x64a44e06fd06 <unknown>
+#2 0x64a44e066c30 <unknown>
+#3 0x64a44e0580e6 <unknown>
+#4 0x64a44e059efb <unknown>
+#5 0x64a44e058686 <unknown>
+#6 0x64a44e057e17 <unknown>
+#7 0x64a44e057ac9 <unknown>
+#8 0x64a44e055912 <unknown>
+#9 0x64a44e0560ea <unknown>
+#10 0x64a44e073239 <unknown>
+#11 0x64a44e10e705 <unknown>
+#12 0x64a44e0e7e12 <unknown>
+#13 0x64a44e10db3b <unknown>
+#14 0x64a44e0e7be3 <unknown>
+#15 0x64a44e0b42d2 <unknown>
+#16 0x64a44e0b4f91 <unknown>
+#17 0x64a44e5b59e8 <unknown>
+#18 0x64a44e5b984f <unknown>
+#19 0x64a44e59cec9 <unknown>
+#20 0x64a44e5ba3f5 <unknown>
+#21 0x64a44e58274f <unknown>
+#22 0x64a44e5decc8 <unknown>
+#23 0x64a44e5deea3 <unknown>
+#24 0x64a44e5f0f83 <unknown>
+#25 0x75728429caa4 <unknown>
+#26 0x757284329c6c <unknown>
+
+2025-10-23 11:25:56,585 - ERROR - Error updating CSV: cannot access local variable 'csv' where it is not associated with a value
+2025-10-23 11:25:56,585 - ERROR - Failed to crawl microsoft.us, continuing to next...
+2025-10-23 11:25:56,585 - INFO - [7/3198] Crawling: p-cdn.us
+2025-10-23 11:25:56,585 - INFO - Using profile: p_cdn_us
+2025-10-23 11:25:56,880 - INFO - ChromeDriver initialized successfully
+2025-10-23 11:25:56,880 - INFO - Navigating to domain root first: https://p-cdn.us
+2025-10-23 11:25:57,269 - ERROR - Error visiting https://p-cdn.us: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=141.0.7390.122)
+Stacktrace:
+#0 0x603da3392fea <unknown>
+#1 0x603da2e10d06 <unknown>
+#2 0x603da2e07c30 <unknown>
+#3 0x603da2df90e6 <unknown>
+#4 0x603da2dfaefb <unknown>
+#5 0x603da2df9686 <unknown>
+#6 0x603da2df8e17 <unknown>
+#7 0x603da2df8ac9 <unknown>
+#8 0x603da2df6912 <unknown>
+#9 0x603da2df70ea <unknown>
+#10 0x603da2e14239 <unknown>
+#11 0x603da2eaf705 <unknown>
+#12 0x603da2e88e12 <unknown>
+#13 0x603da2eaeb3b <unknown>
+#14 0x603da2e88be3 <unknown>
+#15 0x603da2e552d2 <unknown>
+#16 0x603da2e55f91 <unknown>
+#17 0x603da33569e8 <unknown>
+#18 0x603da335a84f <unknown>
+#19 0x603da333dec9 <unknown>
+#20 0x603da335b3f5 <unknown>
+#21 0x603da332374f <unknown>
+#22 0x603da337fcc8 <unknown>
+#23 0x603da337fea3 <unknown>
+#24 0x603da3391f83 <unknown>
+#25 0x74cc4089caa4 <unknown>
+#26 0x74cc40929c6c <unknown>
+
+2025-10-23 11:25:57,334 - ERROR - Error updating CSV: cannot access local variable 'csv' where it is not associated with a value
+2025-10-23 11:25:57,334 - ERROR - Failed to crawl p-cdn.us, continuing to next...
+2025-10-23 11:25:57,334 - INFO - [8/3198] Crawling: google.us
+2025-10-23 11:25:57,334 - INFO - Using profile: google_us
+2025-10-23 11:25:57,622 - INFO - ChromeDriver initialized successfully
+2025-10-23 11:25:57,622 - INFO - Navigating to domain root first: https://google.us
+2025-10-23 11:26:00,178 - INFO - Waiting for 180 seconds...
+2025-10-23 11:26:00,178 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-10-23 11:29:00,179 - INFO - No input received, proceeding without comment.
+2025-10-23 11:29:00,179 - INFO - Enter a comment to continue: 
+2025-10-23 11:53:59,787 - WARNING - Crawler interrupted by user
+2025-10-23 11:53:59,791 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x758f47026f90>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/bd80dd4971f75dc0f890f4116c1dbcea
+2025-10-23 11:53:59,792 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x758f47024bf0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/bd80dd4971f75dc0f890f4116c1dbcea
+2025-10-23 11:53:59,793 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x758f4cd8e0c0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/bd80dd4971f75dc0f890f4116c1dbcea
+2025-10-23 11:53:59,794 - INFO - Browser closed
+2025-10-23 11:53:59,794 - INFO - Crawler session completed

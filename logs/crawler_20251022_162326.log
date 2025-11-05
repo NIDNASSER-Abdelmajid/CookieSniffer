@@ -1,0 +1,15 @@
+2025-10-22 16:13:57,215 - INFO - Starting crawler with 3198 URLs
+2025-10-22 16:13:57,216 - INFO - [1/3198] Crawling: zoom.us
+2025-10-22 16:13:57,216 - INFO - Using profile: zoom_us
+2025-10-22 16:13:57,460 - INFO - ChromeDriver initialized successfully
+2025-10-22 16:13:57,460 - INFO - Navigating to domain root first: https://zoom.us
+2025-10-22 16:14:04,980 - ERROR - Error setting cookies: 'list' object has no attribute 'get'
+2025-10-22 16:14:04,980 - INFO - Going to: https://zoom.us in 5s...
+2025-10-22 16:14:11,943 - INFO - Waiting for 180 seconds...
+2025-10-22 16:14:11,943 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-10-22 16:15:34,645 - WARNING - Crawler interrupted by user
+2025-10-22 16:15:34,650 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(104, 'Connection reset by peer')': /session/759c0743e1f787fcc6f2be71fcabebaf
+2025-10-22 16:15:34,652 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x74b773302e70>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/759c0743e1f787fcc6f2be71fcabebaf
+2025-10-22 16:15:34,652 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x74b77317d340>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/759c0743e1f787fcc6f2be71fcabebaf
+2025-10-22 16:15:34,653 - INFO - Browser closed
+2025-10-22 16:15:34,653 - INFO - Crawler session completed

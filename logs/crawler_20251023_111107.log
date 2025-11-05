@@ -1,0 +1,13 @@
+2025-10-23 11:06:58,127 - INFO - Starting crawler with 34799 URLs
+2025-10-23 11:06:58,128 - INFO - [1/34799] Crawling: youtu.be
+2025-10-23 11:06:58,128 - INFO - Using profile: youtu_be
+2025-10-23 11:06:59,676 - INFO - ChromeDriver initialized successfully
+2025-10-23 11:06:59,676 - INFO - Navigating to domain root first: https://youtu.be
+2025-10-23 11:07:03,918 - INFO - Waiting for 180 seconds...
+2025-10-23 11:07:03,919 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-10-23 11:07:08,847 - WARNING - Crawler interrupted by user
+2025-10-23 11:07:08,851 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(104, 'Connection reset by peer')': /session/452324f678b3e237741015e7378d9917
+2025-10-23 11:07:08,853 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x76e3353e5cd0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/452324f678b3e237741015e7378d9917
+2025-10-23 11:07:08,853 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x76e333dcd820>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/452324f678b3e237741015e7378d9917
+2025-10-23 11:07:08,854 - INFO - Browser closed
+2025-10-23 11:07:08,855 - INFO - Crawler session completed

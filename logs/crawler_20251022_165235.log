@@ -1,0 +1,64 @@
+2025-10-22 16:48:33,348 - INFO - Starting crawler with 3198 URLs
+2025-10-22 16:48:33,349 - INFO - [1/3198] Crawling: zoom.us
+2025-10-22 16:48:33,349 - INFO - Using profile: zoom_us
+2025-10-22 16:48:33,657 - INFO - ChromeDriver initialized successfully
+2025-10-22 16:48:33,657 - INFO - Navigating to domain root first: https://zoom.us
+2025-10-22 16:48:53,361 - INFO - Waiting for 120 seconds...
+2025-10-22 16:48:53,361 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-10-22 16:49:39,394 - INFO - Capturing data...
+2025-10-22 16:49:51,190 - INFO - Captured 730 requests with 0 cookies set via network activity
+2025-10-22 16:49:51,196 - INFO - Data saved: 98 cookie entries
+2025-10-22 16:49:51,196 - ERROR - Error visiting https://zoom.us: cannot access local variable 'csv' where it is not associated with a value
+2025-10-22 16:49:51,311 - ERROR - Error updating CSV: cannot access local variable 'csv' where it is not associated with a value
+2025-10-22 16:49:51,311 - ERROR - Failed to crawl zoom.us, continuing to next...
+2025-10-22 16:49:51,311 - INFO - [2/3198] Crawling: tiktokv.us
+2025-10-22 16:49:51,312 - INFO - Using profile: tiktokv_us
+2025-10-22 16:49:51,598 - INFO - ChromeDriver initialized successfully
+2025-10-22 16:49:51,598 - INFO - Navigating to domain root first: https://tiktokv.us
+2025-10-22 16:49:57,001 - ERROR - Error visiting https://tiktokv.us: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=141.0.7390.122)
+Stacktrace:
+#0 0x57d72bd82fea <unknown>
+#1 0x57d72b800d06 <unknown>
+#2 0x57d72b7f7c30 <unknown>
+#3 0x57d72b7e90e6 <unknown>
+#4 0x57d72b7eaefb <unknown>
+#5 0x57d72b7e9686 <unknown>
+#6 0x57d72b7e8e17 <unknown>
+#7 0x57d72b7e8ac9 <unknown>
+#8 0x57d72b7e6912 <unknown>
+#9 0x57d72b7e70ea <unknown>
+#10 0x57d72b804239 <unknown>
+#11 0x57d72b89f705 <unknown>
+#12 0x57d72b878e12 <unknown>
+#13 0x57d72b89eb3b <unknown>
+#14 0x57d72b878be3 <unknown>
+#15 0x57d72b8452d2 <unknown>
+#16 0x57d72b845f91 <unknown>
+#17 0x57d72bd469e8 <unknown>
+#18 0x57d72bd4a84f <unknown>
+#19 0x57d72bd2dec9 <unknown>
+#20 0x57d72bd4b3f5 <unknown>
+#21 0x57d72bd1374f <unknown>
+#22 0x57d72bd6fcc8 <unknown>
+#23 0x57d72bd6fea3 <unknown>
+#24 0x57d72bd81f83 <unknown>
+#25 0x7f033fe9caa4 <unknown>
+#26 0x7f033ff29c6c <unknown>
+
+2025-10-22 16:49:57,065 - ERROR - Error updating CSV: cannot access local variable 'csv' where it is not associated with a value
+2025-10-22 16:49:57,065 - ERROR - Failed to crawl tiktokv.us, continuing to next...
+2025-10-22 16:49:57,066 - INFO - [3/3198] Crawling: donmai.us
+2025-10-22 16:49:57,066 - INFO - Using profile: donmai_us
+2025-10-22 16:49:57,386 - INFO - ChromeDriver initialized successfully
+2025-10-22 16:49:57,387 - INFO - Navigating to domain root first: https://donmai.us
+2025-10-22 16:49:58,511 - INFO - Waiting for 120 seconds...
+2025-10-22 16:49:58,512 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-10-22 16:51:58,513 - INFO - No input received, proceeding without comment.
+2025-10-22 16:51:58,513 - INFO - Enter a comment to continue: 
+2025-10-22 16:52:31,421 - WARNING - Crawler interrupted by user
+2025-10-22 16:52:31,424 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(104, 'Connection reset by peer')': /session/5f9a80b0da3186f156fb28de6ce33ff9
+2025-10-22 16:52:31,425 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7c0c7692f680>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/5f9a80b0da3186f156fb28de6ce33ff9
+2025-10-22 16:52:31,426 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7c0c7692ed80>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/5f9a80b0da3186f156fb28de6ce33ff9
+2025-10-22 16:52:31,427 - INFO - Browser closed
+2025-10-22 16:52:31,427 - INFO - Crawler session completed

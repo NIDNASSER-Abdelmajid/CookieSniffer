@@ -1,0 +1,27 @@
+2025-10-22 15:31:05,108 - INFO - Starting crawler with 34799 URLs
+2025-10-22 15:31:05,109 - INFO - [1/34799] Crawling: youtu.be
+2025-10-22 15:31:05,109 - INFO - Using profile: youtu_be
+2025-10-22 15:31:19,892 - INFO - ChromeDriver initialized successfully
+2025-10-22 15:31:19,892 - INFO - Navigating to domain root first: https://youtu.be
+2025-10-22 15:31:23,584 - INFO - Going to: https://youtu.be in 5s...
+2025-10-22 15:31:28,382 - INFO - Waiting for 180 seconds...
+2025-10-22 15:31:28,382 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-10-22 15:34:28,383 - INFO - No input received, proceeding without comment.
+2025-10-22 15:34:28,384 - INFO - Enter a comment to continue: 
+2025-10-22 16:02:07,343 - INFO - Capturing data...
+2025-10-22 16:02:07,753 - INFO - Data saved: 845 entries (60 cookies, 785 requests)
+2025-10-22 16:02:07,753 - ERROR - Error visiting https://youtu.be: cannot access local variable 'updated' where it is not associated with a value
+2025-10-22 16:02:07,856 - ERROR - Failed to crawl youtu.be, continuing to next...
+2025-10-22 16:02:07,856 - INFO - [2/34799] Crawling: telekom.de
+2025-10-22 16:02:07,856 - INFO - Using profile: telekom_de
+2025-10-22 16:02:08,155 - INFO - ChromeDriver initialized successfully
+2025-10-22 16:02:08,155 - INFO - Navigating to domain root first: https://telekom.de
+2025-10-22 16:02:11,690 - INFO - Going to: https://telekom.de in 5s...
+2025-10-22 16:02:16,848 - INFO - Waiting for 180 seconds...
+2025-10-22 16:02:16,848 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-10-22 16:03:51,127 - WARNING - Crawler interrupted by user
+2025-10-22 16:03:51,129 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(104, 'Connection reset by peer')': /session/f3ec8833791fe7b7e703b9ccb1b018e1
+2025-10-22 16:03:51,129 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x719e178a8a70>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/f3ec8833791fe7b7e703b9ccb1b018e1
+2025-10-22 16:03:51,130 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x719e178a8e00>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/f3ec8833791fe7b7e703b9ccb1b018e1
+2025-10-22 16:03:51,130 - INFO - Browser closed
+2025-10-22 16:03:51,130 - INFO - Crawler session completed

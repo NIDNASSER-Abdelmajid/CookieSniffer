@@ -1,0 +1,286 @@
+[
+  {
+    "domain": ".fcbarcelona.com",
+    "expiry": 1794902785,
+    "httpOnly": false,
+    "name": "ttcsid",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "1761206784928::JEdTapl-L7-6WH4oH1kh.1.1761206785143.0"
+  },
+  {
+    "domain": ".fcbarcelona.com",
+    "expiry": 1794902784,
+    "httpOnly": false,
+    "name": "_tt_enable_cookie",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "1"
+  },
+  {
+    "domain": ".fcbarcelona.com",
+    "expiry": 1768982783,
+    "httpOnly": false,
+    "name": "_fbp",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "fb.1.1761206783144.9977171019"
+  },
+  {
+    "domain": ".fcbarcelona.com",
+    "expiry": 1795766783,
+    "httpOnly": false,
+    "name": "s_tslv",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": true,
+    "value": "1761206783067"
+  },
+  {
+    "domain": ".fcbarcelona.com",
+    "httpOnly": false,
+    "name": "s_sq",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "%5B%5BB%5D%5D"
+  },
+  {
+    "domain": ".fcbarcelona.com",
+    "expiry": 1792829182,
+    "httpOnly": false,
+    "name": "euconsent-v2",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": true,
+    "value": "CQZvmAAQZvmAAAHABBENCBFsAP_AAEPAAAiQF5wAwAIAI1AXmBecAEBeYAAA.f_gACHgAAAAA"
+  },
+  {
+    "domain": ".fcbarcelona.com",
+    "expiry": 1761208582,
+    "httpOnly": false,
+    "name": "gpv_pn",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": true,
+    "value": "https%3A%2F%2Fwww.fcbarcelona.com%2Fen%2F"
+  },
+  {
+    "domain": ".fcbarcelona.com",
+    "expiry": 1795370784,
+    "httpOnly": false,
+    "name": "cto_bundle",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "UWwKJV8xM3R1QXBkdThDdjN1U1Y3bDBpZ2lKNEJzREdKaSUyQk5GQmd5bWtkenRjZTY1azZJMk4yWmJzJTJGWVdZVHNzd0ZrRGpNSVNiR0d2cCUyQlVYTTdkY1ZselZqWFdQZWRSS00yMmI3SFdwelhLa1VmNHd4MjFXMDJJSXBHQ2xHQjhVVFFBUg"
+  },
+  {
+    "domain": ".fcbarcelona.com",
+    "expiry": 1792829182,
+    "httpOnly": false,
+    "name": "didomi_token",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": true,
+    "value": "eyJ1c2VyX2lkIjoiMTlhMTAxYWMtNDlkYy02NDQ4LTgyNTctMmI3MGI3YzBlNTQyIiwiY3JlYXRlZCI6IjIwMjUtMTAtMjNUMDg6MDY6MjEuMDg1WiIsInVwZGF0ZWQiOiIyMDI1LTEwLTIzVDA4OjA2OjIyLjgyOFoiLCJ2ZW5kb3JzIjp7ImVuYWJsZWQiOlsiZ29vZ2xlIiwidHdpdHRlciIsImM6Z29vZ2xlYW5hLTRUWG5KaWdSIiwiYzpsaW5rZWRpbi1tYXJrZXRpbmctc29sdXRpb25zIiwiYzpodWJzcG90IiwiYzpiaW5nLWFkcyIsImM6aG90amFyIiwiYzpsaW5rZWRpbiIsImM6dGlrdG9rLUtaQVVRTFo5IiwiYzppbnN0YWdyYW0iLCJjOm1pY3Jvc29mdCIsImM6d2ViZXllei1EM3BGQWlKZSIsImM6emVuZGVzay1BQzdQcGZxTiJdfSwicHVycG9zZXMiOnsiZW5hYmxlZCI6WyJkZXZpY2VfY2hhcmFjdGVyaXN0aWNzIiwiZ2VvbG9jYXRpb25fZGF0YSJdfSwidmVuZG9yc19saSI6eyJlbmFibGVkIjpbImdvb2dsZSIsImM6d2ViZXllei1EM3BGQWlKZSIsImM6emVuZGVzay1BQzdQcGZxTiJdfSwidmVyc2lvbiI6MiwiYWMiOiJDaEdBRUFGa0ZDSUEuQ2hHQUVBRmtGQ0lBIn0="
+  },
+  {
+    "domain": ".fcbarcelona.com",
+    "expiry": 1795766783,
+    "httpOnly": false,
+    "name": "AMCV_7BEDF655569E15537F000101%40AdobeOrg",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "179643557%7CMCIDTS%7C20385%7CMCMID%7C85728409190204165061622102699821186543%7CMCAAMLH-1761811583%7C6%7CMCAAMB-1761811583%7C6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y%7CMCOPTOUT-1761213983s%7CNONE%7CMCAID%7CNONE%7CMCSYNCSOP%7C411-20392%7CMCCIDH%7C-508959700%7CvVersion%7C5.5.0"
+  },
+  {
+    "domain": ".fcbarcelona.com",
+    "expiry": 1795766783,
+    "httpOnly": false,
+    "name": "s_ecid",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "MCMID%7C85728409190204165061622102699821186543"
+  },
+  {
+    "domain": ".fcbarcelona.com",
+    "expiry": 1761208583,
+    "httpOnly": false,
+    "name": "s_inv",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": true,
+    "value": "0"
+  },
+  {
+    "domain": ".fcbarcelona.com",
+    "expiry": 1795766783,
+    "httpOnly": false,
+    "name": "mbox",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "session#024c6c03e1dc448b931bcb6e64a44dde#1761208644|PC#024c6c03e1dc448b931bcb6e64a44dde.37_0#1824451584"
+  },
+  {
+    "domain": ".fcbarcelona.com",
+    "expiry": 1763798783,
+    "httpOnly": false,
+    "name": "s_nr30",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": true,
+    "value": "1761206783066-New"
+  },
+  {
+    "domain": "www.fcbarcelona.com",
+    "httpOnly": false,
+    "name": "sat_track",
+    "path": "/",
+    "sameSite": "None",
+    "secure": true,
+    "value": "true"
+  },
+  {
+    "domain": ".fcbarcelona.com",
+    "expiry": 1768982780,
+    "httpOnly": false,
+    "name": "_gcl_au",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "1.1.640574779.1761206780"
+  },
+  {
+    "domain": ".fcbarcelona.com",
+    "expiry": 1761208583,
+    "httpOnly": false,
+    "name": "gpv_Page",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": true,
+    "value": "https%3A%2F%2Fwww.fcbarcelona.com%2Fen%2F"
+  },
+  {
+    "domain": ".fcbarcelona.com",
+    "httpOnly": false,
+    "name": "at_check",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "true"
+  },
+  {
+    "domain": "www.fcbarcelona.com",
+    "httpOnly": false,
+    "name": "req_language",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "en"
+  },
+  {
+    "domain": ".fcbarcelona.com",
+    "expiry": 1795766781,
+    "httpOnly": false,
+    "name": "_ga",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "GA1.1.1987815326.1761206781"
+  },
+  {
+    "domain": ".fcbarcelona.com",
+    "expiry": 1795766781,
+    "httpOnly": false,
+    "name": "_ga_GTMMFBT82RL",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "GS2.1.s1761206780$o1$g0$t1761206780$j60$l0$h1247432268"
+  },
+  {
+    "domain": ".fcbarcelona.com",
+    "expiry": 1794902784,
+    "httpOnly": false,
+    "name": "_ttp",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "01K881NKSCPNHNMP0C6W4XZHRJ_.tt.1"
+  },
+  {
+    "domain": ".fcbarcelona.com",
+    "expiry": 1794902785,
+    "httpOnly": false,
+    "name": "ttcsid_C5RD4L123A9UL0EA7J9G",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "1761206784927::nUH4j0dtKdCvzrB_xNsA.1.1761206785144.0"
+  },
+  {
+    "domain": ".fcbarcelona.com",
+    "httpOnly": false,
+    "name": "AMCVS_7BEDF655569E15537F000101%40AdobeOrg",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "1"
+  },
+  {
+    "domain": ".fcbarcelona.com",
+    "httpOnly": false,
+    "name": "s_cc",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "true"
+  },
+  {
+    "domain": ".doubleclick.net",
+    "expires": 1776758781.324572,
+    "httpOnly": true,
+    "name": "receive-cookie-deprecation",
+    "partitionKey": {
+      "hasCrossSiteAncestor": true,
+      "topLevelSite": "https://fcbarcelona.com"
+    },
+    "path": "/",
+    "priority": "Medium",
+    "sameParty": false,
+    "sameSite": "None",
+    "secure": true,
+    "session": false,
+    "size": 27,
+    "sourcePort": 443,
+    "sourceScheme": "Secure",
+    "value": "1"
+  },
+  {
+    "domain": ".criteo.com",
+    "expires": 1794902784.021042,
+    "httpOnly": false,
+    "name": "cto_bundle",
+    "partitionKey": {
+      "hasCrossSiteAncestor": true,
+      "topLevelSite": "https://fcbarcelona.com"
+    },
+    "path": "/",
+    "priority": "Medium",
+    "sameParty": false,
+    "sameSite": "None",
+    "secure": true,
+    "session": false,
+    "size": 201,
+    "sourcePort": 443,
+    "sourceScheme": "Secure",
+    "value": "EkhL019jWFY5bWV2JTJCNXEzYU55VW9taXVUVkVLVGY3c1ZtYmJ6bDdBd0JndmlsTkklMkY2T0Z3MFFLMGdWT1prZGVHUUVHMW1EdkFvb0RBYnZ2cmR2JTJGR3UyVlpxQlRrajBlSSUyRlYlMkZHVkZnMTZLbHFYeTRXNGFVSHFUZ3N4VzBza1pmblRVZTU"
+  }
+]

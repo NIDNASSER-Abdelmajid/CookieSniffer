@@ -1,0 +1,2 @@
+regex: 
+"cookie_name":\s*(?!null\b)[^,\s]+

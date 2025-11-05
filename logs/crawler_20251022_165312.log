@@ -1,0 +1,62 @@
+2025-10-22 16:52:35,751 - INFO - Starting crawler with 3198 URLs
+2025-10-22 16:52:35,752 - INFO - [1/3198] Crawling: zoom.us
+2025-10-22 16:52:35,752 - INFO - Using profile: zoom_us
+2025-10-22 16:52:36,090 - INFO - ChromeDriver initialized successfully
+2025-10-22 16:52:36,090 - INFO - Navigating to domain root first: https://zoom.us
+2025-10-22 16:52:44,737 - INFO - Waiting for 120 seconds...
+2025-10-22 16:52:44,738 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-10-22 16:52:46,326 - INFO - Capturing data...
+2025-10-22 16:52:47,433 - INFO - Captured 197 requests with 0 cookies set via network activity
+2025-10-22 16:52:47,437 - INFO - Data saved: 88 cookie entries
+2025-10-22 16:52:47,437 - ERROR - Error visiting https://zoom.us: cannot access local variable 'csv' where it is not associated with a value
+2025-10-22 16:52:47,531 - ERROR - Error updating CSV: cannot access local variable 'csv' where it is not associated with a value
+2025-10-22 16:52:47,531 - ERROR - Failed to crawl zoom.us, continuing to next...
+2025-10-22 16:52:47,531 - INFO - [2/3198] Crawling: tiktokv.us
+2025-10-22 16:52:47,531 - INFO - Using profile: tiktokv_us
+2025-10-22 16:52:47,858 - INFO - ChromeDriver initialized successfully
+2025-10-22 16:52:47,858 - INFO - Navigating to domain root first: https://tiktokv.us
+2025-10-22 16:52:48,913 - ERROR - Error visiting https://tiktokv.us: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=141.0.7390.122)
+Stacktrace:
+#0 0x5e1cb294afea <unknown>
+#1 0x5e1cb23c8d06 <unknown>
+#2 0x5e1cb23bfc30 <unknown>
+#3 0x5e1cb23b10e6 <unknown>
+#4 0x5e1cb23b2efb <unknown>
+#5 0x5e1cb23b1686 <unknown>
+#6 0x5e1cb23b0e17 <unknown>
+#7 0x5e1cb23b0ac9 <unknown>
+#8 0x5e1cb23ae912 <unknown>
+#9 0x5e1cb23af0ea <unknown>
+#10 0x5e1cb23cc239 <unknown>
+#11 0x5e1cb2467705 <unknown>
+#12 0x5e1cb2440e12 <unknown>
+#13 0x5e1cb2466b3b <unknown>
+#14 0x5e1cb2440be3 <unknown>
+#15 0x5e1cb240d2d2 <unknown>
+#16 0x5e1cb240df91 <unknown>
+#17 0x5e1cb290e9e8 <unknown>
+#18 0x5e1cb291284f <unknown>
+#19 0x5e1cb28f5ec9 <unknown>
+#20 0x5e1cb29133f5 <unknown>
+#21 0x5e1cb28db74f <unknown>
+#22 0x5e1cb2937cc8 <unknown>
+#23 0x5e1cb2937ea3 <unknown>
+#24 0x5e1cb2949f83 <unknown>
+#25 0x70b83be9caa4 <unknown>
+#26 0x70b83bf29c6c <unknown>
+
+2025-10-22 16:52:48,980 - ERROR - Error updating CSV: cannot access local variable 'csv' where it is not associated with a value
+2025-10-22 16:52:48,980 - ERROR - Failed to crawl tiktokv.us, continuing to next...
+2025-10-22 16:52:48,980 - INFO - [3/3198] Crawling: donmai.us
+2025-10-22 16:52:48,980 - INFO - Using profile: donmai_us
+2025-10-22 16:52:49,283 - INFO - ChromeDriver initialized successfully
+2025-10-22 16:52:49,283 - INFO - Navigating to domain root first: https://donmai.us
+2025-10-22 16:52:49,811 - INFO - Waiting for 120 seconds...
+2025-10-22 16:52:49,812 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-10-22 16:53:05,192 - WARNING - Crawler interrupted by user
+2025-10-22 16:53:05,195 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(104, 'Connection reset by peer')': /session/d434c6d15a4985092eacd933586ed888
+2025-10-22 16:53:05,196 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e89a1a878f0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/d434c6d15a4985092eacd933586ed888
+2025-10-22 16:53:05,196 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7e89a1a870e0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/d434c6d15a4985092eacd933586ed888
+2025-10-22 16:53:05,197 - INFO - Browser closed
+2025-10-22 16:53:05,197 - INFO - Crawler session completed
