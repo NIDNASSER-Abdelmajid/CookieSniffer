@@ -1,0 +1,50 @@
+[
+  {
+    "cookie_name": "_ga",
+    "cookie_value": "GA1.1.221785533.1762721369",
+    "cookie_domain": ".livescore.cz",
+    "cookie_path": "/",
+    "cookie_secure": false,
+    "cookie_httpOnly": false,
+    "request_url": "https://livescore.cz/",
+    "request_method": "GET",
+    "request_timestamp": "2025-11-09T21:49:27.025000",
+    "source_url": "https://livescore.cz",
+    "timestamp": "2025-11-09T21:50:35.417940",
+    "page_title": "Livescore - soccer results",
+    "browser_id": "livescore_cz",
+    "party_type": "first-party"
+  },
+  {
+    "cookie_name": "_ga_HK6G8059T9",
+    "cookie_value": "GS2.1.s1762721369$o1$g1$t1762721428$j1$l0$h0",
+    "cookie_domain": ".livescore.cz",
+    "cookie_path": "/",
+    "cookie_secure": false,
+    "cookie_httpOnly": false,
+    "request_url": "https://livescore.cz/",
+    "request_method": "GET",
+    "request_timestamp": "2025-11-09T21:49:27.025000",
+    "source_url": "https://livescore.cz",
+    "timestamp": "2025-11-09T21:50:35.417940",
+    "page_title": "Livescore - soccer results",
+    "browser_id": "livescore_cz",
+    "party_type": "first-party"
+  },
+  {
+    "cookie_name": "_gid",
+    "cookie_value": "GA1.2.1108273326.1762721369",
+    "cookie_domain": ".livescore.cz",
+    "cookie_path": "/",
+    "cookie_secure": false,
+    "cookie_httpOnly": false,
+    "request_url": "https://livescore.cz/",
+    "request_method": "GET",
+    "request_timestamp": "2025-11-09T21:49:27.025000",
+    "source_url": "https://livescore.cz",
+    "timestamp": "2025-11-09T21:50:35.417940",
+    "page_title": "Livescore - soccer results",
+    "browser_id": "livescore_cz",
+    "party_type": "first-party"
+  }
+]

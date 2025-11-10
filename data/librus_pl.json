@@ -1,0 +1,18 @@
+[
+  {
+    "cookie_name": "lb_cookie_consent",
+    "cookie_value": "true",
+    "cookie_domain": "www.librus.pl",
+    "cookie_path": "/",
+    "cookie_secure": false,
+    "cookie_httpOnly": false,
+    "request_url": "https://www.librus.pl/",
+    "request_method": "GET",
+    "request_timestamp": "2025-11-09T21:26:23.554000",
+    "source_url": "https://librus.pl",
+    "timestamp": "2025-11-09T21:28:23.153973",
+    "page_title": "Librus - IT systems supporting education",
+    "browser_id": "librus_pl",
+    "party_type": "third-party"
+  }
+]

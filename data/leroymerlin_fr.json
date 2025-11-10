@@ -1,0 +1,18 @@
+[
+  {
+    "cookie_name": "datadome",
+    "cookie_value": "fnr2~DdcvK5vJm~6kdtAAzPE7VVIF7Z1fFU0gVw7kiR2xusR_BATMunFRxvTlBZux4rwrPCSMMg3o9~IuRm27Sc4qtNYJbR~l_XyGvC3~f5Q4CoUM5Qd7VplROyvOFdP",
+    "cookie_domain": ".leroymerlin.fr",
+    "cookie_path": "/",
+    "cookie_secure": true,
+    "cookie_httpOnly": false,
+    "request_url": "https://leroymerlin.fr/",
+    "request_method": "GET",
+    "request_timestamp": "2025-11-09T21:30:49.281000",
+    "source_url": "https://leroymerlin.fr",
+    "timestamp": "2025-11-09T21:31:04.591832",
+    "page_title": "leroymerlin.fr",
+    "browser_id": "leroymerlin_fr",
+    "party_type": "first-party"
+  }
+]
