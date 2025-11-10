@@ -4,8 +4,8 @@
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/NIDNASSER-Abdelmajid/Custom-Crawler
-cd Custom-Crawler
+git clone https://github.com/NIDNASSER-Abdelmajid/CookieSniffer
+cd CookieSniffer
 ```
 
 ### 2. Install Dependencies
