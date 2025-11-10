@@ -1,210 +1,1652 @@
-2025-10-23 11:22:26,485 - INFO - Starting crawler with 3198 URLs
-2025-10-23 11:22:26,487 - INFO - [1/3198] Crawling: zoom.us
-2025-10-23 11:22:26,487 - INFO - Using profile: zoom_us
-2025-10-23 11:22:26,823 - INFO - ChromeDriver initialized successfully
-2025-10-23 11:22:26,823 - INFO - Navigating to domain root first: https://zoom.us
-2025-10-23 11:22:51,988 - INFO - Waiting for 180 seconds...
-2025-10-23 11:22:51,988 - INFO - Enter a comment for this crawl (or press Enter to skip): 
-2025-10-23 11:23:53,127 - INFO - Capturing data...
-2025-10-23 11:24:35,484 - INFO - Request https://st1.zoom.us/fe-static/fe-frame-popups/asse... set 1 cookies
-2025-10-23 11:24:35,490 - INFO - Request https://st1.zoom.us/fe-static/fe-frame-popups/asse... set 1 cookies
-2025-10-23 11:24:35,514 - INFO - Request https://ws.zoominfo.com/pixel/collect... set 1 cookies
-2025-10-23 11:24:35,594 - INFO - Request https://us05web.zoom.us/myhome... set 1 cookies
-2025-10-23 11:24:35,597 - INFO - Request https://us05st1.zoom.us/static/6.3.45046/css/fonts... set 1 cookies
-2025-10-23 11:24:35,601 - INFO - Request https://us05st1.zoom.us/static/6.3.45046/css/billi... set 1 cookies
-2025-10-23 11:24:35,612 - INFO - Request https://explore.zoom.us/docs/js/optimizely/optimiz... set 1 cookies
-2025-10-23 11:24:35,623 - INFO - Request https://us05st1.zoom.us/static/6.3.45046/css/fonts... set 1 cookies
-2025-10-23 11:24:35,626 - INFO - Request https://us05st1.zoom.us/static/6.3.45046/css/all.m... set 1 cookies
-2025-10-23 11:24:35,654 - INFO - Request https://us05st1.zoom.us/static/6.3.45046/js/app/op... set 1 cookies
-2025-10-23 11:24:36,086 - INFO - Request https://us05st1.zoom.us/static/6.3.45046/js/app/bi... set 1 cookies
-2025-10-23 11:24:38,016 - INFO - Captured 783 requests with 11 cookies set via network activity
-2025-10-23 11:24:38,037 - INFO - Data saved: 109 cookie entries with request associations
-2025-10-23 11:24:38,037 - ERROR - Error visiting https://zoom.us: cannot access local variable 'csv' where it is not associated with a value
-2025-10-23 11:24:38,150 - ERROR - Error updating CSV: cannot access local variable 'csv' where it is not associated with a value
-2025-10-23 11:24:38,150 - ERROR - Failed to crawl zoom.us, continuing to next...
-2025-10-23 11:24:38,151 - INFO - [2/3198] Crawling: tiktokv.us
-2025-10-23 11:24:38,152 - INFO - Using profile: tiktokv_us
-2025-10-23 11:24:38,552 - INFO - ChromeDriver initialized successfully
-2025-10-23 11:24:38,553 - INFO - Navigating to domain root first: https://tiktokv.us
-2025-10-23 11:24:38,942 - ERROR - Error visiting https://tiktokv.us: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
-  (Session info: chrome=141.0.7390.122)
+2025-11-09 15:47:59,678 - INFO - Starting crawler with 34799 URLs
+2025-11-09 15:47:59,680 - INFO - [1/34799] Crawling: youtu.be
+2025-11-09 15:47:59,680 - INFO - Using profile: youtu_be
+2025-11-09 15:47:59,957 - INFO - ChromeDriver initialized successfully
+2025-11-09 15:47:59,957 - INFO - Navigating to domain root first: https://youtu.be
+2025-11-09 15:48:05,510 - INFO - Waiting for 180 seconds...
+2025-11-09 15:48:05,511 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 15:49:05,689 - INFO - Capturing data...
+2025-11-09 15:49:26,209 - INFO - Captured 738 requests with 0 cookies set via network activity
+2025-11-09 15:49:26,223 - INFO - Data saved: 62 cookie entries with request associations
+2025-11-09 15:49:26,289 - INFO - Removed youtu.be from urls/EU_websites.csv after successful crawl
+2025-11-09 15:49:26,292 - INFO - Title: YouTube
+2025-11-09 15:49:26,294 - INFO - URL(last visited page/subpage): https://www.youtube.com/
+2025-11-09 15:49:26,294 - INFO - Cookies captured: 62
+2025-11-09 15:49:26,294 - INFO - Requests captured: 738
+2025-11-09 15:49:26,297 - INFO - [2/34799] Crawling: telekom.de
+2025-11-09 15:49:26,297 - INFO - Using profile: telekom_de
+2025-11-09 15:49:26,671 - INFO - ChromeDriver initialized successfully
+2025-11-09 15:49:26,672 - INFO - Navigating to domain root first: https://telekom.de
+2025-11-09 15:49:30,396 - INFO - Waiting for 180 seconds...
+2025-11-09 15:49:30,396 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 15:50:17,870 - INFO - Capturing data...
+2025-11-09 15:50:19,351 - INFO - Captured 256 requests with 0 cookies set via network activity
+2025-11-09 15:50:19,358 - INFO - Data saved: 48 cookie entries with request associations
+2025-11-09 15:50:19,364 - INFO - Title: Telekom | Mobilfunk, Festnetz & Internet, TV Angebote
+2025-11-09 15:50:19,369 - INFO - URL(last visited page/subpage): https://www.telekom.de/start
+2025-11-09 15:50:19,369 - INFO - Cookies captured: 48
+2025-11-09 15:50:19,369 - INFO - Requests captured: 256
+2025-11-09 15:50:19,369 - INFO - [3/34799] Crawling: linktr.ee
+2025-11-09 15:50:19,369 - INFO - Using profile: linktr_ee
+2025-11-09 15:50:19,760 - INFO - ChromeDriver initialized successfully
+2025-11-09 15:50:19,760 - INFO - Navigating to domain root first: https://linktr.ee
+2025-11-09 15:50:23,174 - INFO - Waiting for 180 seconds...
+2025-11-09 15:50:23,175 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 15:51:48,058 - INFO - Capturing data...
+2025-11-09 15:52:09,786 - INFO - Captured 1031 requests with 0 cookies set via network activity
+2025-11-09 15:52:09,816 - INFO - Data saved: 89 cookie entries with request associations
+2025-11-09 15:52:09,879 - INFO - Removed linktr.ee from urls/EU_websites.csv after successful crawl
+2025-11-09 15:52:09,882 - INFO - Title: Linktree Admin
+2025-11-09 15:52:09,884 - INFO - URL(last visited page/subpage): https://linktr.ee/admin/social-planner
+2025-11-09 15:52:09,885 - INFO - Cookies captured: 89
+2025-11-09 15:52:09,885 - INFO - Requests captured: 1031
+2025-11-09 15:52:09,887 - INFO - [4/34799] Crawling: linkos.bg
+2025-11-09 15:52:09,887 - INFO - Using profile: linkos_bg
+2025-11-09 15:52:10,296 - INFO - ChromeDriver initialized successfully
+2025-11-09 15:52:10,296 - INFO - Navigating to domain root first: https://linkos.bg
+2025-11-09 15:52:12,803 - INFO - Waiting for 180 seconds...
+2025-11-09 15:52:12,804 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 15:53:42,837 - INFO - Capturing data...
+2025-11-09 15:53:43,603 - INFO - Captured 154 requests with 0 cookies set via network activity
+2025-11-09 15:53:43,606 - INFO - Data saved: 0 cookie entries with request associations
+2025-11-09 15:53:43,611 - INFO - Title: Линкос ООД - уеб и хостинг услуги
+2025-11-09 15:53:43,613 - INFO - URL(last visited page/subpage): https://linkos.bg/index.php
+2025-11-09 15:53:43,613 - INFO - Cookies captured: 0
+2025-11-09 15:53:43,613 - INFO - Requests captured: 154
+2025-11-09 15:53:43,613 - INFO - [5/34799] Crawling: google.de
+2025-11-09 15:53:43,613 - INFO - Using profile: google_de
+2025-11-09 15:53:44,040 - INFO - ChromeDriver initialized successfully
+2025-11-09 15:53:44,040 - INFO - Navigating to domain root first: https://google.de
+2025-11-09 15:53:46,473 - INFO - Waiting for 180 seconds...
+2025-11-09 15:53:46,473 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 15:54:17,577 - INFO - Capturing data...
+2025-11-09 15:54:18,710 - INFO - Captured 194 requests with 0 cookies set via network activity
+2025-11-09 15:54:18,716 - INFO - Data saved: 59 cookie entries with request associations
+2025-11-09 15:54:18,774 - INFO - Removed google.de from urls/EU_websites.csv after successful crawl
+2025-11-09 15:54:18,778 - INFO - Title: Google
+2025-11-09 15:54:18,780 - INFO - URL(last visited page/subpage): https://www.google.com/
+2025-11-09 15:54:18,780 - INFO - Cookies captured: 59
+2025-11-09 15:54:18,780 - INFO - Requests captured: 194
+2025-11-09 15:54:18,782 - INFO - [6/34799] Crawling: amazon.de
+2025-11-09 15:54:18,782 - INFO - Using profile: amazon_de
+2025-11-09 15:54:19,174 - INFO - ChromeDriver initialized successfully
+2025-11-09 15:54:19,174 - INFO - Navigating to domain root first: https://amazon.de
+2025-11-09 15:54:21,474 - INFO - Waiting for 180 seconds...
+2025-11-09 15:54:21,474 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 15:54:45,789 - INFO - Capturing data...
+2025-11-09 15:54:46,321 - INFO - Captured 104 requests with 0 cookies set via network activity
+2025-11-09 15:54:46,324 - INFO - Data saved: 6 cookie entries with request associations
+2025-11-09 15:54:46,329 - INFO - Title: Amazon.de: Günstige Preise für Elektronik & Foto, Filme, Musik, Bücher, Games, Spielzeug & mehr
+2025-11-09 15:54:46,331 - INFO - URL(last visited page/subpage): https://www.amazon.de/
+2025-11-09 15:54:46,331 - INFO - Cookies captured: 7
+2025-11-09 15:54:46,331 - INFO - Requests captured: 104
+2025-11-09 15:54:46,331 - INFO - [7/34799] Crawling: installatiegereedschap.nl
+2025-11-09 15:54:46,332 - INFO - Using profile: installatiegereedschap_nl
+2025-11-09 15:54:46,683 - INFO - ChromeDriver initialized successfully
+2025-11-09 15:54:46,684 - INFO - Navigating to domain root first: https://installatiegereedschap.nl
+2025-11-09 15:54:49,533 - INFO - Waiting for 180 seconds...
+2025-11-09 15:54:49,534 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 15:57:30,874 - INFO - Capturing data...
+2025-11-09 15:57:36,625 - INFO - Captured 1027 requests with 0 cookies set via network activity
+2025-11-09 15:57:36,638 - INFO - Data saved: 30 cookie entries with request associations
+2025-11-09 15:57:36,706 - INFO - Removed installatiegereedschap.nl from urls/EU_websites.csv after successful crawl
+2025-11-09 15:57:36,708 - INFO - Title: Installatiegereedschap voor elke vakman | Installatiegereedschap.nl
+2025-11-09 15:57:36,711 - INFO - URL(last visited page/subpage): https://installatiegereedschap.nl/
+2025-11-09 15:57:36,711 - INFO - Cookies captured: 32
+2025-11-09 15:57:36,711 - INFO - Requests captured: 1027
+2025-11-09 15:57:36,714 - INFO - [8/34799] Crawling: google.fr
+2025-11-09 15:57:36,714 - INFO - Using profile: google_fr
+2025-11-09 15:57:37,088 - INFO - ChromeDriver initialized successfully
+2025-11-09 15:57:37,088 - INFO - Navigating to domain root first: https://google.fr
+2025-11-09 15:57:39,938 - INFO - Waiting for 180 seconds...
+2025-11-09 15:57:39,938 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 15:58:06,362 - INFO - Capturing data...
+2025-11-09 15:58:07,418 - INFO - Captured 185 requests with 0 cookies set via network activity
+2025-11-09 15:58:07,425 - INFO - Data saved: 59 cookie entries with request associations
+2025-11-09 15:58:07,487 - INFO - Removed google.fr from urls/EU_websites.csv after successful crawl
+2025-11-09 15:58:07,490 - INFO - Title: Google
+2025-11-09 15:58:07,493 - INFO - URL(last visited page/subpage): https://www.google.com/
+2025-11-09 15:58:07,493 - INFO - Cookies captured: 59
+2025-11-09 15:58:07,493 - INFO - Requests captured: 185
+2025-11-09 15:58:07,495 - INFO - [9/34799] Crawling: t-online.de
+2025-11-09 15:58:07,495 - INFO - Using profile: t_online_de
+2025-11-09 15:58:07,857 - INFO - ChromeDriver initialized successfully
+2025-11-09 15:58:07,857 - INFO - Navigating to domain root first: https://t-online.de
+2025-11-09 15:58:29,141 - INFO - Waiting for 180 seconds...
+2025-11-09 15:58:29,141 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 16:00:24,942 - INFO - Capturing data...
+2025-11-09 16:00:25,953 - INFO - Captured 233 requests with 0 cookies set via network activity
+2025-11-09 16:00:25,961 - INFO - Data saved: 51 cookie entries with request associations
+2025-11-09 16:00:25,969 - INFO - Title: Telekom Login
+2025-11-09 16:00:25,974 - INFO - URL(last visited page/subpage): https://accounts.login.idm.telekom.com/oauth2/auth?scope=openid&display=popup&claims=%7B%22id_token%22%3A%7B%22urn%3Atelekom.com%3Aall%22%3Anull%7D%7D%0A&response_type=code&redirect_uri=https%3A%2F%2Fwww.t-online.de%2Fauth%2Flogin%2Foauth2%2Fcode%2Ftelekom&state=pWCDtztBKTSA2GaywnnwzYKMaaI6I5B_UWis9fIudVY%3D&nonce=MkdxlTW-HerX1BdqmOWFrkpTKM9SHLwUY25DahmRmpY&client_id=10LIVESAM30000004901PORTALE2000000000000
+2025-11-09 16:00:25,974 - INFO - Cookies captured: 97
+2025-11-09 16:00:25,974 - INFO - Requests captured: 233
+2025-11-09 16:00:25,974 - INFO - [10/34799] Crawling: mobile.de
+2025-11-09 16:00:25,975 - INFO - Using profile: mobile_de
+2025-11-09 16:00:26,403 - INFO - ChromeDriver initialized successfully
+2025-11-09 16:00:26,403 - INFO - Navigating to domain root first: https://mobile.de
+2025-11-09 16:00:28,099 - INFO - Waiting for 180 seconds...
+2025-11-09 16:00:28,100 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 16:00:50,294 - INFO - Capturing data...
+2025-11-09 16:00:50,646 - INFO - Captured 68 requests with 0 cookies set via network activity
+2025-11-09 16:00:50,649 - INFO - Data saved: 8 cookie entries with request associations
+2025-11-09 16:00:50,655 - INFO - Title: Zugriff verweigert / Access denied
+2025-11-09 16:00:50,659 - INFO - URL(last visited page/subpage): https://www.mobile.de/
+2025-11-09 16:00:50,659 - INFO - Cookies captured: 9
+2025-11-09 16:00:50,659 - INFO - Requests captured: 68
+2025-11-09 16:00:50,659 - INFO - [11/34799] Crawling: rzone.de
+2025-11-09 16:00:50,659 - INFO - Using profile: rzone_de
+2025-11-09 16:00:51,041 - INFO - ChromeDriver initialized successfully
+2025-11-09 16:00:51,041 - INFO - Navigating to domain root first: https://rzone.de
+2025-11-09 16:00:51,575 - ERROR - Error visiting https://rzone.de: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=142.0.7444.61)
 Stacktrace:
-#0 0x60c2c97b0fea <unknown>
-#1 0x60c2c922ed06 <unknown>
-#2 0x60c2c9225c30 <unknown>
-#3 0x60c2c92170e6 <unknown>
-#4 0x60c2c9218efb <unknown>
-#5 0x60c2c9217686 <unknown>
-#6 0x60c2c9216e17 <unknown>
-#7 0x60c2c9216ac9 <unknown>
-#8 0x60c2c9214912 <unknown>
-#9 0x60c2c92150ea <unknown>
-#10 0x60c2c9232239 <unknown>
-#11 0x60c2c92cd705 <unknown>
-#12 0x60c2c92a6e12 <unknown>
-#13 0x60c2c92ccb3b <unknown>
-#14 0x60c2c92a6be3 <unknown>
-#15 0x60c2c92732d2 <unknown>
-#16 0x60c2c9273f91 <unknown>
-#17 0x60c2c97749e8 <unknown>
-#18 0x60c2c977884f <unknown>
-#19 0x60c2c975bec9 <unknown>
-#20 0x60c2c97793f5 <unknown>
-#21 0x60c2c974174f <unknown>
-#22 0x60c2c979dcc8 <unknown>
-#23 0x60c2c979dea3 <unknown>
-#24 0x60c2c97aff83 <unknown>
-#25 0x7c8cc369caa4 <unknown>
-#26 0x7c8cc3729c6c <unknown>
+#0 0x5aa142686aca <unknown>
+#1 0x5aa1420d2cdb <unknown>
+#2 0x5aa1420c9bd5 <unknown>
+#3 0x5aa1420baf86 <unknown>
+#4 0x5aa1420bcd52 <unknown>
+#5 0x5aa1420bb4f2 <unknown>
+#6 0x5aa1420bacb5 <unknown>
+#7 0x5aa1420ba967 <unknown>
+#8 0x5aa1420b876f <unknown>
+#9 0x5aa1420b8f8a <unknown>
+#10 0x5aa1420d6479 <unknown>
+#11 0x5aa1421728c5 <unknown>
+#12 0x5aa142171c87 <unknown>
+#13 0x5aa142117aca <unknown>
+#14 0x5aa1421187d1 <unknown>
+#15 0x5aa14264da99 <unknown>
+#16 0x5aa142650a6c <unknown>
+#17 0x5aa142636d29 <unknown>
+#18 0x5aa142651665 <unknown>
+#19 0x5aa14261e6a3 <unknown>
+#20 0x5aa1426737b8 <unknown>
+#21 0x5aa142673993 <unknown>
+#22 0x5aa142685a63 <unknown>
+#23 0x74616909caa4 <unknown>
+#24 0x746169129c6c <unknown>
 
-2025-10-23 11:24:39,007 - ERROR - Error updating CSV: cannot access local variable 'csv' where it is not associated with a value
-2025-10-23 11:24:39,007 - ERROR - Failed to crawl tiktokv.us, continuing to next...
-2025-10-23 11:24:39,007 - INFO - [3/3198] Crawling: donmai.us
-2025-10-23 11:24:39,007 - INFO - Using profile: donmai_us
-2025-10-23 11:24:39,297 - INFO - ChromeDriver initialized successfully
-2025-10-23 11:24:39,297 - INFO - Navigating to domain root first: https://donmai.us
-2025-10-23 11:24:40,084 - INFO - Waiting for 180 seconds...
-2025-10-23 11:24:40,084 - INFO - Enter a comment for this crawl (or press Enter to skip): 
-2025-10-23 11:25:04,374 - INFO - Capturing data...
-2025-10-23 11:25:04,510 - INFO - Captured 21 requests with 0 cookies set via network activity
-2025-10-23 11:25:04,512 - INFO - Data saved: 0 cookie entries with request associations
-2025-10-23 11:25:04,512 - ERROR - Error visiting https://donmai.us: cannot access local variable 'csv' where it is not associated with a value
-2025-10-23 11:25:04,575 - ERROR - Error updating CSV: cannot access local variable 'csv' where it is not associated with a value
-2025-10-23 11:25:04,575 - ERROR - Failed to crawl donmai.us, continuing to next...
-2025-10-23 11:25:04,575 - INFO - [4/3198] Crawling: office365.us
-2025-10-23 11:25:04,575 - INFO - Using profile: office365_us
-2025-10-23 11:25:04,880 - INFO - ChromeDriver initialized successfully
-2025-10-23 11:25:04,880 - INFO - Navigating to domain root first: https://office365.us
-2025-10-23 11:25:49,386 - INFO - Waiting for 180 seconds...
-2025-10-23 11:25:49,386 - INFO - Enter a comment for this crawl (or press Enter to skip): 
-2025-10-23 11:25:49,387 - INFO - Capturing data...
-2025-10-23 11:25:49,520 - INFO - Captured 23 requests with 0 cookies set via network activity
-2025-10-23 11:25:49,522 - INFO - Data saved: 0 cookie entries with request associations
-2025-10-23 11:25:49,523 - ERROR - Error visiting https://office365.us: cannot access local variable 'csv' where it is not associated with a value
-2025-10-23 11:25:49,591 - ERROR - Error updating CSV: cannot access local variable 'csv' where it is not associated with a value
-2025-10-23 11:25:49,591 - ERROR - Failed to crawl office365.us, continuing to next...
-2025-10-23 11:25:49,591 - INFO - [5/3198] Crawling: proofpoint.us
-2025-10-23 11:25:49,592 - INFO - Using profile: proofpoint_us
-2025-10-23 11:25:49,911 - INFO - ChromeDriver initialized successfully
-2025-10-23 11:25:49,911 - INFO - Navigating to domain root first: https://proofpoint.us
-2025-10-23 11:25:50,718 - ERROR - Error visiting https://proofpoint.us: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
-  (Session info: chrome=141.0.7390.122)
+2025-11-09 16:00:51,660 - ERROR - Failed to crawl rzone.de, continuing to next...
+2025-11-09 16:00:51,660 - INFO - [12/34799] Crawling: google.es
+2025-11-09 16:00:51,664 - INFO - Using profile: google_es
+2025-11-09 16:00:51,967 - INFO - ChromeDriver initialized successfully
+2025-11-09 16:00:51,967 - INFO - Navigating to domain root first: https://google.es
+2025-11-09 16:00:54,757 - INFO - Waiting for 180 seconds...
+2025-11-09 16:00:54,758 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 16:01:38,343 - INFO - Capturing data...
+2025-11-09 16:01:39,557 - INFO - Captured 207 requests with 0 cookies set via network activity
+2025-11-09 16:01:39,564 - INFO - Data saved: 59 cookie entries with request associations
+2025-11-09 16:01:39,628 - INFO - Removed google.es from urls/EU_websites.csv after successful crawl
+2025-11-09 16:01:39,631 - INFO - Title: Google
+2025-11-09 16:01:39,634 - INFO - URL(last visited page/subpage): https://www.google.com/
+2025-11-09 16:01:39,634 - INFO - Cookies captured: 59
+2025-11-09 16:01:39,634 - INFO - Requests captured: 207
+2025-11-09 16:01:39,636 - INFO - [13/34799] Crawling: free.fr
+2025-11-09 16:01:39,636 - INFO - Using profile: free_fr
+2025-11-09 16:01:40,015 - INFO - ChromeDriver initialized successfully
+2025-11-09 16:01:40,015 - INFO - Navigating to domain root first: https://free.fr
+2025-11-09 16:01:43,397 - INFO - Waiting for 180 seconds...
+2025-11-09 16:01:43,397 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 16:02:36,477 - INFO - Capturing data...
+2025-11-09 16:02:37,250 - INFO - Captured 158 requests with 0 cookies set via network activity
+2025-11-09 16:02:37,254 - INFO - Data saved: 10 cookie entries with request associations
+2025-11-09 16:02:37,259 - INFO - Title: Free : offres internet Fibre, Wi-Fi 7, TV et ligne fixe sans engagement
+2025-11-09 16:02:37,265 - INFO - URL(last visited page/subpage): https://www.free.fr/freebox/
+2025-11-09 16:02:37,265 - INFO - Cookies captured: 12
+2025-11-09 16:02:37,265 - INFO - Requests captured: 158
+2025-11-09 16:02:37,265 - INFO - [14/34799] Crawling: google.it
+2025-11-09 16:02:37,265 - INFO - Using profile: google_it
+2025-11-09 16:02:37,678 - INFO - ChromeDriver initialized successfully
+2025-11-09 16:02:37,678 - INFO - Navigating to domain root first: https://google.it
+2025-11-09 16:02:40,219 - INFO - Waiting for 180 seconds...
+2025-11-09 16:02:40,219 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 16:03:12,318 - INFO - Capturing data...
+2025-11-09 16:03:13,405 - INFO - Captured 181 requests with 0 cookies set via network activity
+2025-11-09 16:03:13,414 - INFO - Data saved: 58 cookie entries with request associations
+2025-11-09 16:03:13,481 - INFO - Removed google.it from urls/EU_websites.csv after successful crawl
+2025-11-09 16:03:13,484 - INFO - Title: Google
+2025-11-09 16:03:13,487 - INFO - URL(last visited page/subpage): https://www.google.com/
+2025-11-09 16:03:13,487 - INFO - Cookies captured: 58
+2025-11-09 16:03:13,487 - INFO - Requests captured: 181
+2025-11-09 16:03:13,489 - INFO - [15/34799] Crawling: amazon.fr
+2025-11-09 16:03:13,489 - INFO - Using profile: amazon_fr
+2025-11-09 16:03:13,907 - INFO - ChromeDriver initialized successfully
+2025-11-09 16:03:13,907 - INFO - Navigating to domain root first: https://amazon.fr
+2025-11-09 16:03:16,675 - INFO - Waiting for 180 seconds...
+2025-11-09 16:03:16,675 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 16:03:49,497 - INFO - Capturing data...
+2025-11-09 16:03:51,386 - INFO - Captured 370 requests with 0 cookies set via network activity
+2025-11-09 16:03:51,390 - INFO - Data saved: 8 cookie entries with request associations
+2025-11-09 16:03:51,399 - INFO - Title: Amazon.fr: books, DVDs, video games, music, high-tech, computers, toys, clothing, shoes, sports, DIY, home, beauty, childcare, groceries and more!
+2025-11-09 16:03:51,403 - INFO - URL(last visited page/subpage): https://www.amazon.fr/
+2025-11-09 16:03:51,403 - INFO - Cookies captured: 9
+2025-11-09 16:03:51,403 - INFO - Requests captured: 370
+2025-11-09 16:03:51,403 - INFO - [16/34799] Crawling: sapo.pt
+2025-11-09 16:03:51,403 - INFO - Using profile: sapo_pt
+2025-11-09 16:03:51,779 - INFO - ChromeDriver initialized successfully
+2025-11-09 16:03:51,779 - INFO - Navigating to domain root first: https://sapo.pt
+2025-11-09 16:04:02,353 - INFO - Waiting for 180 seconds...
+2025-11-09 16:04:02,353 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 16:05:50,737 - INFO - Capturing data...
+2025-11-09 16:05:54,014 - INFO - Captured 664 requests with 0 cookies set via network activity
+2025-11-09 16:05:54,020 - INFO - Data saved: 22 cookie entries with request associations
+2025-11-09 16:05:54,087 - INFO - Removed sapo.pt from urls/EU_websites.csv after successful crawl
+2025-11-09 16:05:54,090 - INFO - Title: SAPO – Última Hora e Notícias de Hoje atualizadas ao minuto
+2025-11-09 16:05:54,093 - INFO - URL(last visited page/subpage): https://sapo.pt/?utm_source=bsu&utm_medium=web&utm_campaign=bsu_logo&utm_content=id.sapo.pt
+2025-11-09 16:05:54,093 - INFO - Cookies captured: 22
+2025-11-09 16:05:54,093 - INFO - Requests captured: 664
+2025-11-09 16:05:54,095 - INFO - [17/34799] Crawling: lemonde.fr
+2025-11-09 16:05:54,095 - INFO - Using profile: lemonde_fr
+2025-11-09 16:05:54,510 - INFO - ChromeDriver initialized successfully
+2025-11-09 16:05:54,510 - INFO - Navigating to domain root first: https://lemonde.fr
+2025-11-09 16:05:55,838 - INFO - Waiting for 180 seconds...
+2025-11-09 16:05:55,838 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 16:08:21,420 - INFO - Capturing data...
+2025-11-09 16:08:28,912 - INFO - Captured 1144 requests with 0 cookies set via network activity
+2025-11-09 16:08:28,930 - INFO - Data saved: 49 cookie entries with request associations
+2025-11-09 16:08:28,992 - INFO - Removed lemonde.fr from urls/EU_websites.csv after successful crawl
+2025-11-09 16:08:28,994 - INFO - Title: Le Monde.fr - Actualités et Infos en France et dans le monde
+2025-11-09 16:08:28,997 - INFO - URL(last visited page/subpage): https://www.lemonde.fr/
+2025-11-09 16:08:28,997 - INFO - Cookies captured: 49
+2025-11-09 16:08:28,997 - INFO - Requests captured: 1144
+2025-11-09 16:08:29,000 - INFO - [18/34799] Crawling: amazon.es
+2025-11-09 16:08:29,000 - INFO - Using profile: amazon_es
+2025-11-09 16:08:29,363 - INFO - ChromeDriver initialized successfully
+2025-11-09 16:08:29,363 - INFO - Navigating to domain root first: https://amazon.es
+2025-11-09 16:08:31,877 - INFO - Waiting for 180 seconds...
+2025-11-09 16:08:31,877 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 16:09:27,368 - INFO - Capturing data...
+2025-11-09 16:09:30,363 - INFO - Captured 557 requests with 0 cookies set via network activity
+2025-11-09 16:09:30,369 - INFO - Data saved: 16 cookie entries with request associations
+2025-11-09 16:09:30,430 - INFO - Removed amazon.es from urls/EU_websites.csv after successful crawl
+2025-11-09 16:09:30,434 - INFO - Title: Amazon.es: online shopping for consumer electronics, books, sports, household items, fashion and more.
+2025-11-09 16:09:30,437 - INFO - URL(last visited page/subpage): https://www.amazon.es/?ref_=nav_ya_signin&returnFromLogin=1
+2025-11-09 16:09:30,437 - INFO - Cookies captured: 16
+2025-11-09 16:09:30,437 - INFO - Requests captured: 557
+2025-11-09 16:09:30,439 - INFO - [19/34799] Crawling: wp.pl
+2025-11-09 16:09:30,439 - INFO - Using profile: wp_pl
+2025-11-09 16:09:30,851 - INFO - ChromeDriver initialized successfully
+2025-11-09 16:09:30,852 - INFO - Navigating to domain root first: https://wp.pl
+2025-11-09 16:09:32,827 - INFO - Waiting for 180 seconds...
+2025-11-09 16:09:32,827 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 16:12:32,827 - INFO - No input received, proceeding without comment.
+2025-11-09 16:12:32,827 - INFO - Enter a comment to continue: 
+2025-11-09 16:12:37,729 - INFO - Capturing data...
+2025-11-09 16:12:42,637 - INFO - Captured 514 requests with 0 cookies set via network activity
+2025-11-09 16:12:42,654 - INFO - Data saved: 58 cookie entries with request associations
+2025-11-09 16:12:42,731 - INFO - Removed wp.pl from urls/EU_websites.csv after successful crawl
+2025-11-09 16:12:42,735 - INFO - Title: Wirtualna Polska - Wszystko co ważne - www.wp.pl
+2025-11-09 16:12:42,737 - INFO - URL(last visited page/subpage): https://www.wp.pl/
+2025-11-09 16:12:42,737 - INFO - Cookies captured: 82
+2025-11-09 16:12:42,737 - INFO - Requests captured: 514
+2025-11-09 16:12:42,740 - INFO - [20/34799] Crawling: amazon.it
+2025-11-09 16:12:42,740 - INFO - Using profile: amazon_it
+2025-11-09 16:12:43,448 - INFO - ChromeDriver initialized successfully
+2025-11-09 16:12:43,449 - INFO - Navigating to domain root first: https://amazon.it
+2025-11-09 16:12:46,962 - INFO - Waiting for 180 seconds...
+2025-11-09 16:12:46,962 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 16:13:15,952 - INFO - Capturing data...
+2025-11-09 16:13:18,708 - INFO - Captured 521 requests with 0 cookies set via network activity
+2025-11-09 16:13:18,713 - INFO - Data saved: 15 cookie entries with request associations
+2025-11-09 16:13:18,787 - INFO - Removed amazon.it from urls/EU_websites.csv after successful crawl
+2025-11-09 16:13:18,790 - INFO - Title: Amazon.it: elettronica, libri, musica, fashion, videogiochi, DVD e tanto altro
+2025-11-09 16:13:18,793 - INFO - URL(last visited page/subpage): https://www.amazon.it/?ref_=nav_ya_signin
+2025-11-09 16:13:18,793 - INFO - Cookies captured: 16
+2025-11-09 16:13:18,793 - INFO - Requests captured: 521
+2025-11-09 16:13:18,795 - INFO - [21/34799] Crawling: monster.ie
+2025-11-09 16:13:18,795 - INFO - Using profile: monster_ie
+2025-11-09 16:13:19,203 - INFO - ChromeDriver initialized successfully
+2025-11-09 16:13:19,203 - INFO - Navigating to domain root first: https://monster.ie
+2025-11-09 16:13:21,918 - INFO - Waiting for 180 seconds...
+2025-11-09 16:13:21,918 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 16:15:31,941 - INFO - Capturing data...
+2025-11-09 16:15:32,143 - INFO - Captured 33 requests with 0 cookies set via network activity
+2025-11-09 16:15:32,146 - INFO - Data saved: 0 cookie entries with request associations
+2025-11-09 16:15:32,206 - INFO - Removed monster.ie from urls/EU_websites.csv after successful crawl
+2025-11-09 16:15:32,209 - INFO - Title: Monster UK and MyPerfectCV maker - Create your online CV
+2025-11-09 16:15:32,212 - INFO - URL(last visited page/subpage): https://www.monster.ie/
+2025-11-09 16:15:32,212 - INFO - Cookies captured: 40
+2025-11-09 16:15:32,212 - INFO - Requests captured: 33
+2025-11-09 16:17:35,812 - INFO - [22/34799] Crawling: google.pl
+2025-11-09 16:17:35,813 - INFO - Using profile: google_pl
+2025-11-09 16:17:36,205 - INFO - ChromeDriver initialized successfully
+2025-11-09 16:17:36,205 - INFO - Navigating to domain root first: https://google.pl
+2025-11-09 16:17:38,949 - INFO - Waiting for 180 seconds...
+2025-11-09 16:17:38,949 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 16:17:59,437 - INFO - Capturing data...
+2025-11-09 16:18:00,481 - INFO - Captured 180 requests with 0 cookies set via network activity
+2025-11-09 16:18:00,488 - INFO - Data saved: 58 cookie entries with request associations
+2025-11-09 16:18:00,552 - INFO - Removed google.pl from urls/EU_websites.csv after successful crawl
+2025-11-09 16:18:00,555 - INFO - Title: Google
+2025-11-09 16:18:00,557 - INFO - URL(last visited page/subpage): https://www.google.com/
+2025-11-09 16:18:00,557 - INFO - Cookies captured: 58
+2025-11-09 16:18:00,557 - INFO - Requests captured: 180
+2025-11-09 16:18:00,560 - INFO - [23/34799] Crawling: lefigaro.fr
+2025-11-09 16:18:00,560 - INFO - Using profile: lefigaro_fr
+2025-11-09 16:18:00,943 - INFO - ChromeDriver initialized successfully
+2025-11-09 16:18:00,944 - INFO - Navigating to domain root first: https://lefigaro.fr
+2025-11-09 16:18:01,971 - INFO - Waiting for 180 seconds...
+2025-11-09 16:18:01,971 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 16:18:13,946 - INFO - Capturing data...
+2025-11-09 16:18:14,147 - INFO - Captured 33 requests with 0 cookies set via network activity
+2025-11-09 16:18:14,150 - INFO - Data saved: 0 cookie entries with request associations
+2025-11-09 16:18:14,156 - INFO - Title: Le Figaro
+2025-11-09 16:18:14,163 - INFO - URL(last visited page/subpage): https://www.lefigaro.fr/
+2025-11-09 16:18:14,163 - INFO - Cookies captured: 0
+2025-11-09 16:18:14,163 - INFO - Requests captured: 33
+2025-11-09 16:18:14,163 - INFO - [24/34799] Crawling: allegro.pl
+2025-11-09 16:18:14,163 - INFO - Using profile: allegro_pl
+2025-11-09 16:18:14,566 - INFO - ChromeDriver initialized successfully
+2025-11-09 16:18:14,567 - INFO - Navigating to domain root first: https://allegro.pl
+2025-11-09 16:18:16,158 - INFO - Waiting for 180 seconds...
+2025-11-09 16:18:16,158 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 16:21:16,159 - INFO - No input received, proceeding without comment.
+2025-11-09 16:21:16,160 - INFO - Enter a comment to continue: 
+2025-11-09 16:25:16,272 - INFO - Capturing data...
+2025-11-09 16:25:47,965 - INFO - Captured 2775 requests with 0 cookies set via network activity
+2025-11-09 16:25:47,997 - INFO - Data saved: 35 cookie entries with request associations
+2025-11-09 16:25:48,060 - INFO - Removed allegro.pl from urls/EU_websites.csv after successful crawl
+2025-11-09 16:25:48,063 - INFO - Title: Allegro - atrakcyjne ceny - Strona Główna
+2025-11-09 16:25:48,066 - INFO - URL(last visited page/subpage): https://allegro.pl/
+2025-11-09 16:25:48,066 - INFO - Cookies captured: 35
+2025-11-09 16:25:48,066 - INFO - Requests captured: 2775
+2025-11-09 16:25:48,071 - INFO - [25/34799] Crawling: onet.pl
+2025-11-09 16:25:48,071 - INFO - Using profile: onet_pl
+2025-11-09 16:25:49,249 - INFO - ChromeDriver initialized successfully
+2025-11-09 16:25:49,250 - INFO - Navigating to domain root first: https://onet.pl
+2025-11-09 16:25:51,472 - INFO - Waiting for 180 seconds...
+2025-11-09 16:25:51,472 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 16:28:51,473 - INFO - No input received, proceeding without comment.
+2025-11-09 16:28:51,473 - INFO - Enter a comment to continue: 
+2025-11-09 16:29:56,544 - INFO - Capturing data...
+2025-11-09 16:30:15,756 - INFO - Captured 2054 requests with 0 cookies set via network activity
+2025-11-09 16:30:15,819 - INFO - Data saved: 103 cookie entries with request associations
+2025-11-09 16:30:15,882 - INFO - Removed onet.pl from urls/EU_websites.csv after successful crawl
+2025-11-09 16:30:15,886 - INFO - Title: Onet – Jesteś na bieżąco
+2025-11-09 16:30:15,889 - INFO - URL(last visited page/subpage): https://www.onet.pl/
+2025-11-09 16:30:15,889 - INFO - Cookies captured: 109
+2025-11-09 16:30:15,889 - INFO - Requests captured: 2054
+2025-11-09 16:30:15,894 - INFO - [26/34799] Crawling: bild.de
+2025-11-09 16:30:15,894 - INFO - Using profile: bild_de
+2025-11-09 16:30:16,368 - INFO - ChromeDriver initialized successfully
+2025-11-09 16:30:16,368 - INFO - Navigating to domain root first: https://bild.de
+2025-11-09 16:30:18,794 - INFO - Waiting for 180 seconds...
+2025-11-09 16:30:18,794 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 16:31:57,576 - INFO - Capturing data...
+2025-11-09 16:33:08,189 - INFO - Captured 2062 requests with 0 cookies set via network activity
+2025-11-09 16:33:08,236 - INFO - Data saved: 65 cookie entries with request associations
+2025-11-09 16:33:08,301 - INFO - Removed bild.de from urls/EU_websites.csv after successful crawl
+2025-11-09 16:33:08,304 - INFO - Title: Aktuelle Nachrichten | BILD.de
+2025-11-09 16:33:08,307 - INFO - URL(last visited page/subpage): https://www.bild.de/
+2025-11-09 16:33:08,307 - INFO - Cookies captured: 66
+2025-11-09 16:33:08,307 - INFO - Requests captured: 2062
+2025-11-09 16:33:08,311 - INFO - [27/34799] Crawling: seznam.cz
+2025-11-09 16:33:08,311 - INFO - Using profile: seznam_cz
+2025-11-09 16:33:08,715 - INFO - ChromeDriver initialized successfully
+2025-11-09 16:33:08,715 - INFO - Navigating to domain root first: https://seznam.cz
+2025-11-09 16:34:13,083 - INFO - Waiting for 180 seconds...
+2025-11-09 16:34:13,083 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 16:36:30,431 - INFO - Capturing data...
+2025-11-09 16:36:52,299 - INFO - Captured 1364 requests with 0 cookies set via network activity
+2025-11-09 16:36:52,337 - INFO - Data saved: 48 cookie entries with request associations
+2025-11-09 16:36:52,418 - INFO - Removed seznam.cz from urls/EU_websites.csv after successful crawl
+2025-11-09 16:36:52,429 - INFO - Title: List – I can find what I don't know there
+2025-11-09 16:36:52,440 - INFO - URL(last visited page/subpage): https://www.seznam.cz/
+2025-11-09 16:36:52,440 - INFO - Cookies captured: 88
+2025-11-09 16:36:52,440 - INFO - Requests captured: 1364
+2025-11-09 16:36:52,443 - INFO - [28/34799] Crawling: otto.de
+2025-11-09 16:36:52,444 - INFO - Using profile: otto_de
+2025-11-09 16:36:53,014 - INFO - ChromeDriver initialized successfully
+2025-11-09 16:36:53,015 - INFO - Navigating to domain root first: https://otto.de
+2025-11-09 16:36:56,281 - INFO - Waiting for 180 seconds...
+2025-11-09 16:36:56,282 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 16:39:56,684 - INFO - No input received, proceeding without comment.
+2025-11-09 16:39:56,684 - INFO - Enter a comment to continue: 
+2025-11-09 16:42:35,979 - INFO - Capturing data...
+2025-11-09 16:43:00,446 - INFO - Captured 3193 requests with 0 cookies set via network activity
+2025-11-09 16:43:00,514 - INFO - Data saved: 75 cookie entries with request associations
+2025-11-09 16:43:00,520 - INFO - Title: OTTO - Anmelden
+2025-11-09 16:43:00,525 - INFO - URL(last visited page/subpage): https://www.otto.de/customer-identity/login
+2025-11-09 16:43:00,525 - INFO - Cookies captured: 81
+2025-11-09 16:43:00,525 - INFO - Requests captured: 3193
+2025-11-09 16:43:00,529 - INFO - [29/34799] Crawling: redd.it
+2025-11-09 16:43:00,529 - INFO - Using profile: redd_it
+2025-11-09 16:43:00,923 - INFO - ChromeDriver initialized successfully
+2025-11-09 16:43:00,923 - INFO - Navigating to domain root first: https://redd.it
+2025-11-09 16:45:01,802 - ERROR - Error visiting https://redd.it: HTTPConnectionPool(host='localhost', port=45025): Read timed out. (read timeout=120)
+2025-11-09 16:45:03,954 - ERROR - Failed to crawl redd.it, continuing to next...
+2025-11-09 16:45:03,954 - INFO - [30/34799] Crawling: repubblica.it
+2025-11-09 16:45:03,954 - INFO - Using profile: repubblica_it
+2025-11-09 16:45:04,252 - INFO - ChromeDriver initialized successfully
+2025-11-09 16:45:04,252 - INFO - Navigating to domain root first: https://repubblica.it
+2025-11-09 16:45:08,144 - INFO - Waiting for 180 seconds...
+2025-11-09 16:45:08,145 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 16:46:33,318 - INFO - Capturing data...
+2025-11-09 16:46:37,856 - INFO - Captured 663 requests with 0 cookies set via network activity
+2025-11-09 16:46:37,870 - INFO - Data saved: 63 cookie entries with request associations
+2025-11-09 16:46:37,928 - INFO - Removed repubblica.it from urls/EU_websites.csv after successful crawl
+2025-11-09 16:46:37,933 - INFO - Title: la Repubblica - News in tempo reale - Le notizie e i video di politica, cronaca, economia, sport
+2025-11-09 16:46:37,937 - INFO - URL(last visited page/subpage): https://www.repubblica.it/?ref=RHHD-L
+2025-11-09 16:46:37,937 - INFO - Cookies captured: 65
+2025-11-09 16:46:37,937 - INFO - Requests captured: 663
+2025-11-09 16:46:37,941 - INFO - [31/34799] Crawling: delfi.lt
+2025-11-09 16:46:37,941 - INFO - Using profile: delfi_lt
+2025-11-09 16:46:38,306 - INFO - ChromeDriver initialized successfully
+2025-11-09 16:46:38,306 - INFO - Navigating to domain root first: https://delfi.lt
+2025-11-09 16:46:40,669 - INFO - Waiting for 180 seconds...
+2025-11-09 16:46:40,670 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 16:48:47,472 - INFO - Capturing data...
+2025-11-09 16:48:52,000 - INFO - Captured 593 requests with 0 cookies set via network activity
+2025-11-09 16:48:52,011 - INFO - Data saved: 30 cookie entries with request associations
+2025-11-09 16:48:52,086 - INFO - Removed delfi.lt from urls/EU_websites.csv after successful crawl
+2025-11-09 16:48:52,090 - INFO - Title: Delfi news - The main news portal in Lithuania
+2025-11-09 16:48:52,093 - INFO - URL(last visited page/subpage): https://www.delfi.lt/
+2025-11-09 16:48:52,093 - INFO - Cookies captured: 30
+2025-11-09 16:48:52,093 - INFO - Requests captured: 593
+2025-11-09 16:48:52,096 - INFO - [32/34799] Crawling: ebay.de
+2025-11-09 16:48:52,096 - INFO - Using profile: ebay_de
+2025-11-09 16:48:52,579 - INFO - ChromeDriver initialized successfully
+2025-11-09 16:48:52,579 - INFO - Navigating to domain root first: https://ebay.de
+2025-11-09 16:49:54,656 - INFO - Waiting for 180 seconds...
+2025-11-09 16:49:54,656 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 16:52:28,746 - INFO - Capturing data...
+2025-11-09 16:52:34,657 - INFO - Captured 906 requests with 0 cookies set via network activity
+2025-11-09 16:52:34,682 - INFO - Data saved: 93 cookie entries with request associations
+2025-11-09 16:52:34,748 - INFO - Removed ebay.de from urls/EU_websites.csv after successful crawl
+2025-11-09 16:52:34,752 - INFO - Title: eBay.de | Elektronik, Autos, Mode, Sammlerstücke, Möbel und mehr Online-Shopping
+2025-11-09 16:52:34,754 - INFO - URL(last visited page/subpage): https://www.ebay.de/
+2025-11-09 16:52:34,754 - INFO - Cookies captured: 93
+2025-11-09 16:52:34,754 - INFO - Requests captured: 906
+2025-11-09 16:52:34,757 - INFO - [33/34799] Crawling: yukiworks.be
+2025-11-09 16:52:34,757 - INFO - Using profile: yukiworks_be
+2025-11-09 16:52:35,158 - INFO - ChromeDriver initialized successfully
+2025-11-09 16:52:35,158 - INFO - Navigating to domain root first: https://yukiworks.be
+2025-11-09 16:52:37,969 - INFO - Waiting for 180 seconds...
+2025-11-09 16:52:37,969 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 16:55:38,382 - INFO - No input received, proceeding without comment.
+2025-11-09 16:55:38,382 - INFO - Enter a comment to continue: 
+2025-11-09 16:56:08,649 - INFO - Capturing data...
+2025-11-09 16:56:09,095 - INFO - Captured 87 requests with 0 cookies set via network activity
+2025-11-09 16:56:09,097 - INFO - Data saved: 4 cookie entries with request associations
+2025-11-09 16:56:09,105 - INFO - Title: 
+2025-11-09 16:56:09,111 - INFO - URL(last visited page/subpage): https://www.yukiworks.be/docs/login.aspx?version=2
+2025-11-09 16:56:09,111 - INFO - Cookies captured: 4
+2025-11-09 16:56:09,111 - INFO - Requests captured: 87
+2025-11-09 16:56:09,111 - INFO - [34/34799] Crawling: corriere.it
+2025-11-09 16:56:09,111 - INFO - Using profile: corriere_it
+2025-11-09 16:56:09,473 - INFO - ChromeDriver initialized successfully
+2025-11-09 16:56:09,473 - INFO - Navigating to domain root first: https://corriere.it
+2025-11-09 16:57:14,158 - INFO - Waiting for 180 seconds...
+2025-11-09 16:57:14,159 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 17:00:07,429 - INFO - Capturing data...
+2025-11-09 17:00:41,751 - INFO - Captured 2210 requests with 0 cookies set via network activity
+2025-11-09 17:00:41,822 - INFO - Data saved: 107 cookie entries with request associations
+2025-11-09 17:00:41,881 - INFO - Removed corriere.it from urls/EU_websites.csv after successful crawl
+2025-11-09 17:00:41,884 - INFO - Title: Profilo Utente - abbonamenti.corriere.it
+2025-11-09 17:00:41,886 - INFO - URL(last visited page/subpage): https://abbonamenti.corriere.it/profilo-utente/account/
+2025-11-09 17:00:41,886 - INFO - Cookies captured: 117
+2025-11-09 17:00:41,886 - INFO - Requests captured: 2210
+2025-11-09 17:00:41,892 - INFO - [35/34799] Crawling: elmundo.es
+2025-11-09 17:00:41,893 - INFO - Using profile: elmundo_es
+2025-11-09 17:00:42,337 - INFO - ChromeDriver initialized successfully
+2025-11-09 17:00:42,337 - INFO - Navigating to domain root first: https://elmundo.es
+2025-11-09 17:00:45,974 - INFO - Waiting for 180 seconds...
+2025-11-09 17:00:45,974 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 17:02:39,901 - INFO - Capturing data...
+2025-11-09 17:02:45,031 - INFO - Captured 774 requests with 0 cookies set via network activity
+2025-11-09 17:02:45,043 - INFO - Data saved: 38 cookie entries with request associations
+2025-11-09 17:02:45,054 - INFO - Title: Iniciar sesión - Registro de Usuarios de Unidad Editorial
+2025-11-09 17:02:45,057 - INFO - URL(last visited page/subpage): https://www.elmundo.es/micuenta/v1/es/auth?view=login&csp=20012&url_redirect=https:%2F%2Fwww.elmundo.es%2F
+2025-11-09 17:02:45,057 - INFO - Cookies captured: 38
+2025-11-09 17:02:45,057 - INFO - Requests captured: 774
+2025-11-09 17:02:45,058 - INFO - [36/34799] Crawling: focus.de
+2025-11-09 17:02:45,058 - INFO - Using profile: focus_de
+2025-11-09 17:02:45,422 - INFO - ChromeDriver initialized successfully
+2025-11-09 17:02:45,422 - INFO - Navigating to domain root first: https://focus.de
+2025-11-09 17:02:48,381 - INFO - Waiting for 180 seconds...
+2025-11-09 17:02:48,381 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 17:04:23,561 - INFO - Capturing data...
+2025-11-09 17:04:35,786 - INFO - Captured 1436 requests with 0 cookies set via network activity
+2025-11-09 17:04:35,814 - INFO - Data saved: 62 cookie entries with request associations
+2025-11-09 17:04:35,823 - INFO - Title: FOCUS online - Aktuelle Nachrichten
+2025-11-09 17:04:35,826 - INFO - URL(last visited page/subpage): https://www.focus.de/
+2025-11-09 17:04:35,826 - INFO - Cookies captured: 75
+2025-11-09 17:04:35,826 - INFO - Requests captured: 1436
+2025-11-09 17:04:35,828 - INFO - [37/34799] Crawling: tagesschau.de
+2025-11-09 17:04:35,828 - INFO - Using profile: tagesschau_de
+2025-11-09 17:04:36,329 - INFO - ChromeDriver initialized successfully
+2025-11-09 17:04:36,329 - INFO - Navigating to domain root first: https://tagesschau.de
+2025-11-09 17:04:38,393 - INFO - Waiting for 180 seconds...
+2025-11-09 17:04:38,393 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 17:05:28,841 - INFO - Capturing data...
+2025-11-09 17:05:30,395 - INFO - Captured 227 requests with 0 cookies set via network activity
+2025-11-09 17:05:30,400 - INFO - Data saved: 26 cookie entries with request associations
+2025-11-09 17:05:30,460 - INFO - Removed tagesschau.de from urls/EU_websites.csv after successful crawl
+2025-11-09 17:05:30,463 - INFO - Title: tagesschau.de - die erste Adresse für Nachrichten und Information | tagesschau.de
+2025-11-09 17:05:30,465 - INFO - URL(last visited page/subpage): https://www.tagesschau.de/
+2025-11-09 17:05:30,465 - INFO - Cookies captured: 27
+2025-11-09 17:05:30,466 - INFO - Requests captured: 227
+2025-11-09 17:05:30,468 - INFO - [38/34799] Crawling: gandi-ns.fr
+2025-11-09 17:05:30,468 - INFO - Using profile: gandi_ns_fr
+2025-11-09 17:05:30,845 - INFO - ChromeDriver initialized successfully
+2025-11-09 17:05:30,845 - INFO - Navigating to domain root first: https://gandi-ns.fr
+2025-11-09 17:05:31,402 - ERROR - Error visiting https://gandi-ns.fr: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=142.0.7444.61)
 Stacktrace:
-#0 0x5db523126fea <unknown>
-#1 0x5db522ba4d06 <unknown>
-#2 0x5db522b9bc30 <unknown>
-#3 0x5db522b8d0e6 <unknown>
-#4 0x5db522b8eefb <unknown>
-#5 0x5db522b8d686 <unknown>
-#6 0x5db522b8ce17 <unknown>
-#7 0x5db522b8cac9 <unknown>
-#8 0x5db522b8a912 <unknown>
-#9 0x5db522b8b0ea <unknown>
-#10 0x5db522ba8239 <unknown>
-#11 0x5db522c43705 <unknown>
-#12 0x5db522c1ce12 <unknown>
-#13 0x5db522c42b3b <unknown>
-#14 0x5db522c1cbe3 <unknown>
-#15 0x5db522be92d2 <unknown>
-#16 0x5db522be9f91 <unknown>
-#17 0x5db5230ea9e8 <unknown>
-#18 0x5db5230ee84f <unknown>
-#19 0x5db5230d1ec9 <unknown>
-#20 0x5db5230ef3f5 <unknown>
-#21 0x5db5230b774f <unknown>
-#22 0x5db523113cc8 <unknown>
-#23 0x5db523113ea3 <unknown>
-#24 0x5db523125f83 <unknown>
-#25 0x7c9328a9caa4 <unknown>
-#26 0x7c9328b29c6c <unknown>
+#0 0x5d05cee0daca <unknown>
+#1 0x5d05ce859cdb <unknown>
+#2 0x5d05ce850bd5 <unknown>
+#3 0x5d05ce841f86 <unknown>
+#4 0x5d05ce843d52 <unknown>
+#5 0x5d05ce8424f2 <unknown>
+#6 0x5d05ce841cb5 <unknown>
+#7 0x5d05ce841967 <unknown>
+#8 0x5d05ce83f76f <unknown>
+#9 0x5d05ce83ff8a <unknown>
+#10 0x5d05ce85d479 <unknown>
+#11 0x5d05ce8f98c5 <unknown>
+#12 0x5d05ce8f8c87 <unknown>
+#13 0x5d05ce89eaca <unknown>
+#14 0x5d05ce89f7d1 <unknown>
+#15 0x5d05cedd4a99 <unknown>
+#16 0x5d05cedd7a6c <unknown>
+#17 0x5d05cedbdd29 <unknown>
+#18 0x5d05cedd8665 <unknown>
+#19 0x5d05ceda56a3 <unknown>
+#20 0x5d05cedfa7b8 <unknown>
+#21 0x5d05cedfa993 <unknown>
+#22 0x5d05cee0ca63 <unknown>
+#23 0x73975909caa4 <unknown>
+#24 0x739759129c6c <unknown>
 
-2025-10-23 11:25:50,774 - ERROR - Error updating CSV: cannot access local variable 'csv' where it is not associated with a value
-2025-10-23 11:25:50,774 - ERROR - Failed to crawl proofpoint.us, continuing to next...
-2025-10-23 11:25:50,774 - INFO - [6/3198] Crawling: microsoft.us
-2025-10-23 11:25:50,775 - INFO - Using profile: microsoft_us
-2025-10-23 11:25:51,054 - INFO - ChromeDriver initialized successfully
-2025-10-23 11:25:51,054 - INFO - Navigating to domain root first: https://microsoft.us
-2025-10-23 11:25:56,515 - ERROR - Error visiting https://microsoft.us: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
-  (Session info: chrome=141.0.7390.122)
+2025-11-09 17:05:31,484 - ERROR - Failed to crawl gandi-ns.fr, continuing to next...
+2025-11-09 17:05:31,484 - INFO - [39/34799] Crawling: leparisien.fr
+2025-11-09 17:05:31,484 - INFO - Using profile: leparisien_fr
+2025-11-09 17:05:31,793 - INFO - ChromeDriver initialized successfully
+2025-11-09 17:05:31,793 - INFO - Navigating to domain root first: https://leparisien.fr
+2025-11-09 17:05:34,777 - INFO - Waiting for 180 seconds...
+2025-11-09 17:05:34,777 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 17:07:08,189 - INFO - Capturing data...
+2025-11-09 17:07:17,442 - INFO - Captured 1106 requests with 0 cookies set via network activity
+2025-11-09 17:07:17,464 - INFO - Data saved: 56 cookie entries with request associations
+2025-11-09 17:07:17,534 - INFO - Removed leparisien.fr from urls/EU_websites.csv after successful crawl
+2025-11-09 17:07:17,537 - INFO - Title: Actualités en direct et info en continu - Le Parisien
+2025-11-09 17:07:17,540 - INFO - URL(last visited page/subpage): https://www.leparisien.fr/?ts=1762704407203
+2025-11-09 17:07:17,540 - INFO - Cookies captured: 56
+2025-11-09 17:07:17,540 - INFO - Requests captured: 1106
+2025-11-09 17:07:17,543 - INFO - [40/34799] Crawling: francetvinfo.fr
+2025-11-09 17:07:17,543 - INFO - Using profile: francetvinfo_fr
+2025-11-09 17:07:17,959 - INFO - ChromeDriver initialized successfully
+2025-11-09 17:07:17,959 - INFO - Navigating to domain root first: https://francetvinfo.fr
+2025-11-09 17:07:26,130 - INFO - Waiting for 180 seconds...
+2025-11-09 17:07:26,130 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 17:10:27,489 - INFO - No input received, proceeding without comment.
+2025-11-09 17:10:27,490 - INFO - Enter a comment to continue: 
+2025-11-09 17:10:55,231 - INFO - Capturing data...
+2025-11-09 17:11:01,602 - INFO - Captured 904 requests with 0 cookies set via network activity
+2025-11-09 17:11:01,612 - INFO - Data saved: 17 cookie entries with request associations
+2025-11-09 17:11:01,676 - INFO - Removed francetvinfo.fr from urls/EU_websites.csv after successful crawl
+2025-11-09 17:11:01,680 - INFO - Title: Franceinfo - Actualités en temps réel et info en direct
+2025-11-09 17:11:01,682 - INFO - URL(last visited page/subpage): https://www.franceinfo.fr/
+2025-11-09 17:11:01,683 - INFO - Cookies captured: 17
+2025-11-09 17:11:01,683 - INFO - Requests captured: 904
+2025-11-09 17:11:01,685 - INFO - [41/34799] Crawling: interia.pl
+2025-11-09 17:11:01,685 - INFO - Using profile: interia_pl
+2025-11-09 17:11:02,085 - INFO - ChromeDriver initialized successfully
+2025-11-09 17:11:02,085 - INFO - Navigating to domain root first: https://interia.pl
+2025-11-09 17:11:04,323 - INFO - Waiting for 180 seconds...
+2025-11-09 17:11:04,324 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 17:14:05,558 - INFO - No input received, proceeding without comment.
+2025-11-09 17:14:05,558 - INFO - Enter a comment to continue: 
+2025-11-09 17:14:43,383 - INFO - Capturing data...
+2025-11-09 17:14:53,239 - INFO - Captured 1646 requests with 0 cookies set via network activity
+2025-11-09 17:14:53,259 - INFO - Data saved: 36 cookie entries with request associations
+2025-11-09 17:14:53,269 - INFO - Title: Interia - Polska i świat: informacje, sport, gwiazdy.
+2025-11-09 17:14:53,271 - INFO - URL(last visited page/subpage): https://www.interia.pl/
+2025-11-09 17:14:53,271 - INFO - Cookies captured: 38
+2025-11-09 17:14:53,271 - INFO - Requests captured: 1646
+2025-11-09 17:14:53,273 - INFO - [42/34799] Crawling: idnes.cz
+2025-11-09 17:14:53,273 - INFO - Using profile: idnes_cz
+2025-11-09 17:14:53,982 - INFO - ChromeDriver initialized successfully
+2025-11-09 17:14:53,982 - INFO - Navigating to domain root first: https://idnes.cz
+2025-11-09 17:14:57,594 - INFO - Waiting for 180 seconds...
+2025-11-09 17:14:57,594 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 17:17:33,198 - INFO - Capturing data...
+2025-11-09 17:18:24,353 - INFO - Captured 1669 requests with 0 cookies set via network activity
+2025-11-09 17:18:24,396 - INFO - Data saved: 79 cookie entries with request associations
+2025-11-09 17:18:24,457 - INFO - Removed idnes.cz from urls/EU_websites.csv after successful crawl
+2025-11-09 17:18:24,461 - INFO - Title: iDNES.cz – s námi víte víc
+2025-11-09 17:18:24,464 - INFO - URL(last visited page/subpage): https://www.idnes.cz/
+2025-11-09 17:18:24,464 - INFO - Cookies captured: 84
+2025-11-09 17:18:24,464 - INFO - Requests captured: 1669
+2025-11-09 17:18:24,467 - INFO - [43/34799] Crawling: ouest-france.fr
+2025-11-09 17:18:24,467 - INFO - Using profile: ouest_france_fr
+2025-11-09 17:18:24,915 - INFO - ChromeDriver initialized successfully
+2025-11-09 17:18:24,915 - INFO - Navigating to domain root first: https://ouest-france.fr
+2025-11-09 17:18:25,451 - ERROR - Error visiting https://ouest-france.fr: Message: unknown error: net::ERR_CONNECTION_RESET
+  (Session info: chrome=142.0.7444.61)
 Stacktrace:
-#0 0x64a44e5f1fea <unknown>
-#1 0x64a44e06fd06 <unknown>
-#2 0x64a44e066c30 <unknown>
-#3 0x64a44e0580e6 <unknown>
-#4 0x64a44e059efb <unknown>
-#5 0x64a44e058686 <unknown>
-#6 0x64a44e057e17 <unknown>
-#7 0x64a44e057ac9 <unknown>
-#8 0x64a44e055912 <unknown>
-#9 0x64a44e0560ea <unknown>
-#10 0x64a44e073239 <unknown>
-#11 0x64a44e10e705 <unknown>
-#12 0x64a44e0e7e12 <unknown>
-#13 0x64a44e10db3b <unknown>
-#14 0x64a44e0e7be3 <unknown>
-#15 0x64a44e0b42d2 <unknown>
-#16 0x64a44e0b4f91 <unknown>
-#17 0x64a44e5b59e8 <unknown>
-#18 0x64a44e5b984f <unknown>
-#19 0x64a44e59cec9 <unknown>
-#20 0x64a44e5ba3f5 <unknown>
-#21 0x64a44e58274f <unknown>
-#22 0x64a44e5decc8 <unknown>
-#23 0x64a44e5deea3 <unknown>
-#24 0x64a44e5f0f83 <unknown>
-#25 0x75728429caa4 <unknown>
-#26 0x757284329c6c <unknown>
+#0 0x57a36e14daca <unknown>
+#1 0x57a36db99cdb <unknown>
+#2 0x57a36db90bd5 <unknown>
+#3 0x57a36db81f86 <unknown>
+#4 0x57a36db83d52 <unknown>
+#5 0x57a36db824f2 <unknown>
+#6 0x57a36db81cb5 <unknown>
+#7 0x57a36db81967 <unknown>
+#8 0x57a36db7f76f <unknown>
+#9 0x57a36db7ff8a <unknown>
+#10 0x57a36db9d479 <unknown>
+#11 0x57a36dc398c5 <unknown>
+#12 0x57a36dc38c87 <unknown>
+#13 0x57a36dbdeaca <unknown>
+#14 0x57a36dbdf7d1 <unknown>
+#15 0x57a36e114a99 <unknown>
+#16 0x57a36e117a6c <unknown>
+#17 0x57a36e0fdd29 <unknown>
+#18 0x57a36e118665 <unknown>
+#19 0x57a36e0e56a3 <unknown>
+#20 0x57a36e13a7b8 <unknown>
+#21 0x57a36e13a993 <unknown>
+#22 0x57a36e14ca63 <unknown>
+#23 0x7df32ee9caa4 <unknown>
+#24 0x7df32ef29c6c <unknown>
 
-2025-10-23 11:25:56,585 - ERROR - Error updating CSV: cannot access local variable 'csv' where it is not associated with a value
-2025-10-23 11:25:56,585 - ERROR - Failed to crawl microsoft.us, continuing to next...
-2025-10-23 11:25:56,585 - INFO - [7/3198] Crawling: p-cdn.us
-2025-10-23 11:25:56,585 - INFO - Using profile: p_cdn_us
-2025-10-23 11:25:56,880 - INFO - ChromeDriver initialized successfully
-2025-10-23 11:25:56,880 - INFO - Navigating to domain root first: https://p-cdn.us
-2025-10-23 11:25:57,269 - ERROR - Error visiting https://p-cdn.us: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
-  (Session info: chrome=141.0.7390.122)
+2025-11-09 17:18:25,519 - ERROR - Failed to crawl ouest-france.fr, continuing to next...
+2025-11-09 17:18:25,519 - INFO - [44/34799] Crawling: n-tv.de
+2025-11-09 17:18:25,519 - INFO - Using profile: n_tv_de
+2025-11-09 17:18:25,851 - INFO - ChromeDriver initialized successfully
+2025-11-09 17:18:25,851 - INFO - Navigating to domain root first: https://n-tv.de
+2025-11-09 17:19:15,229 - ERROR - Error visiting https://n-tv.de: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=142.0.7444.61)
 Stacktrace:
-#0 0x603da3392fea <unknown>
-#1 0x603da2e10d06 <unknown>
-#2 0x603da2e07c30 <unknown>
-#3 0x603da2df90e6 <unknown>
-#4 0x603da2dfaefb <unknown>
-#5 0x603da2df9686 <unknown>
-#6 0x603da2df8e17 <unknown>
-#7 0x603da2df8ac9 <unknown>
-#8 0x603da2df6912 <unknown>
-#9 0x603da2df70ea <unknown>
-#10 0x603da2e14239 <unknown>
-#11 0x603da2eaf705 <unknown>
-#12 0x603da2e88e12 <unknown>
-#13 0x603da2eaeb3b <unknown>
-#14 0x603da2e88be3 <unknown>
-#15 0x603da2e552d2 <unknown>
-#16 0x603da2e55f91 <unknown>
-#17 0x603da33569e8 <unknown>
-#18 0x603da335a84f <unknown>
-#19 0x603da333dec9 <unknown>
-#20 0x603da335b3f5 <unknown>
-#21 0x603da332374f <unknown>
-#22 0x603da337fcc8 <unknown>
-#23 0x603da337fea3 <unknown>
-#24 0x603da3391f83 <unknown>
-#25 0x74cc4089caa4 <unknown>
-#26 0x74cc40929c6c <unknown>
+#0 0x5f7a38702aca <unknown>
+#1 0x5f7a3814ecdb <unknown>
+#2 0x5f7a38123410 <unknown>
+#3 0x5f7a381cfae8 <unknown>
+#4 0x5f7a381ed6a5 <unknown>
+#5 0x5f7a38193aca <unknown>
+#6 0x5f7a381947d1 <unknown>
+#7 0x5f7a386c9a99 <unknown>
+#8 0x5f7a386cca6c <unknown>
+#9 0x5f7a386b2d29 <unknown>
+#10 0x5f7a386cd665 <unknown>
+#11 0x5f7a3869a6a3 <unknown>
+#12 0x5f7a386ef7b8 <unknown>
+#13 0x5f7a386ef993 <unknown>
+#14 0x5f7a38701a63 <unknown>
+#15 0x7a8de9a9caa4 <unknown>
+#16 0x7a8de9b29c6c <unknown>
 
-2025-10-23 11:25:57,334 - ERROR - Error updating CSV: cannot access local variable 'csv' where it is not associated with a value
-2025-10-23 11:25:57,334 - ERROR - Failed to crawl p-cdn.us, continuing to next...
-2025-10-23 11:25:57,334 - INFO - [8/3198] Crawling: google.us
-2025-10-23 11:25:57,334 - INFO - Using profile: google_us
-2025-10-23 11:25:57,622 - INFO - ChromeDriver initialized successfully
-2025-10-23 11:25:57,622 - INFO - Navigating to domain root first: https://google.us
-2025-10-23 11:26:00,178 - INFO - Waiting for 180 seconds...
-2025-10-23 11:26:00,178 - INFO - Enter a comment for this crawl (or press Enter to skip): 
-2025-10-23 11:29:00,179 - INFO - No input received, proceeding without comment.
-2025-10-23 11:29:00,179 - INFO - Enter a comment to continue: 
-2025-10-23 11:53:59,787 - WARNING - Crawler interrupted by user
-2025-10-23 11:53:59,791 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x758f47026f90>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/bd80dd4971f75dc0f890f4116c1dbcea
-2025-10-23 11:53:59,792 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x758f47024bf0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/bd80dd4971f75dc0f890f4116c1dbcea
-2025-10-23 11:53:59,793 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x758f4cd8e0c0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/bd80dd4971f75dc0f890f4116c1dbcea
-2025-10-23 11:53:59,794 - INFO - Browser closed
-2025-10-23 11:53:59,794 - INFO - Crawler session completed
+2025-11-09 17:19:15,329 - ERROR - Failed to crawl n-tv.de, continuing to next...
+2025-11-09 17:19:15,329 - INFO - [45/34799] Crawling: leboncoin.fr
+2025-11-09 17:19:15,329 - INFO - Using profile: leboncoin_fr
+2025-11-09 17:19:15,612 - INFO - ChromeDriver initialized successfully
+2025-11-09 17:19:15,612 - INFO - Navigating to domain root first: https://leboncoin.fr
+2025-11-09 17:19:18,467 - INFO - Waiting for 180 seconds...
+2025-11-09 17:19:18,467 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 17:20:23,579 - INFO - Capturing data...
+2025-11-09 17:20:26,432 - INFO - Captured 433 requests with 0 cookies set via network activity
+2025-11-09 17:20:26,445 - INFO - Data saved: 37 cookie entries with request associations
+2025-11-09 17:20:26,456 - INFO - Title: Création de compte
+2025-11-09 17:20:26,459 - INFO - URL(last visited page/subpage): https://auth.leboncoin.fr/create-account/?client_id=lbc-front-web&from_to=https%3A%2F%2Fwww.leboncoin.fr%2F&redirect_uri=https%3A%2F%2Fauth.leboncoin.fr%2Fapi%2Fauthorizer%2Fv2%2Fauthorize%3Fclient_id%3Dlbc-front-web%26redirect_uri%3Dhttps%253A%252F%252Fwww.leboncoin.fr%252Foauth2callback%26response_type%3Dcode%26scope%3D%252A%2Boffline%26state%3D3b7179fb-a5ea-41cb-a121-feb0751cf4d5&savedLoginUrl=https%3A%2F%2Fauth.leboncoin.fr%2Flogin%2F%3Fclient_id%3Dlbc-front-web%26error%3Dlogin_required%26error_debug%3Dsession%2520token%2520is%2520not%2520found%2520or%2520expired%26error_description%3Dyou%2520should%2520login%2520first%252C%2520the%2520__Secure-login%2520cookie%2520is%2520not%2520found.%26from_to%3Dhttps%253A%252F%252Fwww.leboncoin.fr%252F%26redirect_uri%3Dhttps%253A%252F%252Fauth.leboncoin.fr%252Fapi%252Fauthorizer%252Fv2%252Fauthorize%253Fclient_id%253Dlbc-front-web%2526redirect_uri%253Dhttps%25253A%25252F%25252Fwww.leboncoin.fr%25252Foauth2callback%2526response_type%253Dcode%2526scope%253D%25252A%252Boffline%2526state%253D3b7179fb-a5ea-41cb-a121-feb0751cf4d5&email=ale.fischer27%40gmail.com
+2025-11-09 17:20:26,459 - INFO - Cookies captured: 47
+2025-11-09 17:20:26,459 - INFO - Requests captured: 433
+2025-11-09 17:57:47,542 - INFO - [46/34799] Crawling: kleinanzeigen.de
+2025-11-09 17:57:47,544 - INFO - Using profile: kleinanzeigen_de
+2025-11-09 17:57:48,685 - INFO - ChromeDriver initialized successfully
+2025-11-09 17:57:48,685 - INFO - Navigating to domain root first: https://kleinanzeigen.de
+2025-11-09 17:57:53,317 - INFO - Waiting for 180 seconds...
+2025-11-09 17:57:53,317 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 17:58:49,102 - INFO - Capturing data...
+2025-11-09 17:58:51,356 - INFO - Captured 420 requests with 0 cookies set via network activity
+2025-11-09 17:58:51,361 - INFO - Data saved: 11 cookie entries with request associations
+2025-11-09 17:58:51,370 - INFO - Title: 
+2025-11-09 17:58:51,374 - INFO - URL(last visited page/subpage): https://www.kleinanzeigen.de/m-einloggen.html
+2025-11-09 17:58:51,374 - INFO - Cookies captured: 11
+2025-11-09 17:58:51,374 - INFO - Requests captured: 420
+2025-11-09 17:58:51,375 - INFO - [47/34799] Crawling: ioam.de
+2025-11-09 17:58:51,375 - INFO - Using profile: ioam_de
+2025-11-09 17:58:51,739 - INFO - ChromeDriver initialized successfully
+2025-11-09 17:58:51,739 - INFO - Navigating to domain root first: https://ioam.de
+2025-11-09 17:58:52,125 - INFO - Waiting for 180 seconds...
+2025-11-09 17:58:52,125 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 17:59:49,801 - INFO - Capturing data...
+2025-11-09 17:59:52,354 - INFO - Captured 394 requests with 0 cookies set via network activity
+2025-11-09 17:59:52,359 - INFO - Data saved: 15 cookie entries with request associations
+2025-11-09 17:59:52,368 - INFO - Title: New customer registration - INFOnline GmbH
+2025-11-09 17:59:52,372 - INFO - URL(last visited page/subpage): https://www.infonline.de/registrierung/
+2025-11-09 17:59:52,373 - INFO - Cookies captured: 15
+2025-11-09 17:59:52,373 - INFO - Requests captured: 394
+2025-11-09 17:59:52,373 - INFO - [48/34799] Crawling: 20minutos.es
+2025-11-09 17:59:52,373 - INFO - Using profile: 20minutos_es
+2025-11-09 17:59:52,755 - INFO - ChromeDriver initialized successfully
+2025-11-09 17:59:52,755 - INFO - Navigating to domain root first: https://20minutos.es
+2025-11-09 17:59:57,274 - INFO - Waiting for 180 seconds...
+2025-11-09 17:59:57,274 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 18:02:59,517 - INFO - No input received, proceeding without comment.
+2025-11-09 18:02:59,517 - INFO - Enter a comment to continue: 
+2025-11-09 18:03:20,016 - INFO - Capturing data...
+2025-11-09 18:03:23,663 - INFO - Captured 679 requests with 0 cookies set via network activity
+2025-11-09 18:03:23,679 - INFO - Data saved: 46 cookie entries with request associations
+2025-11-09 18:03:23,741 - INFO - Removed 20minutos.es from urls/EU_websites.csv after successful crawl
+2025-11-09 18:03:23,744 - INFO - Title: 20minutos.es | Open Daily | Latest news, local, Spain and the world
+2025-11-09 18:03:23,746 - INFO - URL(last visited page/subpage): https://www.20minutos.es/
+2025-11-09 18:03:23,746 - INFO - Cookies captured: 90
+2025-11-09 18:03:23,746 - INFO - Requests captured: 679
+2025-11-09 18:03:23,749 - INFO - [49/34799] Crawling: aftonbladet.se
+2025-11-09 18:03:23,750 - INFO - Using profile: aftonbladet_se
+2025-11-09 18:03:24,245 - INFO - ChromeDriver initialized successfully
+2025-11-09 18:03:24,245 - INFO - Navigating to domain root first: https://aftonbladet.se
+2025-11-09 18:03:27,004 - INFO - Waiting for 180 seconds...
+2025-11-09 18:03:27,005 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 18:05:21,725 - INFO - Capturing data...
+2025-11-09 18:05:26,380 - INFO - Captured 764 requests with 0 cookies set via network activity
+2025-11-09 18:05:26,391 - INFO - Data saved: 35 cookie entries with request associations
+2025-11-09 18:05:26,451 - INFO - Removed aftonbladet.se from urls/EU_websites.csv after successful crawl
+2025-11-09 18:05:26,454 - INFO - Title: Nyheter från Sveriges största nyhetssajt
+2025-11-09 18:05:26,458 - INFO - URL(last visited page/subpage): https://www.aftonbladet.se/
+2025-11-09 18:05:26,458 - INFO - Cookies captured: 36
+2025-11-09 18:05:26,458 - INFO - Requests captured: 764
+2025-11-09 18:05:26,461 - INFO - [50/34799] Crawling: olx.pl
+2025-11-09 18:05:26,461 - INFO - Using profile: olx_pl
+2025-11-09 18:05:26,861 - INFO - ChromeDriver initialized successfully
+2025-11-09 18:05:26,861 - INFO - Navigating to domain root first: https://olx.pl
+2025-11-09 18:05:30,128 - INFO - Waiting for 180 seconds...
+2025-11-09 18:05:30,129 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 18:06:48,176 - INFO - Capturing data...
+2025-11-09 18:06:52,309 - INFO - Captured 618 requests with 0 cookies set via network activity
+2025-11-09 18:06:52,321 - INFO - Data saved: 39 cookie entries with request associations
+2025-11-09 18:06:52,332 - INFO - Title: OLX.PL - Log in
+2025-11-09 18:06:52,335 - INFO - URL(last visited page/subpage): https://login.olx.pl/?cc=eyJjYyI6MSwiZ3JvdXBzIjoiQzAwMDE6MSxDMDAwMjoxLEMwMDAzOjEsQzAwMDQ6MSxnYWQ6MSJ9&client_id=6j7elk01p32o648o1io8lvhhab&code_challenge=dhpSkSwdrJQxYdusG9XLFs85Fu1FNlt7V4uq7RBc_jg&code_challenge_method=S256&lang=pl&redirect_uri=https%3A%2F%2Fwww.olx.pl%2Fd%2Fcallback%2F&st=eyJzbCI6IjE5YTY5OTQ4MTc3eDEzMmIxZWI2IiwicyI6IjE5YTY5OTQ4MTc3eDEzMmIxZWI2In0%3D&state=TDhLcVAuX1VOMnFBTXo4a2JrLmw2MDF0TzhCUE9EUWR0Yjgxd0REbF9xSA%3D%3D
+2025-11-09 18:06:52,335 - INFO - Cookies captured: 57
+2025-11-09 18:06:52,335 - INFO - Requests captured: 618
+2025-11-09 18:06:52,335 - INFO - [51/34799] Crawling: ad.nl
+2025-11-09 18:06:52,339 - INFO - Using profile: ad_nl
+2025-11-09 18:06:52,750 - INFO - ChromeDriver initialized successfully
+2025-11-09 18:06:52,750 - INFO - Navigating to domain root first: https://ad.nl
+2025-11-09 18:07:02,053 - INFO - Waiting for 180 seconds...
+2025-11-09 18:07:02,053 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 18:09:20,468 - INFO - Capturing data...
+2025-11-09 18:09:27,928 - INFO - Captured 999 requests with 0 cookies set via network activity
+2025-11-09 18:09:27,965 - INFO - Data saved: 77 cookie entries with request associations
+2025-11-09 18:09:28,024 - INFO - Removed ad.nl from urls/EU_websites.csv after successful crawl
+2025-11-09 18:09:28,027 - INFO - Title: AD.nl, het laatste nieuws uit binnen- en buitenland, sport en show | AD.nl
+2025-11-09 18:09:28,030 - INFO - URL(last visited page/subpage): https://www.ad.nl/
+2025-11-09 18:09:28,030 - INFO - Cookies captured: 82
+2025-11-09 18:09:28,030 - INFO - Requests captured: 999
+2025-11-09 18:09:28,032 - INFO - [52/34799] Crawling: lequipe.fr
+2025-11-09 18:09:28,033 - INFO - Using profile: lequipe_fr
+2025-11-09 18:09:28,413 - INFO - ChromeDriver initialized successfully
+2025-11-09 18:09:28,413 - INFO - Navigating to domain root first: https://lequipe.fr
+2025-11-09 18:09:33,926 - INFO - Waiting for 180 seconds...
+2025-11-09 18:09:33,926 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 18:11:28,168 - INFO - Capturing data...
+2025-11-09 18:11:34,801 - INFO - Captured 1052 requests with 0 cookies set via network activity
+2025-11-09 18:11:34,821 - INFO - Data saved: 44 cookie entries with request associations
+2025-11-09 18:11:34,884 - INFO - Removed lequipe.fr from urls/EU_websites.csv after successful crawl
+2025-11-09 18:11:34,887 - INFO - Title: L'Équipe - L'actualité du sport en continu.
+2025-11-09 18:11:34,889 - INFO - URL(last visited page/subpage): https://www.lequipe.fr/
+2025-11-09 18:11:34,889 - INFO - Cookies captured: 53
+2025-11-09 18:11:34,889 - INFO - Requests captured: 1052
+2025-11-09 18:11:34,892 - INFO - [53/34799] Crawling: monster.es
+2025-11-09 18:11:34,892 - INFO - Using profile: monster_es
+2025-11-09 18:11:35,340 - INFO - ChromeDriver initialized successfully
+2025-11-09 18:11:35,341 - INFO - Navigating to domain root first: https://monster.es
+2025-11-09 18:11:38,113 - INFO - Waiting for 180 seconds...
+2025-11-09 18:11:38,114 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 18:13:25,607 - INFO - Capturing data...
+2025-11-09 18:13:25,905 - INFO - Captured 55 requests with 0 cookies set via network activity
+2025-11-09 18:13:25,913 - INFO - Data saved: 0 cookie entries with request associations
+2025-11-09 18:13:25,978 - INFO - Removed monster.es from urls/EU_websites.csv after successful crawl
+2025-11-09 18:13:25,981 - INFO - Title: Monster y miCVideal creador
+2025-11-09 18:13:25,984 - INFO - URL(last visited page/subpage): https://www.monster.es/
+2025-11-09 18:13:25,984 - INFO - Cookies captured: 30
+2025-11-09 18:13:25,984 - INFO - Requests captured: 55
+2025-11-09 18:13:25,985 - INFO - [54/34799] Crawling: nu.nl
+2025-11-09 18:13:25,985 - INFO - Using profile: nu_nl
+2025-11-09 18:13:26,395 - INFO - ChromeDriver initialized successfully
+2025-11-09 18:13:26,395 - INFO - Navigating to domain root first: https://nu.nl
+2025-11-09 18:13:30,088 - INFO - Waiting for 180 seconds...
+2025-11-09 18:13:30,088 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 18:15:03,316 - INFO - Capturing data...
+2025-11-09 18:15:06,125 - INFO - Captured 477 requests with 0 cookies set via network activity
+2025-11-09 18:15:06,143 - INFO - Data saved: 82 cookie entries with request associations
+2025-11-09 18:15:06,208 - INFO - Removed nu.nl from urls/EU_websites.csv after successful crawl
+2025-11-09 18:15:06,211 - INFO - Title: NU - Het laatste nieuws het eerst op NU.nl
+2025-11-09 18:15:06,214 - INFO - URL(last visited page/subpage): https://www.nu.nl/
+2025-11-09 18:15:06,214 - INFO - Cookies captured: 82
+2025-11-09 18:15:06,214 - INFO - Requests captured: 477
+2025-11-09 18:15:06,216 - INFO - [55/34799] Crawling: remove.bg
+2025-11-09 18:15:06,216 - INFO - Using profile: remove_bg
+2025-11-09 18:15:06,971 - INFO - ChromeDriver initialized successfully
+2025-11-09 18:15:06,971 - INFO - Navigating to domain root first: https://remove.bg
+2025-11-09 18:15:17,314 - INFO - Waiting for 180 seconds...
+2025-11-09 18:15:17,315 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 18:16:41,811 - INFO - Capturing data...
+2025-11-09 18:16:43,436 - INFO - Captured 282 requests with 0 cookies set via network activity
+2025-11-09 18:16:43,441 - INFO - Data saved: 32 cookie entries with request associations
+2025-11-09 18:16:43,502 - INFO - Removed remove.bg from urls/EU_websites.csv after successful crawl
+2025-11-09 18:16:43,505 - INFO - Title: Upload Image – remove.bg
+2025-11-09 18:16:43,508 - INFO - URL(last visited page/subpage): https://www.remove.bg/upload
+2025-11-09 18:16:43,508 - INFO - Cookies captured: 33
+2025-11-09 18:16:43,508 - INFO - Requests captured: 282
+2025-11-09 18:16:43,510 - INFO - [56/34799] Crawling: gazzetta.it
+2025-11-09 18:16:43,510 - INFO - Using profile: gazzetta_it
+2025-11-09 18:16:43,915 - INFO - ChromeDriver initialized successfully
+2025-11-09 18:16:43,915 - INFO - Navigating to domain root first: https://gazzetta.it
+2025-11-09 18:18:00,306 - INFO - Waiting for 180 seconds...
+2025-11-09 18:18:00,306 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 18:20:44,841 - INFO - Capturing data...
+2025-11-09 18:20:52,195 - INFO - Captured 957 requests with 0 cookies set via network activity
+2025-11-09 18:20:52,229 - INFO - Data saved: 84 cookie entries with request associations
+2025-11-09 18:20:52,299 - INFO - Removed gazzetta.it from urls/EU_websites.csv after successful crawl
+2025-11-09 18:20:52,302 - INFO - Title: La Gazzetta dello Sport | Notizie sportive e risultati live di oggi
+2025-11-09 18:20:52,305 - INFO - URL(last visited page/subpage): https://www.gazzetta.it/?login=ok
+2025-11-09 18:20:52,305 - INFO - Cookies captured: 89
+2025-11-09 18:20:52,305 - INFO - Requests captured: 957
+2025-11-09 18:20:52,308 - INFO - [57/34799] Crawling: hln.be
+2025-11-09 18:20:52,310 - INFO - Using profile: hln_be
+2025-11-09 18:20:52,790 - INFO - ChromeDriver initialized successfully
+2025-11-09 18:20:52,790 - INFO - Navigating to domain root first: https://hln.be
+2025-11-09 18:21:01,648 - INFO - Waiting for 180 seconds...
+2025-11-09 18:21:01,648 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 18:23:14,097 - INFO - Capturing data...
+2025-11-09 18:23:18,359 - INFO - Captured 628 requests with 0 cookies set via network activity
+2025-11-09 18:23:18,380 - INFO - Data saved: 74 cookie entries with request associations
+2025-11-09 18:23:18,447 - INFO - Removed hln.be from urls/EU_websites.csv after successful crawl
+2025-11-09 18:23:18,451 - INFO - Title: HLN - Het Laatste Nieuws - Volg het nieuws op de nr1 nieuwssite in België, HLN.be brengt je het allerlaatste nieuws 24/24 en 7/7, uit binnen - en buitenland, evenals dichtbij met nieuws uit je eigen regio. | hln.be
+2025-11-09 18:23:18,454 - INFO - URL(last visited page/subpage): https://www.hln.be/?cb=6869d9c8-a531-41d8-a280-dc6f2fb38165&auth_rd=1
+2025-11-09 18:23:18,454 - INFO - Cookies captured: 74
+2025-11-09 18:23:18,454 - INFO - Requests captured: 628
+2025-11-09 18:23:18,456 - INFO - [58/34799] Crawling: marktplaats.nl
+2025-11-09 18:23:18,457 - INFO - Using profile: marktplaats_nl
+2025-11-09 18:23:18,920 - INFO - ChromeDriver initialized successfully
+2025-11-09 18:23:18,920 - INFO - Navigating to domain root first: https://marktplaats.nl
+2025-11-09 18:24:23,351 - INFO - Waiting for 180 seconds...
+2025-11-09 18:24:23,351 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 18:27:04,663 - INFO - Capturing data...
+2025-11-09 18:27:14,957 - INFO - Captured 927 requests with 0 cookies set via network activity
+2025-11-09 18:27:14,982 - INFO - Data saved: 77 cookie entries with request associations
+2025-11-09 18:27:14,990 - INFO - Title: Login Mijn Marktplaats
+2025-11-09 18:27:14,993 - INFO - URL(last visited page/subpage): https://www.marktplaats.nl/identity/v2/login?target=%2Fmy-account%2Fprofile%2Findex.html
+2025-11-09 18:27:14,993 - INFO - Cookies captured: 99
+2025-11-09 18:27:14,993 - INFO - Requests captured: 927
+2025-11-09 18:27:14,994 - INFO - [59/34799] Crawling: ebay.it
+2025-11-09 18:27:14,994 - INFO - Using profile: ebay_it
+2025-11-09 18:27:15,456 - INFO - ChromeDriver initialized successfully
+2025-11-09 18:27:15,456 - INFO - Navigating to domain root first: https://ebay.it
+2025-11-09 18:27:18,705 - INFO - Waiting for 180 seconds...
+2025-11-09 18:27:18,705 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 18:28:33,206 - INFO - Capturing data...
+2025-11-09 18:28:36,680 - INFO - Captured 561 requests with 0 cookies set via network activity
+2025-11-09 18:28:36,696 - INFO - Data saved: 89 cookie entries with request associations
+2025-11-09 18:28:36,757 - INFO - Removed ebay.it from urls/EU_websites.csv after successful crawl
+2025-11-09 18:28:36,760 - INFO - Title: eBay | Il Marketplace delle passioni
+2025-11-09 18:28:36,763 - INFO - URL(last visited page/subpage): https://www.ebay.it/
+2025-11-09 18:28:36,763 - INFO - Cookies captured: 89
+2025-11-09 18:28:36,763 - INFO - Requests captured: 561
+2025-11-09 18:28:36,765 - INFO - [60/34799] Crawling: fr.de
+2025-11-09 18:28:36,765 - INFO - Using profile: fr_de
+2025-11-09 18:28:37,176 - INFO - ChromeDriver initialized successfully
+2025-11-09 18:28:37,176 - INFO - Navigating to domain root first: https://fr.de
+2025-11-09 18:28:43,955 - INFO - Waiting for 180 seconds...
+2025-11-09 18:28:43,955 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 18:30:33,185 - INFO - Capturing data...
+2025-11-09 18:30:43,388 - INFO - Captured 1039 requests with 0 cookies set via network activity
+2025-11-09 18:30:43,424 - INFO - Data saved: 77 cookie entries with request associations
+2025-11-09 18:30:43,486 - INFO - Removed fr.de from urls/EU_websites.csv after successful crawl
+2025-11-09 18:30:43,489 - INFO - Title: FR.de | News aus Politik, Wirtschaft, Sport, Frankfurt, Hessen und der Welt
+2025-11-09 18:30:43,491 - INFO - URL(last visited page/subpage): https://www.fr.de/
+2025-11-09 18:30:43,491 - INFO - Cookies captured: 152
+2025-11-09 18:30:43,491 - INFO - Requests captured: 1039
+2025-11-09 18:30:43,494 - INFO - [61/34799] Crawling: merkur.de
+2025-11-09 18:30:43,494 - INFO - Using profile: merkur_de
+2025-11-09 18:30:44,012 - INFO - ChromeDriver initialized successfully
+2025-11-09 18:30:44,012 - INFO - Navigating to domain root first: https://merkur.de
+2025-11-09 18:30:47,490 - INFO - Waiting for 180 seconds...
+2025-11-09 18:30:47,490 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 18:32:01,962 - INFO - Capturing data...
+2025-11-09 18:32:08,580 - INFO - Captured 948 requests with 0 cookies set via network activity
+2025-11-09 18:32:08,614 - INFO - Data saved: 62 cookie entries with request associations
+2025-11-09 18:32:08,677 - INFO - Removed merkur.de from urls/EU_websites.csv after successful crawl
+2025-11-09 18:32:08,680 - INFO - Title: Merkur.de | News aus Politik, Sport, für Verbraucher, der Welt und aus Bayern
+2025-11-09 18:32:08,682 - INFO - URL(last visited page/subpage): https://www.merkur.de/
+2025-11-09 18:32:08,683 - INFO - Cookies captured: 151
+2025-11-09 18:32:08,683 - INFO - Requests captured: 948
+2025-11-09 18:32:08,685 - INFO - [62/34799] Crawling: ladepeche.fr
+2025-11-09 18:32:08,690 - INFO - Using profile: ladepeche_fr
+2025-11-09 18:32:09,217 - INFO - ChromeDriver initialized successfully
+2025-11-09 18:32:09,218 - INFO - Navigating to domain root first: https://ladepeche.fr
+2025-11-09 18:32:11,773 - INFO - Waiting for 180 seconds...
+2025-11-09 18:32:11,774 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 18:33:23,206 - INFO - Capturing data...
+2025-11-09 18:33:26,177 - INFO - Captured 581 requests with 0 cookies set via network activity
+2025-11-09 18:33:26,189 - INFO - Data saved: 38 cookie entries with request associations
+2025-11-09 18:33:26,258 - INFO - Removed ladepeche.fr from urls/EU_websites.csv after successful crawl
+2025-11-09 18:33:26,262 - INFO - Title: La Dépêche : Actualités en temps réel et l'info en continu - ladepeche.fr
+2025-11-09 18:33:26,267 - INFO - URL(last visited page/subpage): https://www.ladepeche.fr/
+2025-11-09 18:33:26,267 - INFO - Cookies captured: 58
+2025-11-09 18:33:26,267 - INFO - Requests captured: 581
+2025-11-09 18:33:26,270 - INFO - [63/34799] Crawling: actu.fr
+2025-11-09 18:33:26,270 - INFO - Using profile: actu_fr
+2025-11-09 18:33:26,754 - INFO - ChromeDriver initialized successfully
+2025-11-09 18:33:26,754 - INFO - Navigating to domain root first: https://actu.fr
+2025-11-09 18:33:50,833 - INFO - Waiting for 180 seconds...
+2025-11-09 18:33:50,833 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 18:35:25,132 - INFO - Capturing data...
+2025-11-09 18:35:29,614 - INFO - Captured 910 requests with 0 cookies set via network activity
+2025-11-09 18:35:29,628 - INFO - Data saved: 43 cookie entries with request associations
+2025-11-09 18:35:29,691 - INFO - Removed actu.fr from urls/EU_websites.csv after successful crawl
+2025-11-09 18:35:29,695 - INFO - Title: Actu : toute l'information locale et nationale en direct
+2025-11-09 18:35:29,697 - INFO - URL(last visited page/subpage): https://actu.fr/
+2025-11-09 18:35:29,697 - INFO - Cookies captured: 54
+2025-11-09 18:35:29,697 - INFO - Requests captured: 910
+2025-11-09 18:35:29,700 - INFO - [64/34799] Crawling: tvn24.pl
+2025-11-09 18:35:29,700 - INFO - Using profile: tvn24_pl
+2025-11-09 18:35:30,144 - INFO - ChromeDriver initialized successfully
+2025-11-09 18:35:30,144 - INFO - Navigating to domain root first: https://tvn24.pl
+2025-11-09 18:35:31,404 - INFO - Waiting for 180 seconds...
+2025-11-09 18:35:31,404 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 18:37:43,211 - INFO - Capturing data...
+2025-11-09 18:37:47,772 - INFO - Captured 702 requests with 0 cookies set via network activity
+2025-11-09 18:37:47,788 - INFO - Data saved: 63 cookie entries with request associations
+2025-11-09 18:37:47,852 - INFO - Removed tvn24.pl from urls/EU_websites.csv after successful crawl
+2025-11-09 18:37:47,855 - INFO - Title: Wiadomości z kraju i ze świata - najnowsze informacje w TVN24 | TVN24
+2025-11-09 18:37:47,857 - INFO - URL(last visited page/subpage): https://tvn24.pl/
+2025-11-09 18:37:47,857 - INFO - Cookies captured: 64
+2025-11-09 18:37:47,858 - INFO - Requests captured: 702
+2025-11-09 18:37:47,860 - INFO - [65/34799] Crawling: subito.it
+2025-11-09 18:37:47,860 - INFO - Using profile: subito_it
+2025-11-09 18:37:48,244 - INFO - ChromeDriver initialized successfully
+2025-11-09 18:37:48,245 - INFO - Navigating to domain root first: https://subito.it
+2025-11-09 18:37:49,928 - INFO - Waiting for 180 seconds...
+2025-11-09 18:37:49,928 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 18:39:55,943 - INFO - Capturing data...
+2025-11-09 18:39:59,667 - INFO - Captured 602 requests with 0 cookies set via network activity
+2025-11-09 18:39:59,677 - INFO - Data saved: 38 cookie entries with request associations
+2025-11-09 18:39:59,687 - INFO - Title: Reserved Area Login - Subito.it
+2025-11-09 18:39:59,693 - INFO - URL(last visited page/subpage): https://areariservata.subito.it/login_form
+2025-11-09 18:39:59,693 - INFO - Cookies captured: 38
+2025-11-09 18:39:59,693 - INFO - Requests captured: 602
+2025-11-09 20:43:32,166 - INFO - [66/34799] Crawling: emag.ro
+2025-11-09 20:43:32,166 - INFO - Using profile: emag_ro
+2025-11-09 20:43:33,969 - INFO - ChromeDriver initialized successfully
+2025-11-09 20:43:33,969 - INFO - Navigating to domain root first: https://emag.ro
+2025-11-09 20:43:37,051 - INFO - Waiting for 180 seconds...
+2025-11-09 20:43:37,051 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 20:46:03,806 - INFO - Capturing data...
+2025-11-09 20:46:06,640 - INFO - Captured 380 requests with 0 cookies set via network activity
+2025-11-09 20:46:06,646 - INFO - Data saved: 19 cookie entries with request associations
+2025-11-09 20:46:06,653 - INFO - Title: eMAG.ro - Freedom every day
+2025-11-09 20:46:06,658 - INFO - URL(last visited page/subpage): https://auth.emag.ro/user/login
+2025-11-09 20:46:06,658 - INFO - Cookies captured: 20
+2025-11-09 20:46:06,658 - INFO - Requests captured: 380
+2025-11-09 20:46:06,659 - INFO - [67/34799] Crawling: ilmessaggero.it
+2025-11-09 20:46:06,661 - INFO - Using profile: ilmessaggero_it
+2025-11-09 20:46:07,087 - INFO - ChromeDriver initialized successfully
+2025-11-09 20:46:07,087 - INFO - Navigating to domain root first: https://ilmessaggero.it
+2025-11-09 20:46:11,160 - INFO - Waiting for 180 seconds...
+2025-11-09 20:46:11,160 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 20:48:52,516 - INFO - Capturing data...
+2025-11-09 20:49:00,870 - INFO - Captured 1331 requests with 0 cookies set via network activity
+2025-11-09 20:49:00,890 - INFO - Data saved: 46 cookie entries with request associations
+2025-11-09 20:49:00,954 - INFO - Removed ilmessaggero.it from urls/EU_websites.csv after successful crawl
+2025-11-09 20:49:00,957 - INFO - Title: Personal Area - My Profile
+2025-11-09 20:49:00,959 - INFO - URL(last visited page/subpage): https://account.ilmessaggero.it/user/profile
+2025-11-09 20:49:00,960 - INFO - Cookies captured: 46
+2025-11-09 20:49:00,960 - INFO - Requests captured: 1331
+2025-11-09 20:49:00,962 - INFO - [68/34799] Crawling: zalando.de
+2025-11-09 20:49:00,962 - INFO - Using profile: zalando_de
+2025-11-09 20:49:01,411 - INFO - ChromeDriver initialized successfully
+2025-11-09 20:49:01,411 - INFO - Navigating to domain root first: https://zalando.de
+2025-11-09 20:49:06,130 - INFO - Waiting for 180 seconds...
+2025-11-09 20:49:06,130 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 20:50:36,611 - INFO - Capturing data...
+2025-11-09 20:50:40,981 - INFO - Captured 640 requests with 0 cookies set via network activity
+2025-11-09 20:50:40,992 - INFO - Data saved: 39 cookie entries with request associations
+2025-11-09 20:50:41,053 - INFO - Removed zalando.de from urls/EU_websites.csv after successful crawl
+2025-11-09 20:50:41,056 - INFO - Title: Overview
+2025-11-09 20:50:41,059 - INFO - URL(last visited page/subpage): https://en.zalando.de/myaccount/
+2025-11-09 20:50:41,059 - INFO - Cookies captured: 39
+2025-11-09 20:50:41,059 - INFO - Requests captured: 640
+2025-11-09 20:50:41,062 - INFO - [69/34799] Crawling: novinky.cz
+2025-11-09 20:50:41,062 - INFO - Using profile: novinky_cz
+2025-11-09 20:50:41,446 - INFO - ChromeDriver initialized successfully
+2025-11-09 20:50:41,446 - INFO - Navigating to domain root first: https://novinky.cz
+2025-11-09 20:50:46,105 - INFO - Waiting for 180 seconds...
+2025-11-09 20:50:46,106 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 20:51:42,060 - INFO - Capturing data...
+2025-11-09 20:51:45,386 - INFO - Captured 426 requests with 0 cookies set via network activity
+2025-11-09 20:51:45,394 - INFO - Data saved: 35 cookie entries with request associations
+2025-11-09 20:51:45,454 - INFO - Removed novinky.cz from urls/EU_websites.csv after successful crawl
+2025-11-09 20:51:45,458 - INFO - Title: Novinky.cz - the most read news on the Czech Internet
+2025-11-09 20:51:45,460 - INFO - URL(last visited page/subpage): https://www.novinky.cz/
+2025-11-09 20:51:45,460 - INFO - Cookies captured: 39
+2025-11-09 20:51:45,460 - INFO - Requests captured: 426
+2025-11-09 20:51:45,462 - INFO - [70/34799] Crawling: xnxx.es
+2025-11-09 20:51:45,467 - INFO - Using profile: xnxx_es
+2025-11-09 20:51:45,874 - INFO - ChromeDriver initialized successfully
+2025-11-09 20:51:45,874 - INFO - Navigating to domain root first: https://xnxx.es
+2025-11-09 20:51:48,270 - INFO - Waiting for 180 seconds...
+2025-11-09 20:51:48,270 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 20:54:38,202 - INFO - Capturing data...
+2025-11-09 20:54:38,219 - ERROR - Selenium get_cookies failed: 'NoneType' object is not iterable
+2025-11-09 20:54:38,227 - ERROR - CDP getAllCookies failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=142.0.7444.61)
+Stacktrace:
+#0 0x5698026e9aca <unknown>
+#1 0x569802135cdb <unknown>
+#2 0x56980210a410 <unknown>
+#3 0x5698021b6ae8 <unknown>
+#4 0x5698021d46a5 <unknown>
+#5 0x56980217aaca <unknown>
+#6 0x56980217b7d1 <unknown>
+#7 0x5698026b0a99 <unknown>
+#8 0x5698026b3a6c <unknown>
+#9 0x569802699d29 <unknown>
+#10 0x5698026b4665 <unknown>
+#11 0x5698026816a3 <unknown>
+#12 0x5698026d67b8 <unknown>
+#13 0x5698026d6993 <unknown>
+#14 0x5698026e8a63 <unknown>
+#15 0x725082a9caa4 <unknown>
+#16 0x725082b29c6c <unknown>
+
+2025-11-09 20:54:38,657 - INFO - Captured 80 requests with 0 cookies set via network activity
+2025-11-09 20:54:38,660 - ERROR - Error visiting https://xnxx.es: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=142.0.7444.61)
+Stacktrace:
+#0 0x5698026e9aca <unknown>
+#1 0x569802135cdb <unknown>
+#2 0x56980210a410 <unknown>
+#3 0x5698021b6ae8 <unknown>
+#4 0x5698021d46a5 <unknown>
+#5 0x56980217aaca <unknown>
+#6 0x56980217b7d1 <unknown>
+#7 0x5698026b0a99 <unknown>
+#8 0x5698026b3a6c <unknown>
+#9 0x569802699d29 <unknown>
+#10 0x5698026b4665 <unknown>
+#11 0x5698026816a3 <unknown>
+#12 0x5698026d67b8 <unknown>
+#13 0x5698026d6993 <unknown>
+#14 0x5698026e8a63 <unknown>
+#15 0x725082a9caa4 <unknown>
+#16 0x725082b29c6c <unknown>
+
+2025-11-09 20:54:38,725 - ERROR - Failed to crawl xnxx.es, continuing to next...
+2025-11-09 20:54:38,725 - INFO - [71/34799] Crawling: index.hr
+2025-11-09 20:54:38,725 - INFO - Using profile: index_hr
+2025-11-09 20:54:39,024 - INFO - ChromeDriver initialized successfully
+2025-11-09 20:54:39,025 - INFO - Navigating to domain root first: https://index.hr
+2025-11-09 20:54:46,852 - INFO - Waiting for 180 seconds...
+2025-11-09 20:54:46,853 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 20:56:03,730 - INFO - Capturing data...
+2025-11-09 20:56:08,435 - INFO - Captured 687 requests with 0 cookies set via network activity
+2025-11-09 20:56:08,444 - INFO - Data saved: 30 cookie entries with request associations
+2025-11-09 20:56:08,508 - INFO - Removed index.hr from urls/EU_websites.csv after successful crawl
+2025-11-09 20:56:08,511 - INFO - Title: Index.hr
+2025-11-09 20:56:08,513 - INFO - URL(last visited page/subpage): https://www.index.hr/
+2025-11-09 20:56:08,513 - INFO - Cookies captured: 30
+2025-11-09 20:56:08,513 - INFO - Requests captured: 687
+2025-11-09 20:56:08,516 - INFO - [72/34799] Crawling: ilmeteo.it
+2025-11-09 20:56:08,517 - INFO - Using profile: ilmeteo_it
+2025-11-09 20:56:08,902 - INFO - ChromeDriver initialized successfully
+2025-11-09 20:56:08,902 - INFO - Navigating to domain root first: https://ilmeteo.it
+2025-11-09 20:56:15,462 - INFO - Waiting for 180 seconds...
+2025-11-09 20:56:15,462 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 20:58:05,692 - INFO - Capturing data...
+2025-11-09 20:58:07,405 - INFO - Captured 334 requests with 0 cookies set via network activity
+2025-11-09 20:58:07,411 - INFO - Data saved: 17 cookie entries with request associations
+2025-11-09 20:58:07,476 - INFO - Removed ilmeteo.it from urls/EU_websites.csv after successful crawl
+2025-11-09 20:58:07,481 - INFO - Title: iLMeteo.it - ​​Personal Area
+2025-11-09 20:58:07,484 - INFO - URL(last visited page/subpage): https://www.ilmeteo.it/profilo/utente
+2025-11-09 20:58:07,484 - INFO - Cookies captured: 18
+2025-11-09 20:58:07,484 - INFO - Requests captured: 334
+2025-11-09 20:58:07,486 - INFO - [73/34799] Crawling: mediaexpert.pl
+2025-11-09 20:58:07,487 - INFO - Using profile: mediaexpert_pl
+2025-11-09 20:58:07,886 - INFO - ChromeDriver initialized successfully
+2025-11-09 20:58:07,887 - INFO - Navigating to domain root first: https://mediaexpert.pl
+2025-11-09 20:59:11,338 - INFO - Waiting for 180 seconds...
+2025-11-09 20:59:11,339 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 21:00:52,457 - INFO - Capturing data...
+2025-11-09 21:00:59,429 - INFO - Captured 913 requests with 0 cookies set via network activity
+2025-11-09 21:00:59,446 - INFO - Data saved: 57 cookie entries with request associations
+2025-11-09 21:00:59,506 - INFO - Removed mediaexpert.pl from urls/EU_websites.csv after successful crawl
+2025-11-09 21:00:59,509 - INFO - Title: Media Expert | Sklep internetowy RTV, AGD, komputery
+2025-11-09 21:00:59,512 - INFO - URL(last visited page/subpage): https://www.mediaexpert.pl/
+2025-11-09 21:00:59,512 - INFO - Cookies captured: 57
+2025-11-09 21:00:59,512 - INFO - Requests captured: 913
+2025-11-09 21:00:59,515 - INFO - [74/34799] Crawling: idealista.it
+2025-11-09 21:00:59,516 - INFO - Using profile: idealista_it
+2025-11-09 21:00:59,905 - INFO - ChromeDriver initialized successfully
+2025-11-09 21:00:59,905 - INFO - Navigating to domain root first: https://idealista.it
+2025-11-09 21:01:03,680 - INFO - Waiting for 180 seconds...
+2025-11-09 21:01:03,680 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 21:03:23,079 - INFO - Capturing data...
+2025-11-09 21:03:32,412 - INFO - Captured 1239 requests with 0 cookies set via network activity
+2025-11-09 21:03:32,437 - INFO - Data saved: 58 cookie entries with request associations
+2025-11-09 21:03:32,501 - INFO - Removed idealista.it from urls/EU_websites.csv after successful crawl
+2025-11-09 21:03:32,504 - INFO - Title: idealista, N.1 in Italia — Case e appartamenti, affitto e vendita, annunci gratuiti
+2025-11-09 21:03:32,507 - INFO - URL(last visited page/subpage): https://www.idealista.it/
+2025-11-09 21:03:32,507 - INFO - Cookies captured: 59
+2025-11-09 21:03:32,507 - INFO - Requests captured: 1239
+2025-11-09 21:03:32,510 - INFO - [75/34799] Crawling: iltalehti.fi
+2025-11-09 21:03:32,510 - INFO - Using profile: iltalehti_fi
+2025-11-09 21:03:32,883 - INFO - ChromeDriver initialized successfully
+2025-11-09 21:03:32,883 - INFO - Navigating to domain root first: https://iltalehti.fi
+2025-11-09 21:03:51,322 - INFO - Waiting for 180 seconds...
+2025-11-09 21:03:51,322 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 21:06:54,204 - INFO - No input received, proceeding without comment.
+2025-11-09 21:06:54,205 - INFO - Enter a comment to continue: 
+2025-11-09 21:08:10,983 - INFO - Capturing data...
+2025-11-09 21:08:12,681 - INFO - Captured 332 requests with 0 cookies set via network activity
+2025-11-09 21:08:12,688 - INFO - Data saved: 36 cookie entries with request associations
+2025-11-09 21:08:12,747 - INFO - Removed iltalehti.fi from urls/EU_websites.csv after successful crawl
+2025-11-09 21:08:12,750 - INFO - Title: Iltalehti | IL - Finland's largest news service
+2025-11-09 21:08:12,753 - INFO - URL(last visited page/subpage): https://www.iltalehti.fi/
+2025-11-09 21:08:12,753 - INFO - Cookies captured: 36
+2025-11-09 21:08:12,753 - INFO - Requests captured: 332
+2025-11-09 21:08:12,755 - INFO - [76/34799] Crawling: protothema.gr
+2025-11-09 21:08:12,755 - INFO - Using profile: protothema_gr
+2025-11-09 21:08:13,141 - INFO - ChromeDriver initialized successfully
+2025-11-09 21:08:13,142 - INFO - Navigating to domain root first: https://protothema.gr
+2025-11-09 21:08:17,111 - INFO - Waiting for 180 seconds...
+2025-11-09 21:08:17,111 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 21:09:44,155 - INFO - Capturing data...
+2025-11-09 21:09:47,087 - INFO - Captured 558 requests with 0 cookies set via network activity
+2025-11-09 21:09:47,092 - INFO - Data saved: 6 cookie entries with request associations
+2025-11-09 21:09:47,099 - INFO - Title: Proto Thema - news from Greece and around the world - Breaking news
+2025-11-09 21:09:47,104 - INFO - URL(last visited page/subpage): https://www.protothema.gr/
+2025-11-09 21:09:47,104 - INFO - Cookies captured: 6
+2025-11-09 21:09:47,104 - INFO - Requests captured: 558
+2025-11-09 21:09:47,105 - INFO - [77/34799] Crawling: otomoto.pl
+2025-11-09 21:09:47,105 - INFO - Using profile: otomoto_pl
+2025-11-09 21:09:47,504 - INFO - ChromeDriver initialized successfully
+2025-11-09 21:09:47,504 - INFO - Navigating to domain root first: https://otomoto.pl
+2025-11-09 21:09:51,251 - INFO - Waiting for 180 seconds...
+2025-11-09 21:09:51,252 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 21:12:54,269 - INFO - No input received, proceeding without comment.
+2025-11-09 21:12:54,269 - INFO - Enter a comment to continue: 
+2025-11-09 21:13:38,003 - INFO - Capturing data...
+2025-11-09 21:13:50,449 - INFO - Captured 1648 requests with 0 cookies set via network activity
+2025-11-09 21:13:50,483 - INFO - Data saved: 52 cookie entries with request associations
+2025-11-09 21:13:50,544 - INFO - Removed otomoto.pl from urls/EU_websites.csv after successful crawl
+2025-11-09 21:13:50,547 - INFO - Title: OTOMOTO - new and used cars, motorcycles, and car parts. Automotive classifieds.
+2025-11-09 21:13:50,549 - INFO - URL(last visited page/subpage): https://www.otomoto.pl/mojekonto/active?displayType=card-view
+2025-11-09 21:13:50,549 - INFO - Cookies captured: 55
+2025-11-09 21:13:50,549 - INFO - Requests captured: 1648
+2025-11-09 21:13:50,553 - INFO - [78/34799] Crawling: eltiempo.es
+2025-11-09 21:13:50,553 - INFO - Using profile: eltiempo_es
+2025-11-09 21:13:50,973 - INFO - ChromeDriver initialized successfully
+2025-11-09 21:13:50,973 - INFO - Navigating to domain root first: https://eltiempo.es
+2025-11-09 21:13:55,162 - INFO - Waiting for 180 seconds...
+2025-11-09 21:13:55,162 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 21:16:57,762 - INFO - No input received, proceeding without comment.
+2025-11-09 21:16:57,763 - INFO - Enter a comment to continue: 
+2025-11-09 21:17:01,612 - INFO - Capturing data...
+2025-11-09 21:17:07,887 - INFO - Captured 1132 requests with 0 cookies set via network activity
+2025-11-09 21:17:07,899 - INFO - Data saved: 21 cookie entries with request associations
+2025-11-09 21:17:07,961 - INFO - Removed eltiempo.es from urls/EU_websites.csv after successful crawl
+2025-11-09 21:17:07,964 - INFO - Title: User profile
+2025-11-09 21:17:07,966 - INFO - URL(last visited page/subpage): https://www.eltiempo.es/user/profile
+2025-11-09 21:17:07,966 - INFO - Cookies captured: 21
+2025-11-09 21:17:07,966 - INFO - Requests captured: 1132
+2025-11-09 21:17:07,969 - INFO - [79/34799] Crawling: jutarnji.hr
+2025-11-09 21:17:07,969 - INFO - Using profile: jutarnji_hr
+2025-11-09 21:17:08,939 - INFO - ChromeDriver initialized successfully
+2025-11-09 21:17:08,939 - INFO - Navigating to domain root first: https://jutarnji.hr
+2025-11-09 21:17:33,097 - INFO - Waiting for 180 seconds...
+2025-11-09 21:17:33,097 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 21:19:24,703 - INFO - Capturing data...
+2025-11-09 21:19:40,641 - INFO - Captured 2356 requests with 0 cookies set via network activity
+2025-11-09 21:19:40,690 - INFO - Data saved: 47 cookie entries with request associations
+2025-11-09 21:19:40,753 - INFO - Removed jutarnji.hr from urls/EU_websites.csv after successful crawl
+2025-11-09 21:19:40,756 - INFO - Title: Jutarnji list - Users
+2025-11-09 21:19:40,758 - INFO - URL(last visited page/subpage): https://www.jutarnji.hr/korisnici
+2025-11-09 21:19:40,758 - INFO - Cookies captured: 47
+2025-11-09 21:19:40,758 - INFO - Requests captured: 2356
+2025-11-09 21:19:40,763 - INFO - [80/34799] Crawling: ekstrabladet.dk
+2025-11-09 21:19:40,764 - INFO - Using profile: ekstrabladet_dk
+2025-11-09 21:19:41,152 - INFO - ChromeDriver initialized successfully
+2025-11-09 21:19:41,152 - INFO - Navigating to domain root first: https://ekstrabladet.dk
+2025-11-09 21:19:44,571 - INFO - Waiting for 180 seconds...
+2025-11-09 21:19:44,571 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 21:20:57,755 - INFO - Capturing data...
+2025-11-09 21:21:01,974 - INFO - Captured 645 requests with 0 cookies set via network activity
+2025-11-09 21:21:01,987 - INFO - Data saved: 59 cookie entries with request associations
+2025-11-09 21:21:02,050 - INFO - Removed ekstrabladet.dk from urls/EU_websites.csv after successful crawl
+2025-11-09 21:21:02,053 - INFO - Title: Nyheder, sport og underholdning
+2025-11-09 21:21:02,056 - INFO - URL(last visited page/subpage): https://ekstrabladet.dk/
+2025-11-09 21:21:02,056 - INFO - Cookies captured: 68
+2025-11-09 21:21:02,056 - INFO - Requests captured: 645
+2025-11-09 21:21:02,058 - INFO - [81/34799] Crawling: tori.fi
+2025-11-09 21:21:02,058 - INFO - Using profile: tori_fi
+2025-11-09 21:21:02,490 - INFO - ChromeDriver initialized successfully
+2025-11-09 21:21:02,490 - INFO - Navigating to domain root first: https://tori.fi
+2025-11-09 21:21:07,112 - INFO - Waiting for 180 seconds...
+2025-11-09 21:21:07,112 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 21:23:48,062 - INFO - Capturing data...
+2025-11-09 21:23:53,737 - INFO - Captured 896 requests with 0 cookies set via network activity
+2025-11-09 21:23:53,750 - INFO - Data saved: 37 cookie entries with request associations
+2025-11-09 21:23:53,827 - INFO - Removed tori.fi from urls/EU_websites.csv after successful crawl
+2025-11-09 21:23:53,830 - INFO - Title: Tori.fi - Osta ja myy helposti uutta ja käytettyä
+2025-11-09 21:23:53,832 - INFO - URL(last visited page/subpage): https://www.tori.fi/
+2025-11-09 21:23:53,832 - INFO - Cookies captured: 37
+2025-11-09 21:23:53,832 - INFO - Requests captured: 896
+2025-11-09 21:23:53,835 - INFO - [82/34799] Crawling: toyhou.se
+2025-11-09 21:23:53,837 - INFO - Using profile: toyhou_se
+2025-11-09 21:23:54,230 - INFO - ChromeDriver initialized successfully
+2025-11-09 21:23:54,230 - INFO - Navigating to domain root first: https://toyhou.se
+2025-11-09 21:23:56,122 - INFO - Waiting for 180 seconds...
+2025-11-09 21:23:56,122 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 21:25:52,410 - INFO - Capturing data...
+2025-11-09 21:25:53,109 - INFO - Captured 89 requests with 0 cookies set via network activity
+2025-11-09 21:25:53,112 - INFO - Data saved: 5 cookie entries with request associations
+2025-11-09 21:25:53,118 - INFO - Title: Toyhouse
+2025-11-09 21:25:53,122 - INFO - URL(last visited page/subpage): https://toyhou.se/~account/register
+2025-11-09 21:25:53,122 - INFO - Cookies captured: 5
+2025-11-09 21:25:53,122 - INFO - Requests captured: 89
+2025-11-09 21:25:53,122 - INFO - [83/34799] Crawling: xvideos.es
+2025-11-09 21:25:53,123 - INFO - Using profile: xvideos_es
+2025-11-09 21:25:53,502 - INFO - ChromeDriver initialized successfully
+2025-11-09 21:25:53,503 - INFO - Navigating to domain root first: https://xvideos.es
+2025-11-09 21:25:55,975 - INFO - Waiting for 180 seconds...
+2025-11-09 21:25:55,976 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 21:26:22,166 - INFO - Capturing data...
+2025-11-09 21:26:22,551 - INFO - Captured 77 requests with 0 cookies set via network activity
+2025-11-09 21:26:22,553 - INFO - Data saved: 1 cookie entries with request associations
+2025-11-09 21:26:22,558 - INFO - Title: Vídeos Porno Gratuitos - XVIDEOS.COM
+2025-11-09 21:26:22,560 - INFO - URL(last visited page/subpage): https://www.xvideos.es/
+2025-11-09 21:26:22,560 - INFO - Cookies captured: 1
+2025-11-09 21:26:22,560 - INFO - Requests captured: 77
+2025-11-09 21:26:22,560 - INFO - [84/34799] Crawling: librus.pl
+2025-11-09 21:26:22,564 - INFO - Using profile: librus_pl
+2025-11-09 21:26:22,952 - INFO - ChromeDriver initialized successfully
+2025-11-09 21:26:22,952 - INFO - Navigating to domain root first: https://librus.pl
+2025-11-09 21:27:04,226 - INFO - Waiting for 180 seconds...
+2025-11-09 21:27:04,227 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 21:28:22,285 - INFO - Capturing data...
+2025-11-09 21:28:23,153 - INFO - Captured 184 requests with 0 cookies set via network activity
+2025-11-09 21:28:23,156 - INFO - Data saved: 1 cookie entries with request associations
+2025-11-09 21:28:23,161 - INFO - Title: Librus - IT systems supporting education
+2025-11-09 21:28:23,163 - INFO - URL(last visited page/subpage): https://www.librus.pl/
+2025-11-09 21:28:23,163 - INFO - Cookies captured: 1
+2025-11-09 21:28:23,163 - INFO - Requests captured: 184
+2025-11-09 21:28:23,163 - INFO - [85/34799] Crawling: bt.dk
+2025-11-09 21:28:23,164 - INFO - Using profile: bt_dk
+2025-11-09 21:28:23,545 - INFO - ChromeDriver initialized successfully
+2025-11-09 21:28:23,545 - INFO - Navigating to domain root first: https://bt.dk
+2025-11-09 21:28:27,285 - INFO - Waiting for 180 seconds...
+2025-11-09 21:28:27,285 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 21:30:40,801 - INFO - Capturing data...
+2025-11-09 21:30:48,643 - INFO - Captured 1004 requests with 0 cookies set via network activity
+2025-11-09 21:30:48,659 - INFO - Data saved: 37 cookie entries with request associations
+2025-11-09 21:30:48,732 - INFO - Removed bt.dk from urls/EU_websites.csv after successful crawl
+2025-11-09 21:30:48,735 - INFO - Title: B.T.
+2025-11-09 21:30:48,738 - INFO - URL(last visited page/subpage): https://www.bt.dk/
+2025-11-09 21:30:48,738 - INFO - Cookies captured: 37
+2025-11-09 21:30:48,738 - INFO - Requests captured: 1004
+2025-11-09 21:30:48,741 - INFO - [86/34799] Crawling: leroymerlin.fr
+2025-11-09 21:30:48,741 - INFO - Using profile: leroymerlin_fr
+2025-11-09 21:30:49,271 - INFO - ChromeDriver initialized successfully
+2025-11-09 21:30:49,271 - INFO - Navigating to domain root first: https://leroymerlin.fr
+2025-11-09 21:30:52,916 - INFO - Waiting for 180 seconds...
+2025-11-09 21:30:52,916 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 21:31:04,383 - INFO - Capturing data...
+2025-11-09 21:31:04,591 - INFO - Captured 39 requests with 0 cookies set via network activity
+2025-11-09 21:31:04,595 - INFO - Data saved: 1 cookie entries with request associations
+2025-11-09 21:31:04,602 - INFO - Title: leroymerlin.fr
+2025-11-09 21:31:04,608 - INFO - URL(last visited page/subpage): https://www.leroymerlin.fr/
+2025-11-09 21:31:04,608 - INFO - Cookies captured: 1
+2025-11-09 21:31:04,608 - INFO - Requests captured: 39
+2025-11-09 21:31:17,636 - INFO - [87/34799] Crawling: njuskalo.hr
+2025-11-09 21:31:17,641 - INFO - Using profile: njuskalo_hr
+2025-11-09 21:31:17,983 - INFO - ChromeDriver initialized successfully
+2025-11-09 21:31:17,983 - INFO - Navigating to domain root first: https://njuskalo.hr
+2025-11-09 21:31:29,866 - INFO - Waiting for 180 seconds...
+2025-11-09 21:31:29,866 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 21:34:24,594 - INFO - Capturing data...
+2025-11-09 21:34:35,883 - INFO - Captured 1505 requests with 0 cookies set via network activity
+2025-11-09 21:34:35,913 - INFO - Data saved: 50 cookie entries with request associations
+2025-11-09 21:34:35,974 - INFO - Removed njuskalo.hr from urls/EU_websites.csv after successful crawl
+2025-11-09 21:34:35,977 - INFO - Title: Njuskalo.hr oglasnik
+2025-11-09 21:34:35,979 - INFO - URL(last visited page/subpage): https://www.njuskalo.hr/moje-njuskalo/privatni/moji-oglasi/aktivni-oglasi
+2025-11-09 21:34:35,979 - INFO - Cookies captured: 50
+2025-11-09 21:34:35,980 - INFO - Requests captured: 1505
+2025-11-09 21:34:35,982 - INFO - [88/34799] Crawling: joyclub.de
+2025-11-09 21:34:35,984 - INFO - Using profile: joyclub_de
+2025-11-09 21:34:36,421 - INFO - ChromeDriver initialized successfully
+2025-11-09 21:34:36,422 - INFO - Navigating to domain root first: https://joyclub.de
+2025-11-09 21:34:38,911 - INFO - Waiting for 180 seconds...
+2025-11-09 21:34:38,911 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 21:35:47,718 - INFO - Capturing data...
+2025-11-09 21:35:51,596 - INFO - Captured 787 requests with 0 cookies set via network activity
+2025-11-09 21:35:51,603 - INFO - Data saved: 16 cookie entries with request associations
+2025-11-09 21:35:51,668 - INFO - Removed joyclub.de from urls/EU_websites.csv after successful crawl
+2025-11-09 21:35:51,671 - INFO - Title: AlexFischer ♥ Woman - Limburg
+2025-11-09 21:35:51,674 - INFO - URL(last visited page/subpage): https://www.joyclub.de/profile/13086218.alexfischer.html
+2025-11-09 21:35:51,674 - INFO - Cookies captured: 16
+2025-11-09 21:35:51,674 - INFO - Requests captured: 787
+2025-11-09 21:35:51,677 - INFO - [89/34799] Crawling: case-battle.at
+2025-11-09 21:35:51,679 - INFO - Using profile: case_battle_at
+2025-11-09 21:35:52,091 - INFO - ChromeDriver initialized successfully
+2025-11-09 21:35:52,091 - INFO - Navigating to domain root first: https://case-battle.at
+2025-11-09 21:35:54,975 - INFO - Waiting for 180 seconds...
+2025-11-09 21:35:54,975 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 21:36:56,594 - INFO - Capturing data...
+2025-11-09 21:37:01,057 - INFO - Captured 801 requests with 0 cookies set via network activity
+2025-11-09 21:37:01,062 - INFO - Data saved: 4 cookie entries with request associations
+2025-11-09 21:37:01,067 - INFO - Title: Case-Battle :: We're giving away cool CS:GO skins.
+2025-11-09 21:37:01,072 - INFO - URL(last visited page/subpage): https://case-battle.co/
+2025-11-09 21:37:01,072 - INFO - Cookies captured: 4
+2025-11-09 21:37:01,072 - INFO - Requests captured: 801
+2025-11-09 21:37:01,073 - INFO - [90/34799] Crawling: ladies.de
+2025-11-09 21:37:01,075 - INFO - Using profile: ladies_de
+2025-11-09 21:37:01,437 - INFO - ChromeDriver initialized successfully
+2025-11-09 21:37:01,437 - INFO - Navigating to domain root first: https://ladies.de
+2025-11-09 21:37:02,723 - INFO - Waiting for 180 seconds...
+2025-11-09 21:37:02,723 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 21:37:02,723 - INFO - Capturing data...
+2025-11-09 21:37:02,935 - INFO - Captured 36 requests with 0 cookies set via network activity
+2025-11-09 21:37:02,938 - INFO - Data saved: 2 cookie entries with request associations
+2025-11-09 21:37:03,002 - INFO - Removed ladies.de from urls/EU_websites.csv after successful crawl
+2025-11-09 21:37:03,006 - INFO - Title: Ladies DE | Rotlicht Erotik Portal | Huren, Escort, Sex Clubs, TS
+2025-11-09 21:37:03,009 - INFO - URL(last visited page/subpage): https://ladies.de/
+2025-11-09 21:37:03,009 - INFO - Cookies captured: 2
+2025-11-09 21:37:03,009 - INFO - Requests captured: 36
+2025-11-09 21:37:03,011 - INFO - [91/34799] Crawling: publi24.ro
+2025-11-09 21:37:03,012 - INFO - Using profile: publi24_ro
+2025-11-09 21:37:03,450 - INFO - ChromeDriver initialized successfully
+2025-11-09 21:37:03,450 - INFO - Navigating to domain root first: https://publi24.ro
+2025-11-09 21:37:06,744 - INFO - Waiting for 180 seconds...
+2025-11-09 21:37:06,744 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 21:39:35,246 - INFO - Capturing data...
+2025-11-09 21:39:40,586 - INFO - Captured 603 requests with 0 cookies set via network activity
+2025-11-09 21:39:40,592 - INFO - Data saved: 13 cookie entries with request associations
+2025-11-09 21:39:40,653 - INFO - Removed publi24.ro from urls/EU_websites.csv after successful crawl
+2025-11-09 21:39:40,656 - INFO - Title: 
+2025-11-09 21:39:40,659 - INFO - URL(last visited page/subpage): https://www.publi24.ro/profile-edit
+2025-11-09 21:39:40,659 - INFO - Cookies captured: 15
+2025-11-09 21:39:40,659 - INFO - Requests captured: 603
+2025-11-09 21:39:40,661 - INFO - [92/34799] Crawling: skelbiu.lt
+2025-11-09 21:39:40,665 - INFO - Using profile: skelbiu_lt
+2025-11-09 21:39:41,070 - INFO - ChromeDriver initialized successfully
+2025-11-09 21:39:41,070 - INFO - Navigating to domain root first: https://skelbiu.lt
+2025-11-09 21:40:12,728 - INFO - Waiting for 180 seconds...
+2025-11-09 21:40:12,728 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 21:42:12,840 - INFO - Capturing data...
+2025-11-09 21:42:19,193 - INFO - Captured 657 requests with 0 cookies set via network activity
+2025-11-09 21:42:19,206 - INFO - Data saved: 61 cookie entries with request associations
+2025-11-09 21:42:19,216 - INFO - Title: Skelbimai: lankomiausias Lietuvoje pardavimo, nuomos ir kitų skelbimų portalas - Skelbiu.lt
+2025-11-09 21:42:19,221 - INFO - URL(last visited page/subpage): https://www.skelbiu.lt/users/signin
+2025-11-09 21:42:19,222 - INFO - Cookies captured: 61
+2025-11-09 21:42:19,222 - INFO - Requests captured: 657
+2025-11-09 21:42:19,222 - INFO - [93/34799] Crawling: diretta.it
+2025-11-09 21:42:19,224 - INFO - Using profile: diretta_it
+2025-11-09 21:42:19,650 - INFO - ChromeDriver initialized successfully
+2025-11-09 21:42:19,650 - INFO - Navigating to domain root first: https://diretta.it
+2025-11-09 21:43:27,235 - INFO - Waiting for 180 seconds...
+2025-11-09 21:43:27,235 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 21:45:07,442 - INFO - Capturing data...
+2025-11-09 21:45:27,470 - INFO - Captured 2039 requests with 0 cookies set via network activity
+2025-11-09 21:45:27,498 - INFO - Data saved: 19 cookie entries with request associations
+2025-11-09 21:45:27,573 - INFO - Removed diretta.it from urls/EU_websites.csv after successful crawl
+2025-11-09 21:45:27,576 - INFO - Title: Diretta.it: Serie A, risultati calcio in tempo reale e partite in diretta
+2025-11-09 21:45:27,579 - INFO - URL(last visited page/subpage): https://www.diretta.it/
+2025-11-09 21:45:27,579 - INFO - Cookies captured: 42
+2025-11-09 21:45:27,579 - INFO - Requests captured: 2039
+2025-11-09 21:45:27,582 - INFO - [94/34799] Crawling: autoplius.lt
+2025-11-09 21:45:27,587 - INFO - Using profile: autoplius_lt
+2025-11-09 21:45:29,421 - INFO - ChromeDriver initialized successfully
+2025-11-09 21:45:29,422 - INFO - Navigating to domain root first: https://autoplius.lt
+2025-11-09 21:45:32,194 - INFO - Waiting for 180 seconds...
+2025-11-09 21:45:32,194 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 21:45:32,195 - INFO - Capturing data...
+2025-11-09 21:45:32,693 - INFO - Captured 100 requests with 0 cookies set via network activity
+2025-11-09 21:45:32,696 - INFO - Data saved: 8 cookie entries with request associations
+2025-11-09 21:45:32,766 - INFO - Removed autoplius.lt from urls/EU_websites.csv after successful crawl
+2025-11-09 21:45:32,770 - INFO - Title: Automobilių skelbimai Nr.1 - Automobiliai, motociklai, dalys, technika - Autoplius.lt
+2025-11-09 21:45:32,772 - INFO - URL(last visited page/subpage): https://autoplius.lt/
+2025-11-09 21:45:32,772 - INFO - Cookies captured: 8
+2025-11-09 21:45:32,772 - INFO - Requests captured: 100
+2025-11-09 21:45:32,774 - INFO - [95/34799] Crawling: flashscore.fr
+2025-11-09 21:45:32,774 - INFO - Using profile: flashscore_fr
+2025-11-09 21:45:33,255 - INFO - ChromeDriver initialized successfully
+2025-11-09 21:45:33,255 - INFO - Navigating to domain root first: https://flashscore.fr
+2025-11-09 21:46:38,245 - INFO - Waiting for 180 seconds...
+2025-11-09 21:46:38,245 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 21:48:00,232 - INFO - Capturing data...
+2025-11-09 21:48:20,201 - INFO - Captured 2100 requests with 0 cookies set via network activity
+2025-11-09 21:48:20,238 - INFO - Data saved: 23 cookie entries with request associations
+2025-11-09 21:48:20,318 - INFO - Removed flashscore.fr from urls/EU_websites.csv after successful crawl
+2025-11-09 21:48:20,329 - INFO - Title: Foot en direct, Résultats Foot, Match en Direct Live | Flashscore.fr
+2025-11-09 21:48:20,335 - INFO - URL(last visited page/subpage): https://www.flashscore.fr/
+2025-11-09 21:48:20,335 - INFO - Cookies captured: 42
+2025-11-09 21:48:20,335 - INFO - Requests captured: 2100
+2025-11-09 21:48:20,338 - INFO - [96/34799] Crawling: annunci69.it
+2025-11-09 21:48:20,340 - INFO - Using profile: annunci69_it
+2025-11-09 21:48:20,912 - INFO - ChromeDriver initialized successfully
+2025-11-09 21:48:20,912 - INFO - Navigating to domain root first: https://annunci69.it
+2025-11-09 21:49:26,056 - INFO - Waiting for 180 seconds...
+2025-11-09 21:49:26,056 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 21:49:26,056 - INFO - Capturing data...
+2025-11-09 21:49:26,616 - INFO - Captured 116 requests with 0 cookies set via network activity
+2025-11-09 21:49:26,619 - INFO - Data saved: 2 cookie entries with request associations
+2025-11-09 21:49:26,624 - INFO - Title: Annunci69.it - ​​Couple Swapping and Erotic Ads, Stories, Car Sex
+2025-11-09 21:49:26,630 - INFO - URL(last visited page/subpage): https://www.annunci69.it/
+2025-11-09 21:49:26,630 - INFO - Cookies captured: 2
+2025-11-09 21:49:26,630 - INFO - Requests captured: 116
+2025-11-09 21:49:26,630 - INFO - [97/34799] Crawling: livescore.cz
+2025-11-09 21:49:26,630 - INFO - Using profile: livescore_cz
+2025-11-09 21:49:27,020 - INFO - ChromeDriver initialized successfully
+2025-11-09 21:49:27,021 - INFO - Navigating to domain root first: https://livescore.cz
+2025-11-09 21:49:30,652 - INFO - Waiting for 180 seconds...
+2025-11-09 21:49:30,652 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 21:50:34,429 - INFO - Capturing data...
+2025-11-09 21:50:35,417 - INFO - Captured 207 requests with 0 cookies set via network activity
+2025-11-09 21:50:35,420 - INFO - Data saved: 3 cookie entries with request associations
+2025-11-09 21:50:35,427 - INFO - Title: Livescore - soccer results
+2025-11-09 21:50:35,433 - INFO - URL(last visited page/subpage): https://www.livescore.cz/?d=0&s=1
+2025-11-09 21:50:35,433 - INFO - Cookies captured: 3
+2025-11-09 21:50:35,433 - INFO - Requests captured: 207
+2025-11-09 21:50:35,433 - INFO - [98/34799] Crawling: com.se
+2025-11-09 21:50:35,433 - INFO - Using profile: com_se
+2025-11-09 21:50:35,868 - INFO - ChromeDriver initialized successfully
+2025-11-09 21:50:35,869 - INFO - Navigating to domain root first: https://com.se
+2025-11-09 21:50:36,502 - ERROR - Error visiting https://com.se: Message: unknown error: net::ERR_CONNECTION_RESET
+  (Session info: chrome=142.0.7444.61)
+Stacktrace:
+#0 0x63067529eaca <unknown>
+#1 0x630674ceacdb <unknown>
+#2 0x630674ce1bd5 <unknown>
+#3 0x630674cd2f86 <unknown>
+#4 0x630674cd4d52 <unknown>
+#5 0x630674cd34f2 <unknown>
+#6 0x630674cd2cb5 <unknown>
+#7 0x630674cd2967 <unknown>
+#8 0x630674cd076f <unknown>
+#9 0x630674cd0f8a <unknown>
+#10 0x630674cee479 <unknown>
+#11 0x630674d8a8c5 <unknown>
+#12 0x630674d89c87 <unknown>
+#13 0x630674d2faca <unknown>
+#14 0x630674d307d1 <unknown>
+#15 0x630675265a99 <unknown>
+#16 0x630675268a6c <unknown>
+#17 0x63067524ed29 <unknown>
+#18 0x630675269665 <unknown>
+#19 0x6306752366a3 <unknown>
+#20 0x63067528b7b8 <unknown>
+#21 0x63067528b993 <unknown>
+#22 0x63067529da63 <unknown>
+#23 0x786bcc09caa4 <unknown>
+#24 0x786bcc129c6c <unknown>
+
+2025-11-09 21:50:36,566 - ERROR - Failed to crawl com.se, continuing to next...
+2025-11-09 21:50:36,566 - INFO - [99/34799] Crawling: nirvam.it
+2025-11-09 21:50:36,566 - INFO - Using profile: nirvam_it
+2025-11-09 21:50:36,882 - INFO - ChromeDriver initialized successfully
+2025-11-09 21:50:36,882 - INFO - Navigating to domain root first: https://nirvam.it
+2025-11-09 21:50:39,659 - INFO - Waiting for 180 seconds...
+2025-11-09 21:50:39,659 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 21:53:42,852 - INFO - No input received, proceeding without comment.
+2025-11-09 21:53:42,852 - INFO - Enter a comment to continue: 
+2025-11-09 21:54:02,344 - INFO - Capturing data...
+2025-11-09 21:54:11,037 - INFO - Captured 1106 requests with 0 cookies set via network activity
+2025-11-09 21:54:11,049 - INFO - Data saved: 26 cookie entries with request associations
+2025-11-09 21:54:11,110 - INFO - Removed nirvam.it from urls/EU_websites.csv after successful crawl
+2025-11-09 21:54:11,114 - INFO - Title: .: N I R V A M :.
+2025-11-09 21:54:11,117 - INFO - URL(last visited page/subpage): https://www.nirvam.it/users/home.aspx
+2025-11-09 21:54:11,117 - INFO - Cookies captured: 26
+2025-11-09 21:54:11,117 - INFO - Requests captured: 1106
+2025-11-09 21:54:11,119 - INFO - [100/34799] Crawling: agenciatributaria.gob.es
+2025-11-09 21:54:11,120 - INFO - Using profile: agenciatributaria_gob_es
+2025-11-09 21:54:11,521 - INFO - ChromeDriver initialized successfully
+2025-11-09 21:54:11,521 - INFO - Navigating to domain root first: https://agenciatributaria.gob.es
+2025-11-09 21:54:12,130 - ERROR - Error visiting https://agenciatributaria.gob.es: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=142.0.7444.61)
+Stacktrace:
+#0 0x596b2bf64aca <unknown>
+#1 0x596b2b9b0cdb <unknown>
+#2 0x596b2b9a7bd5 <unknown>
+#3 0x596b2b998f86 <unknown>
+#4 0x596b2b99ad52 <unknown>
+#5 0x596b2b9994f2 <unknown>
+#6 0x596b2b998cb5 <unknown>
+#7 0x596b2b998967 <unknown>
+#8 0x596b2b99676f <unknown>
+#9 0x596b2b996f8a <unknown>
+#10 0x596b2b9b4479 <unknown>
+#11 0x596b2ba508c5 <unknown>
+#12 0x596b2ba4fc87 <unknown>
+#13 0x596b2b9f5aca <unknown>
+#14 0x596b2b9f67d1 <unknown>
+#15 0x596b2bf2ba99 <unknown>
+#16 0x596b2bf2ea6c <unknown>
+#17 0x596b2bf14d29 <unknown>
+#18 0x596b2bf2f665 <unknown>
+#19 0x596b2befc6a3 <unknown>
+#20 0x596b2bf517b8 <unknown>
+#21 0x596b2bf51993 <unknown>
+#22 0x596b2bf63a63 <unknown>
+#23 0x7b59cbe9caa4 <unknown>
+#24 0x7b59cbf29c6c <unknown>
+
+2025-11-09 21:54:12,198 - ERROR - Failed to crawl agenciatributaria.gob.es, continuing to next...
+2025-11-09 21:54:12,198 - INFO - [101/34799] Crawling: bato.si
+2025-11-09 21:54:12,198 - INFO - Using profile: bato_si
+2025-11-09 21:54:12,529 - INFO - ChromeDriver initialized successfully
+2025-11-09 21:54:12,529 - INFO - Navigating to domain root first: https://bato.si
+2025-11-09 21:54:16,242 - INFO - Waiting for 180 seconds...
+2025-11-09 21:54:16,242 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 21:55:27,795 - INFO - Capturing data...
+2025-11-09 21:55:31,477 - INFO - Captured 757 requests with 0 cookies set via network activity
+2025-11-09 21:55:31,482 - INFO - Data saved: 7 cookie entries with request associations
+2025-11-09 21:55:31,542 - INFO - Removed bato.si from urls/EU_websites.csv after successful crawl
+2025-11-09 21:55:31,549 - INFO - Title: My Sessions : Batoto - Read Free Manga Online
+2025-11-09 21:55:31,557 - INFO - URL(last visited page/subpage): https://bato.si/account/sessions
+2025-11-09 21:55:31,557 - INFO - Cookies captured: 7
+2025-11-09 21:55:31,557 - INFO - Requests captured: 757
+2025-11-09 21:55:31,565 - INFO - [102/34799] Crawling: impots.gouv.fr
+2025-11-09 21:55:31,565 - INFO - Using profile: impots_gouv_fr
+2025-11-09 21:55:31,934 - INFO - ChromeDriver initialized successfully
+2025-11-09 21:55:31,935 - INFO - Navigating to domain root first: https://impots.gouv.fr
+2025-11-09 21:55:34,582 - INFO - Waiting for 180 seconds...
+2025-11-09 21:55:34,582 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 21:56:34,924 - INFO - Capturing data...
+2025-11-09 21:56:35,795 - INFO - Captured 157 requests with 0 cookies set via network activity
+2025-11-09 21:56:35,799 - INFO - Data saved: 10 cookie entries with request associations
+2025-11-09 21:56:35,806 - INFO - Title: Individuals | authentication
+2025-11-09 21:56:35,811 - INFO - URL(last visited page/subpage): https://cfspart-idp.impots.gouv.fr/oauth2/authorize?authType=sso&redirect_uri=https%3A%2F%2Fcfspart.impots.gouv.fr%2F%3Fopenidconnectcallback%3D1&prompt=login&response_type=code&nonce=ovLREJV6LZjnlpmS0aoPBw&state=645ee8425b69f1fe62481caa9659f5aae861fb430de0655aa81a1a272807b652&client_id=52ed02940b0f1c57512f2d6fd064dddffccdea03&scope=openid+profile+authChoice+otpEscape
+2025-11-09 21:56:35,811 - INFO - Cookies captured: 10
+2025-11-09 21:56:35,811 - INFO - Requests captured: 157
+2025-11-09 21:56:35,811 - INFO - [103/34799] Crawling: simpli.fi
+2025-11-09 21:56:35,811 - INFO - Using profile: simpli_fi
+2025-11-09 21:56:36,202 - INFO - ChromeDriver initialized successfully
+2025-11-09 21:56:36,203 - INFO - Navigating to domain root first: https://simpli.fi
+2025-11-09 21:56:42,541 - INFO - Waiting for 180 seconds...
+2025-11-09 21:56:42,541 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 21:59:04,708 - INFO - Capturing data...
+2025-11-09 21:59:05,994 - INFO - Captured 256 requests with 0 cookies set via network activity
+2025-11-09 21:59:06,003 - INFO - Data saved: 50 cookie entries with request associations
+2025-11-09 21:59:06,015 - INFO - Title: Simpli.fi, AdTech's Leading Advertising Success Platform
+2025-11-09 21:59:06,019 - INFO - URL(last visited page/subpage): https://simpli.fi/
+2025-11-09 21:59:06,019 - INFO - Cookies captured: 53
+2025-11-09 21:59:06,019 - INFO - Requests captured: 256
+2025-11-09 21:59:06,020 - INFO - [104/34799] Crawling: spiegel.de
+2025-11-09 21:59:06,020 - INFO - Using profile: spiegel_de
+2025-11-09 21:59:06,413 - INFO - ChromeDriver initialized successfully
+2025-11-09 21:59:06,414 - INFO - Navigating to domain root first: https://spiegel.de
+2025-11-09 22:00:09,925 - INFO - Waiting for 180 seconds...
+2025-11-09 22:00:09,925 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 22:00:59,010 - INFO - Capturing data...
+2025-11-09 22:01:01,760 - INFO - Captured 465 requests with 0 cookies set via network activity
+2025-11-09 22:01:01,771 - INFO - Data saved: 73 cookie entries with request associations
+2025-11-09 22:01:01,847 - INFO - Removed spiegel.de from urls/EU_websites.csv after successful crawl
+2025-11-09 22:01:01,850 - INFO - Title: For me - DER SPIEGEL
+2025-11-09 22:01:01,852 - INFO - URL(last visited page/subpage): https://www.spiegel.de/fuermich/
+2025-11-09 22:01:01,852 - INFO - Cookies captured: 74
+2025-11-09 22:01:01,852 - INFO - Requests captured: 465
+2025-11-09 22:01:01,855 - INFO - [105/34799] Crawling: 5movierulz.at
+2025-11-09 22:01:01,855 - INFO - Using profile: 5movierulz_at
+2025-11-09 22:01:02,262 - INFO - ChromeDriver initialized successfully
+2025-11-09 22:01:02,263 - INFO - Navigating to domain root first: https://5movierulz.at
+2025-11-09 22:01:08,454 - INFO - Waiting for 180 seconds...
+2025-11-09 22:01:08,454 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 22:01:08,454 - INFO - Capturing data...
+2025-11-09 22:01:08,922 - INFO - Captured 86 requests with 0 cookies set via network activity
+2025-11-09 22:01:08,925 - INFO - Data saved: 8 cookie entries with request associations
+2025-11-09 22:01:08,982 - INFO - Removed 5movierulz.at from urls/EU_websites.csv after successful crawl
+2025-11-09 22:01:08,985 - INFO - Title: Movierulz | Watch Bollywood and Hollywood Full Movies Online Free
+2025-11-09 22:01:08,987 - INFO - URL(last visited page/subpage): https://www.5movierulz.tienda/
+2025-11-09 22:01:08,987 - INFO - Cookies captured: 9
+2025-11-09 22:01:08,988 - INFO - Requests captured: 86
+2025-11-09 22:01:08,989 - INFO - [106/34799] Crawling: filmywap.com.cy
+2025-11-09 22:01:08,989 - INFO - Using profile: filmywap_com_cy
+2025-11-09 22:01:09,381 - INFO - ChromeDriver initialized successfully
+2025-11-09 22:01:09,381 - INFO - Navigating to domain root first: https://filmywap.com.cy
+2025-11-09 22:01:12,504 - INFO - Waiting for 180 seconds...
+2025-11-09 22:01:12,504 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 22:01:36,086 - INFO - Capturing data...
+2025-11-09 22:01:36,485 - INFO - Captured 72 requests with 0 cookies set via network activity
+2025-11-09 22:01:36,488 - INFO - Data saved: 4 cookie entries with request associations
+2025-11-09 22:01:36,494 - INFO - Title: Filmywap.com | Filmywap 2025 Bollywood Movies Download, Latest Hindi HD Movies, Hollywood Hindi Dubbed Movies, South Indian Hindi Dubbed Movies Free Download
+2025-11-09 22:01:36,498 - INFO - URL(last visited page/subpage): https://www.24filmywap.com/
+2025-11-09 22:01:36,499 - INFO - Cookies captured: 4
+2025-11-09 22:01:36,499 - INFO - Requests captured: 72
+2025-11-09 22:01:36,499 - INFO - [107/34799] Crawling: superhosting.bg
+2025-11-09 22:01:36,499 - INFO - Using profile: superhosting_bg
+2025-11-09 22:01:36,909 - INFO - ChromeDriver initialized successfully
+2025-11-09 22:01:36,909 - INFO - Navigating to domain root first: https://superhosting.bg
+2025-11-09 22:01:39,615 - INFO - Waiting for 180 seconds...
+2025-11-09 22:01:39,615 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 22:04:23,656 - INFO - Capturing data...
+2025-11-09 22:04:27,707 - INFO - Captured 545 requests with 0 cookies set via network activity
+2025-11-09 22:04:27,714 - INFO - Data saved: 16 cookie entries with request associations
+2025-11-09 22:04:27,725 - INFO - Title: Customer profile - SuperHosting.BG
+2025-11-09 22:04:27,732 - INFO - URL(last visited page/subpage): https://my.superhosting.bg/web-hosting-client-profile.php
+2025-11-09 22:04:27,732 - INFO - Cookies captured: 16
+2025-11-09 22:04:27,732 - INFO - Requests captured: 545
+2025-11-09 22:04:27,733 - INFO - [108/34799] Crawling: google.nl
+2025-11-09 22:04:27,733 - INFO - Using profile: google_nl
+2025-11-09 22:04:28,093 - INFO - ChromeDriver initialized successfully
+2025-11-09 22:04:28,093 - INFO - Navigating to domain root first: https://google.nl
+2025-11-09 22:04:35,102 - INFO - Waiting for 180 seconds...
+2025-11-09 22:04:35,102 - INFO - Enter a comment for this crawl (or press Enter to skip): 
+2025-11-09 22:05:16,605 - INFO - Capturing data...
+2025-11-09 22:05:17,742 - INFO - Captured 198 requests with 0 cookies set via network activity
+2025-11-09 22:05:17,750 - INFO - Data saved: 59 cookie entries with request associations
+2025-11-09 22:05:17,811 - INFO - Removed google.nl from urls/EU_websites.csv after successful crawl
+2025-11-09 22:05:17,814 - INFO - Title: Google
+2025-11-09 22:05:17,817 - INFO - URL(last visited page/subpage): https://www.google.com/
+2025-11-09 22:05:17,817 - INFO - Cookies captured: 59
+2025-11-09 22:05:17,817 - INFO - Requests captured: 198
+2025-11-09 22:05:39,063 - INFO - Crawling session ended by user
+2025-11-09 22:05:39,160 - INFO - Browser closed
+2025-11-09 22:05:39,160 - INFO - Crawler session completed

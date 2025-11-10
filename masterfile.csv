@@ -1,4 +1,109 @@
 Id,URL,Region,Page Title,Crawling Status,Number of Cookies,Number of Requests,Last Successful Crawl,Comment
-1,https://youtu.be,EU,,Failed,0,0,2025-10-22T16:02:07.855884,Connection timeout
-1,https://zoom.us,USA,,Failed,0,0,2025-10-22T16:39:26.743907,Connection timeout
-2,https://tiktokv.us,USA,,Failed,0,0,2025-10-22T16:39:28.152381,Connection timeout
+1,https://youtu.be,EU,YouTube,Success,62,738,2025-11-09T15:49:26.228526,
+2,https://telekom.de,EU,"Telekom | Mobilfunk, Festnetz & Internet, TV Angebote",Failed,48,256,2025-11-09T15:50:19.360798,cant login - phone number required
+3,https://linktr.ee,EU,Linktree Admin,Success,89,1031,2025-11-09T15:52:09.821912,
+4,https://linkos.bg,EU,Линкос ООД - уеб и хостинг услуги,Failed,0,154,2025-11-09T15:53:43.608586,cant login - ambigious website
+5,https://google.de,EU,Google,Success,59,194,2025-11-09T15:54:18.719416,
+6,https://amazon.de,EU,"Amazon.de: Günstige Preise für Elektronik & Foto, Filme, Musik, Bücher, Games, Spielzeug & mehr",Failed,7,104,2025-11-09T15:54:46.326758,cant login - phone number required
+7,https://installatiegereedschap.nl,EU,Installatiegereedschap voor elke vakman | Installatiegereedschap.nl,Success,32,1027,2025-11-09T15:57:36.642880,
+8,https://google.fr,EU,Google,Success,59,185,2025-11-09T15:58:07.429870,
+9,https://t-online.de,EU,Telekom Login,Failed,97,233,2025-11-09T16:00:25.965953,cant login - linked to telekom.de and it requires a mobile phone
+10,https://mobile.de,EU,Zugriff verweigert / Access denied,Failed,9,68,2025-11-09T16:00:50.651710,Access denied
+11,https://rzone.de,EU,,Failed,0,0,2025-11-09T16:00:51.659857,Connection timeout
+12,https://google.es,EU,Google,Success,59,207,2025-11-09T16:01:39.568977,
+13,https://free.fr,EU,"Free : offres internet Fibre, Wi-Fi 7, TV et ligne fixe sans engagement",Failed,12,158,2025-11-09T16:02:37.256192,cant login - subscription account needed for this website
+14,https://google.it,EU,Google,Success,58,181,2025-11-09T16:03:13.420666,
+15,https://amazon.fr,EU,"Amazon.fr: books, DVDs, video games, music, high-tech, computers, toys, clothing, shoes, sports, DIY, home, beauty, childcare, groceries and more!",Failed,9,370,2025-11-09T16:03:51.393753,cant login - mobile phone needed
+16,https://sapo.pt,EU,SAPO – Última Hora e Notícias de Hoje atualizadas ao minuto,Success,22,664,2025-11-09T16:05:54.028637,
+17,https://lemonde.fr,EU,Le Monde.fr - Actualités et Infos en France et dans le monde,Success,49,1144,2025-11-09T16:08:28.935467,
+18,https://amazon.es,EU,"Amazon.es: online shopping for consumer electronics, books, sports, household items, fashion and more.",Success,16,557,2025-11-09T16:09:30.374160,
+19,https://wp.pl,EU,Wirtualna Polska - Wszystko co ważne - www.wp.pl,Success,82,514,2025-11-09T16:12:42.660069,
+20,https://amazon.it,EU,"Amazon.it: elettronica, libri, musica, fashion, videogiochi, DVD e tanto altro",Success,16,521,2025-11-09T16:13:18.721755,
+21,https://monster.ie,EU,Monster UK and MyPerfectCV maker - Create your online CV,Success,40,33,2025-11-09T16:15:32.148885,
+22,https://google.pl,EU,Google,Success,58,180,2025-11-09T16:18:00.493639,
+23,https://lefigaro.fr,EU,Le Figaro,Failed,0,33,2025-11-09T16:18:14.152677,access denied
+24,https://allegro.pl,EU,Allegro - atrakcyjne ceny - Strona Główna,Success,35,2775,2025-11-09T16:25:48.003118,
+25,https://onet.pl,EU,Onet – Jesteś na bieżąco,Success,109,2054,2025-11-09T16:30:15.823341,
+26,https://bild.de,EU,Aktuelle Nachrichten | BILD.de,Success,66,2062,2025-11-09T16:33:08.242656,
+27,https://seznam.cz,EU,List – I can find what I don't know there,Success,88,1364,2025-11-09T16:36:52.355031,
+28,https://otto.de,EU,OTTO - Anmelden,Failed,81,3193,2025-11-09T16:43:00.517966,problem with address (location)
+29,https://redd.it,EU,,Failed,0,0,2025-11-09T16:45:03.954171,Connection timeout
+30,https://repubblica.it,EU,"la Repubblica - News in tempo reale - Le notizie e i video di politica, cronaca, economia, sport",Success,65,663,2025-11-09T16:46:37.872516,
+31,https://delfi.lt,EU,Delfi news - The main news portal in Lithuania,Success,30,593,2025-11-09T16:48:52.018506,
+32,https://ebay.de,EU,"eBay.de | Elektronik, Autos, Mode, Sammlerstücke, Möbel und mehr Online-Shopping",Success,93,906,2025-11-09T16:52:34.688014,
+33,https://yukiworks.be,EU,,Failed,4,87,2025-11-09T16:56:09.100097,couldn't receive the confirmation mail
+34,https://corriere.it,EU,Profilo Utente - abbonamenti.corriere.it,Success,117,2210,2025-11-09T17:00:41.825260,
+35,https://elmundo.es,EU,Iniciar sesión - Registro de Usuarios de Unidad Editorial,Failed,38,774,2025-11-09T17:02:45.049196,technical issue in the login process
+36,https://focus.de,EU,FOCUS online - Aktuelle Nachrichten,Failed,75,1436,2025-11-09T17:04:35.819142,no login/registration form
+37,https://tagesschau.de,EU,tagesschau.de - die erste Adresse für Nachrichten und Information | tagesschau.de,Success,27,227,2025-11-09T17:05:30.403430,
+38,https://gandi-ns.fr,EU,,Failed,0,0,2025-11-09T17:05:31.484148,Connection timeout
+39,https://leparisien.fr,EU,Actualités en direct et info en continu - Le Parisien,Success,56,1106,2025-11-09T17:07:17.468358,
+40,https://francetvinfo.fr,EU,Franceinfo - Actualités en temps réel et info en direct,Success,17,904,2025-11-09T17:11:01.617424,
+41,https://interia.pl,EU,"Interia - Polska i świat: informacje, sport, gwiazdy.",Failed,38,1646,2025-11-09T17:14:53.264825,can only create a content creator account with custom mail provided by the website
+42,https://idnes.cz,EU,iDNES.cz – s námi víte víc,Success,84,1669,2025-11-09T17:18:24.399668,
+43,https://ouest-france.fr,EU,,Failed,0,0,2025-11-09T17:18:25.518642,Connection timeout
+44,https://n-tv.de,EU,,Failed,0,0,2025-11-09T17:19:15.328788,Connection timeout
+45,https://leboncoin.fr,EU,Création de compte,Failed,47,433,2025-11-09T17:20:26.451598,blocked
+46,https://kleinanzeigen.de,EU,,Failed,11,420,2025-11-09T17:58:51.365792,blocked
+47,https://ioam.de,EU,New customer registration - INFOnline GmbH,Failed,15,394,2025-11-09T17:59:52.364509,doesnt have a registration form
+48,https://20minutos.es,EU,"20minutos.es | Open Daily | Latest news, local, Spain and the world",Success,90,679,2025-11-09T18:03:23.684557,
+49,https://aftonbladet.se,EU,Nyheter från Sveriges största nyhetssajt,Success,36,764,2025-11-09T18:05:26.396297,
+50,https://olx.pl,EU,OLX.PL - Log in,Failed,57,618,2025-11-09T18:06:52.328908,denied access
+51,https://ad.nl,EU,"AD.nl, het laatste nieuws uit binnen- en buitenland, sport en show | AD.nl",Success,82,999,2025-11-09T18:09:27.968895,
+52,https://lequipe.fr,EU,L'Équipe - L'actualité du sport en continu.,Success,53,1052,2025-11-09T18:11:34.826262,
+53,https://monster.es,EU,Monster y miCVideal creador,Success,30,55,2025-11-09T18:13:25.920177,
+54,https://nu.nl,EU,NU - Het laatste nieuws het eerst op NU.nl,Success,82,477,2025-11-09T18:15:06.148831,
+55,https://remove.bg,EU,Upload Image – remove.bg,Success,33,282,2025-11-09T18:16:43.446318,
+56,https://gazzetta.it,EU,La Gazzetta dello Sport | Notizie sportive e risultati live di oggi,Success,89,957,2025-11-09T18:20:52.233731,
+57,https://hln.be,EU,"HLN - Het Laatste Nieuws - Volg het nieuws op de nr1 nieuwssite in België, HLN.be brengt je het allerlaatste nieuws 24/24 en 7/7, uit binnen - en buitenland, evenals dichtbij met nieuws uit je eigen regio. | hln.be",Success,74,628,2025-11-09T18:23:18.387666,
+58,https://marktplaats.nl,EU,Login Mijn Marktplaats,Failed,99,927,2025-11-09T18:27:14.986119,something went wrong message
+59,https://ebay.it,EU,eBay | Il Marketplace delle passioni,Success,89,561,2025-11-09T18:28:36.701693,
+60,https://fr.de,EU,"FR.de | News aus Politik, Wirtschaft, Sport, Frankfurt, Hessen und der Welt",Success,152,1039,2025-11-09T18:30:43.427932,
+61,https://merkur.de,EU,"Merkur.de | News aus Politik, Sport, für Verbraucher, der Welt und aus Bayern",Success,151,948,2025-11-09T18:32:08.617261,
+62,https://ladepeche.fr,EU,La Dépêche : Actualités en temps réel et l'info en continu - ladepeche.fr,Success,58,581,2025-11-09T18:33:26.192900,
+63,https://actu.fr,EU,Actu : toute l'information locale et nationale en direct,Success,54,910,2025-11-09T18:35:29.632664,
+64,https://tvn24.pl,EU,Wiadomości z kraju i ze świata - najnowsze informacje w TVN24 | TVN24,Success,64,702,2025-11-09T18:37:47.793393,
+65,https://subito.it,EU,Reserved Area Login - Subito.it,Failed,38,602,2025-11-09T18:39:59.682441,mobile phone confirmation required
+66,https://emag.ro,EU,eMAG.ro - Freedom every day,Failed,20,380,2025-11-09T20:46:06.649350,phone number required
+67,https://ilmessaggero.it,EU,Personal Area - My Profile,Success,46,1331,2025-11-09T20:49:00.894716,
+68,https://zalando.de,EU,Overview,Success,39,640,2025-11-09T20:50:40.997208,
+69,https://novinky.cz,EU,Novinky.cz - the most read news on the Czech Internet,Success,39,426,2025-11-09T20:51:45.398846,
+70,https://xnxx.es,EU,,Failed,0,0,2025-11-09T20:54:38.725163,Connection timeout
+71,https://index.hr,EU,Index.hr,Success,30,687,2025-11-09T20:56:08.450151,
+72,https://ilmeteo.it,EU,iLMeteo.it - ​​Personal Area,Success,18,334,2025-11-09T20:58:07.415828,
+73,https://mediaexpert.pl,EU,"Media Expert | Sklep internetowy RTV, AGD, komputery",Success,57,913,2025-11-09T21:00:59.450444,
+74,https://idealista.it,EU,"idealista, N.1 in Italia — Case e appartamenti, affitto e vendita, annunci gratuiti",Success,59,1239,2025-11-09T21:03:32.440623,
+75,https://iltalehti.fi,EU,Iltalehti | IL - Finland's largest news service,Success,36,332,2025-11-09T21:08:12.690724,
+76,https://protothema.gr,EU,Proto Thema - news from Greece and around the world - Breaking news,Failed,6,558,2025-11-09T21:09:47.094965,doesnt have registration/login form
+77,https://otomoto.pl,EU,"OTOMOTO - new and used cars, motorcycles, and car parts. Automotive classifieds.",Success,55,1648,2025-11-09T21:13:50.487716,
+78,https://eltiempo.es,EU,User profile,Success,21,1132,2025-11-09T21:17:07.904869,
+79,https://jutarnji.hr,EU,Jutarnji list - Users,Success,47,2356,2025-11-09T21:19:40.693400,
+80,https://ekstrabladet.dk,EU,"Nyheder, sport og underholdning",Success,68,645,2025-11-09T21:21:01.993057,
+81,https://tori.fi,EU,Tori.fi - Osta ja myy helposti uutta ja käytettyä,Success,37,896,2025-11-09T21:23:53.757227,
+82,https://toyhou.se,EU,Toyhouse,Failed,5,89,2025-11-09T21:25:53.114491,need an invitation code to register on the website
+83,https://xvideos.es,EU,Vídeos Porno Gratuitos - XVIDEOS.COM,Failed,1,77,2025-11-09T21:26:22.556034,Improper website
+84,https://librus.pl,EU,Librus - IT systems supporting education,Failed,1,184,2025-11-09T21:28:23.158837,doesnt have a login form
+85,https://bt.dk,EU,B.T.,Success,37,1004,2025-11-09T21:30:48.664934,
+86,https://leroymerlin.fr,EU,leroymerlin.fr,Failed,1,39,2025-11-09T21:31:04.597714,blocked
+87,https://njuskalo.hr,EU,Njuskalo.hr oglasnik,Success,50,1505,2025-11-09T21:34:35.916607,
+88,https://joyclub.de,EU,AlexFischer ♥ Woman - Limburg,Success,16,787,2025-11-09T21:35:51.608337,
+89,https://case-battle.at,EU,Case-Battle :: We're giving away cool CS:GO skins.,Failed,4,801,2025-11-09T21:37:01.064800,no login
+90,https://ladies.de,EU,"Ladies DE | Rotlicht Erotik Portal | Huren, Escort, Sex Clubs, TS",Success,2,36,2025-11-09T21:37:02.940978,
+91,https://publi24.ro,EU,,Success,15,603,2025-11-09T21:39:40.596598,
+92,https://skelbiu.lt,EU,"Skelbimai: lankomiausias Lietuvoje pardavimo, nuomos ir kitų skelbimų portalas - Skelbiu.lt",Failed,61,657,2025-11-09T21:42:19.211740,phone number required
+93,https://diretta.it,EU,"Diretta.it: Serie A, risultati calcio in tempo reale e partite in diretta",Success,42,2039,2025-11-09T21:45:27.502788,
+94,https://autoplius.lt,EU,"Automobilių skelbimai Nr.1 - Automobiliai, motociklai, dalys, technika - Autoplius.lt",Success,8,100,2025-11-09T21:45:32.698632,
+95,https://flashscore.fr,EU,"Foot en direct, Résultats Foot, Match en Direct Live | Flashscore.fr",Success,42,2100,2025-11-09T21:48:20.248605,
+96,https://annunci69.it,EU,"Annunci69.it - ​​Couple Swapping and Erotic Ads, Stories, Car Sex",Failed,2,116,2025-11-09T21:49:26.622124,improper website
+97,https://livescore.cz,EU,Livescore - soccer results,Failed,3,207,2025-11-09T21:50:35.422853,no login
+98,https://com.se,EU,,Failed,0,0,2025-11-09T21:50:36.565887,Connection timeout
+99,https://nirvam.it,EU,.: N I R V A M :.,Success,26,1106,2025-11-09T21:54:11.054265,
+100,https://agenciatributaria.gob.es,EU,,Failed,0,0,2025-11-09T21:54:12.197979,Connection timeout
+101,https://bato.si,EU,My Sessions : Batoto - Read Free Manga Online,Success,7,757,2025-11-09T21:55:31.484562,
+102,https://impots.gouv.fr,EU,Individuals | authentication,Failed,10,157,2025-11-09T21:56:35.802072,gouv website
+103,https://simpli.fi,EU,"Simpli.fi, AdTech's Leading Advertising Success Platform",Failed,53,256,2025-11-09T21:59:06.008355,no registration option
+104,https://spiegel.de,EU,For me - DER SPIEGEL,Success,74,465,2025-11-09T22:01:01.775909,
+105,https://5movierulz.at,EU,Movierulz | Watch Bollywood and Hollywood Full Movies Online Free,Success,9,86,2025-11-09T22:01:08.927694,
+106,https://filmywap.com.cy,EU,"Filmywap.com | Filmywap 2025 Bollywood Movies Download, Latest Hindi HD Movies, Hollywood Hindi Dubbed Movies, South Indian Hindi Dubbed Movies Free Download",Failed,4,72,2025-11-09T22:01:36.490526,no login
+107,https://superhosting.bg,EU,Customer profile - SuperHosting.BG,Failed,16,545,2025-11-09T22:04:27.719357,no registration
+108,https://google.nl,EU,Google,Success,59,198,2025-11-09T22:05:17.754736,

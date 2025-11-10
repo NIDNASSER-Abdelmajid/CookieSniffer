@@ -461,6 +461,7 @@ class WebCrawler:
 
             # Update masterfile.csv safely
             rows = []
+            updated = False
             with open('masterfile.csv', 'r', newline='', encoding='utf-8') as mf:
                 reader = csv.reader(mf)
                 header = next(reader)
@@ -474,7 +475,6 @@ class WebCrawler:
                         # Update existing row
                         row[2] = category  # Region
                         row[3] = self.driver.title
-                        row[3] = self.driver.title
                         row[4] = "Success" if not comment else "Failed"
                         row[5] = str(len(cookies))
                         row[6] = str(len(requests))
@@ -485,10 +485,7 @@ class WebCrawler:
             
             if not updated:
                 # Append new row
-                if 'Region' not in header:
-                    new_row = [str(website_index), url, category, self.driver.title, "Success" if not comment else "Failed", str(len(cookies)), str(len(requests)), datetime.now().isoformat(), comment]
-                else:
-                    new_row = [str(website_index), url, category, self.driver.title, "Success" if not comment else "Failed", str(len(cookies)), str(len(requests)), datetime.now().isoformat(), comment]
+                new_row = [str(website_index), url, category, self.driver.title, "Success" if not comment else "Failed", str(len(cookies)), str(len(requests)), datetime.now().isoformat(), comment]
                 rows.append(new_row)
             
             with open('masterfile.csv', 'w', newline='', encoding='utf-8') as mf:
@@ -496,23 +493,28 @@ class WebCrawler:
                 writer.writerows(rows)
             
             # Remove from input file if success
-            if file_path and not comment:
-                # Read CSV and remove the domain
-                import csv
-                rows = []
-                with open(file_path, 'r', newline='', encoding='utf-8') as f:
-                    reader = csv.DictReader(f)
-                    rows = [row for row in reader if row['Domain'] != domain_to_remove]
-                
-                # Write back without the removed domain
-                if rows:
-                    with open(file_path, 'w', newline='', encoding='utf-8') as f:
-                        if rows:
-                            writer = csv.DictWriter(f, fieldnames=rows[0].keys())
+            if not comment and category in ("EU", "USA"):
+                # Determine source CSV by category
+                source_csv = 'urls/EU_websites.csv' if category == 'EU' else 'urls/USA_websites.csv'
+                domain_to_remove = urlparse(url).netloc.replace('www.', '')
+                try:
+                    # Read CSV and remove the domain
+                    remaining_rows = []
+                    with open(source_csv, 'r', newline='', encoding='utf-8') as f:
+                        reader = csv.DictReader(f)
+                        fieldnames = reader.fieldnames or []
+                        for row in reader:
+                            if row.get('Domain', '').strip() != domain_to_remove:
+                                remaining_rows.append(row)
+                    # Write back without the removed domain
+                    with open(source_csv, 'w', newline='', encoding='utf-8') as f:
+                        if fieldnames:
+                            writer = csv.DictWriter(f, fieldnames=fieldnames)
                             writer.writeheader()
-                            writer.writerows(rows)
-                
-                self.logger.info(f"Removed {domain_to_remove} from {file_path} after successful crawl")
+                            writer.writerows(remaining_rows)
+                    self.logger.info(f"Removed {domain_to_remove} from {source_csv} after successful crawl")
+                except Exception as rem_err:
+                    self.logger.error(f"Error updating source list {source_csv}: {rem_err}")
             
             self.logger.info(f"Title: {self.driver.title}")
             self.logger.info(f"URL(last visited page/subpage): {self.driver.current_url}")

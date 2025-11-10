@@ -1,0 +1,13 @@
+__pycache__/
+env/
+logs/
+*.log
+test.py
+profiles/
+urls/
+# data/
+trash.txt
+analysis.py
+# *.csv
+# *.json
+*.tsv
