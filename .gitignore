@@ -1,13 +1,14 @@
-__pycache__/
 env/
 logs/
 *.log
 test.py
 profiles/
 urls/
-# data/
+data/
 trash.txt
 analysis.py
-# *.csv
-# *.json
+*.csv
+*.json
 *.tsv
+trash.txt
+__pycache__/
