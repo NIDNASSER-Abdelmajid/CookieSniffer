@@ -23,6 +23,8 @@ python run_contact_scraper.py -d example.com -o contacts.csv
 
 # GDPR data analysis (convert cookie JSON -> CSV)
 python Sec_GDPR_Right_DataAnalysis.py -i data/google_de.json -o cleaned.csv
+# Aggregate all JSON files in a folder
+python Sec_GDPR_Right_DataAnalysis.py -d data -o aggregated.csv
 ```
 
 ## Command Options
@@ -47,6 +49,7 @@ python Sec_GDPR_Right_DataAnalysis.py -i data/google_de.json -o cleaned.csv
 ### GDPR Data Analysis (Sec_GDPR_Right_DataAnalysis.py)
 
 - `-i PATH`: Input JSON file or folder containing `data.json`
+- `-d DIR`: Directory of JSON files to aggregate
 - `-o FILE`: Output CSV file path
 
 ## Project Structure

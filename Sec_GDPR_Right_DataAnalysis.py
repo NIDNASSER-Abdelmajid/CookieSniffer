@@ -1,6 +1,7 @@
 import os
 import json
 import argparse
+import glob
 import pandas as pd
 import tld
 
@@ -19,9 +20,8 @@ def load_cookie_data(input_path):
         return json.load(f)
 
 
-def process_json_to_csv(input_path, output_path):
-    cookie_data = load_cookie_data(input_path)
-
+def expand_cookie_data(cookie_data):
+    """Normalize cookie/request data to a list of flat rows."""
     expanded_rows = []
 
     # Case 1: legacy structure with cookies/requests keys
@@ -44,10 +44,11 @@ def process_json_to_csv(input_path, output_path):
                 print(f"Skipping invalid cookie domain: {cookie_domain_raw}")
                 continue
 
-            if source_url_tld and cookie_domain_tld == source_url_tld:
-                party_type = "First-party"
-            else:
-                party_type = "Third-party"
+            party_type = (
+                "First-party"
+                if source_url_tld and cookie_domain_tld == source_url_tld
+                else "Third-party"
+            )
 
             for request in requests:
                 expanded_rows.append(
@@ -73,7 +74,6 @@ def process_json_to_csv(input_path, output_path):
     # Case 2: flattened list of entries (already expanded by crawler)
     elif isinstance(cookie_data, list):
         for entry in cookie_data:
-            # Preserve existing party_type; also compute party_type_tld for consistency
             cookie_domain = entry.get("cookie_domain", "")
             source_url = entry.get("source_url", "")
 
@@ -100,6 +100,13 @@ def process_json_to_csv(input_path, output_path):
     else:
         raise ValueError("Unsupported input JSON structure")
 
+    return expanded_rows
+
+
+def process_json_to_csv(input_path, output_path):
+    cookie_data = load_cookie_data(input_path)
+    expanded_rows = expand_cookie_data(cookie_data)
+
     expanded_df = pd.DataFrame(expanded_rows)
     expanded_df = expanded_df.drop_duplicates()
     expanded_df.to_csv(output_path, index=False)
@@ -109,12 +116,19 @@ def process_json_to_csv(input_path, output_path):
 
 def parse_args():
     parser = argparse.ArgumentParser(description="GDPR Data Analysis")
-    parser.add_argument(
+
+    group = parser.add_mutually_exclusive_group(required=True)
+    group.add_argument(
         "-i",
         "--input",
-        required=True,
-        help="Path to input json file or folder containing data.json",
+        help="Path to a single input json file or folder containing data.json",
     )
+    group.add_argument(
+        "-d",
+        "--input-dir",
+        help="Directory containing multiple JSON files to aggregate",
+    )
+
     parser.add_argument(
         "-o",
         "--output",
@@ -126,7 +140,29 @@ def parse_args():
 
 def main():
     args = parse_args()
-    process_json_to_csv(args.input, args.output)
+    if args.input_dir:
+        json_files = sorted(glob.glob(os.path.join(args.input_dir, "*.json")))
+        if not json_files:
+            raise FileNotFoundError(
+                f"No JSON files found in directory: {args.input_dir}"
+            )
+
+        all_rows = []
+        for jf in json_files:
+            try:
+                cookie_data = load_cookie_data(jf)
+                all_rows.extend(expand_cookie_data(cookie_data))
+            except Exception as e:
+                print(f"Skipping {jf}: {e}")
+
+        df = pd.DataFrame(all_rows)
+        df = df.drop_duplicates()
+        df.to_csv(args.output, index=False)
+        print(
+            f"Aggregated {len(df)} rows from {len(json_files)} files into {args.output}"
+        )
+    else:
+        process_json_to_csv(args.input, args.output)
 
 
 if __name__ == "__main__":
