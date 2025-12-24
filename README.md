@@ -20,6 +20,9 @@ python cli.py -u example.com -t 30
 
 # Privacy contacts only (without full crawl)
 python run_contact_scraper.py -d example.com -o contacts.csv
+
+# GDPR data analysis (convert cookie JSON -> CSV)
+python Sec_GDPR_Right_DataAnalysis.py -i data/google_de.json -o cleaned.csv
 ```
 
 ## Command Options
@@ -40,6 +43,11 @@ python run_contact_scraper.py -d example.com -o contacts.csv
 - `-f FILE`: File with domain list
 - `-o FILE`: Output CSV file
 - `--top-picks`: Save top N findings per domain
+
+### GDPR Data Analysis (Sec_GDPR_Right_DataAnalysis.py)
+
+- `-i PATH`: Input JSON file or folder containing `data.json`
+- `-o FILE`: Output CSV file path
 
 ## Project Structure
 
