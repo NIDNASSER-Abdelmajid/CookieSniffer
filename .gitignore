@@ -1,14 +1,15 @@
+# Virtual Environment
 env/
+
+# Logs
 logs/
 *.log
-test.py
+
+# Runtime data & Caches
 profiles/
-urls/
-data/
-trash.txt
-analysis.py
-*.csv
-*.json
-*.tsv
-trash.txt
 __pycache__/
+.vscode/
+
+# Excluded Documentation
+CHANGELOG.md
+QUICKSTART.md
