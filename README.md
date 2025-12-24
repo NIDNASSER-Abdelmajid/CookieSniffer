@@ -23,6 +23,7 @@ python run_contact_scraper.py -d example.com -o contacts.csv
 
 # GDPR data analysis (convert cookie JSON -> CSV)
 python Sec_GDPR_Right_DataAnalysis.py -i data/google_de.json -o cleaned.csv
+
 # Aggregate all JSON files in a folder
 python Sec_GDPR_Right_DataAnalysis.py -d data -o aggregated.csv
 ```
