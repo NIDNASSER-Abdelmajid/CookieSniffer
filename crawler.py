@@ -77,8 +77,6 @@ class WebCrawler:
         )
         chrome_options.add_experimental_option("useAutomationExtension", False)
 
-        # TODO: Implement next step here
-
         try:
             self.driver = webdriver.Chrome(options=chrome_options)
 
@@ -506,31 +504,13 @@ class WebCrawler:
             WebDriverWait(self.driver, 20).until(
                 EC.presence_of_element_located((By.TAG_NAME, "body"))
             )
-            self.logger.info(f"Waiting for {wait_time} seconds...")
-            # time.sleep(wait_time)
-            comment = [""]
-            input_received = threading.Event()
+            self.logger.info(f"Waiting for {wait_time} seconds for the page to load...")
+            time.sleep(wait_time)
 
-            def wait_for_input():
-                self.logger.info(
-                    "Enter a comment for this crawl (or press Enter to skip): "
-                )
-                comment[0] = input("> ")
-                input_received.set()
-
-            input_thread = threading.Thread(target=wait_for_input)
-            input_thread.daemon = True
-            input_thread.start()
-
-            input_received.wait(timeout=wait_time)
-
-            if not input_received.is_set():
-                print()  # Move to next line after timeout
-                self.logger.info("No input received, proceeding without comment.")
-                self.logger.info("Enter a comment to continue: ")
-                input_thread.join()
-
-            comment = comment[0]
+            self.logger.info("Waiting for user input...")
+            comment = input(
+                "Enter a comment for this crawl (or press Enter to skip): "
+            )
 
             self.logger.info("Capturing data...")
             cookies = self._capture_all_cookies()
