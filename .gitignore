@@ -13,3 +13,9 @@ __pycache__/
 # Excluded Documentation
 CHANGELOG.md
 QUICKSTART.md
+
+# Excluded Data Files
+Processed_Data/
+
+# Excluded Test Files
+test.py

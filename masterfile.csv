@@ -107,4 +107,5 @@ Id,URL,Region,Page Title,Crawling Status,Number of Cookies,Number of Requests,La
 106,https://filmywap.com.cy,EU,"Filmywap.com | Filmywap 2025 Bollywood Movies Download, Latest Hindi HD Movies, Hollywood Hindi Dubbed Movies, South Indian Hindi Dubbed Movies Free Download",Failed,4,72,2025-11-09T22:01:36.490526,no login
 107,https://superhosting.bg,EU,Customer profile - SuperHosting.BG,Failed,16,545,2025-11-09T22:04:27.719357,no registration
 108,https://google.nl,EU,Google,Success,59,198,2025-11-09T22:05:17.754736,
-1,https://nytimes.com,Unknown,"The New York Times - Breaking News, US News, World News and Videos",Success,177,497,2026-01-15T18:13:58.224987,
+1,https://nytimes.com,Unknown,"The New York Times - Breaking News, US News, World News and Videos",Success,234,364,2026-01-16T12:07:25.815545,
+1,https://bbc.com,Unknown,"BBC Home - Breaking News, World News, US News, Sports, Business, Innovation, Climate, Culture, Travel, Video & Audio",Success,97,313,2026-01-16T12:13:53.457452,
