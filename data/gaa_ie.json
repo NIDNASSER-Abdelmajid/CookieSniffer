@@ -1,0 +1,23 @@
+[
+  {
+    "cookie_name": "CookieControl",
+    "cookie_value": "{\"necessaryCookies\":[\"MoodleSession\",\"__atuvs\",\"has_js\",\"__atuvc\",\"gaatokwebwe.azurewebsites.net\",\"accounts.google.com\",\"gaa-mapping.openapp.ie\"],\"optionalCookies\":{},\"initialState\":{\"type\":\"closed\"},\"statement\":{\"shown\":true,\"updated\":\"24/04/2020\"},\"consentDate\":1776086598480,\"consentExpiry\":90,\"interactedWith\":true,\"user\":\"A60443EF-567E-449A-8B4B-E8836EB019BC\"}",
+    "cookie_domain": ".gaa.ie",
+    "cookie_path": "/",
+    "cookie_secure": false,
+    "cookie_httpOnly": false,
+    "cookie_expires": 1783862605,
+    "request_url": null,
+    "request_method": null,
+    "request_timestamp": null,
+    "request_body": null,
+    "request_headers": null,
+    "response_status_code": null,
+    "response_headers": null,
+    "source_url": "https://gaa.ie",
+    "timestamp": "2026-04-13T14:23:31.292287",
+    "page_title": "GAA.ie - GAA Match Video and Highlights, Fixtures and Results, Latest News",
+    "browser_id": "gaa_ie",
+    "party_type": "first-party"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "cookie_name": "cookie-agreed-version-lth",
+    "cookie_value": "1.0.0",
+    "cookie_domain": ".lth.se",
+    "cookie_path": "/",
+    "cookie_secure": false,
+    "cookie_httpOnly": false,
+    "cookie_expires": 1807672594,
+    "request_url": null,
+    "request_method": null,
+    "request_timestamp": null,
+    "request_body": null,
+    "request_headers": null,
+    "response_status_code": null,
+    "response_headers": null,
+    "source_url": "https://lth.se",
+    "timestamp": "2026-04-14T04:16:40.832222",
+    "page_title": "Start | LTH, Lunds Tekniska Högskola",
+    "browser_id": "lth_se",
+    "party_type": "first-party"
+  }
+]

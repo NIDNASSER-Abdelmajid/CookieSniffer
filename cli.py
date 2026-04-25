@@ -59,6 +59,9 @@ def main():
     url_group.add_argument(
         "-uc", "--url-category", help="Category of URLs to crawl", choices=["eu", "usa"]
     )
+    url_group.add_argument(
+        "-cu", "--custom-csv", help="Path to file with domains to crawl (one per line)"
+    )
 
     parser.add_argument(
         "-t",
@@ -96,6 +99,9 @@ def main():
         elif args.url_category == "usa":
             urls = pd.read_csv("urls/USA_websites.csv")["Domain"].tolist()
             category = "USA"
+    elif args.custom_csv:
+        urls = read_urls_from_file(args.custom_csv)
+        category = "Custom"
     else:
         urls = [args.url]
         category = "Unknown"

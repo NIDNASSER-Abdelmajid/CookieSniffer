@@ -1,0 +1,23 @@
+[
+  {
+    "cookie_name": "csrf_token",
+    "cookie_value": "06d050af-edbb-49be-b0cc-fc141740e4e3",
+    "cookie_domain": "nationalarchives.ie",
+    "cookie_path": "/",
+    "cookie_secure": true,
+    "cookie_httpOnly": false,
+    "cookie_expires": 1778684730,
+    "request_url": null,
+    "request_method": null,
+    "request_timestamp": null,
+    "request_body": null,
+    "request_headers": null,
+    "response_status_code": null,
+    "response_headers": null,
+    "source_url": "https://nationalarchives.ie",
+    "timestamp": "2026-04-13T16:06:00.334754",
+    "page_title": "The National Archives of Ireland",
+    "browser_id": "nationalarchives_ie",
+    "party_type": "first-party"
+  }
+]

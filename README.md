@@ -28,12 +28,33 @@ python Sec_GDPR_Right_DataAnalysis.py -i data/google_de.json -o cleaned.csv
 python Sec_GDPR_Right_DataAnalysis.py -d data -o aggregated.csv
 ```
 
+## Recent Changes
+
+### Version Updates and Enhancements
+
+- **Custom CSV Input Support**: Added `-cu` flag to `cli.py` for crawling domains from a custom CSV file (one domain per line). This allows batch processing of specific domain lists, such as regional subsets (e.g., Ireland or Sweden domains).
+  - Usage: `python cli.py -cu ireland_domains.csv -t 60`
+  - Category is set to "Custom" for tracking.
+
+- **Expanded Domain Datasets**:
+  - Added comprehensive Ireland (.ie) domain data collection with 474 domains crawled.
+  - Added Sweden (.se) domain data collection.
+  - Expanded US domain list in `data.csv` with additional entries (from line 2187 onwards), increasing coverage of US websites for cookie and privacy analysis.
+
+- **New Data Files**:
+  - `ireland_domains.csv`: List of Ireland domains for batch crawling.
+  - `sweden_domains.csv`: List of Sweden domains for batch crawling.
+  - Numerous new JSON data files in `data/` for Ireland and Sweden domains, containing cookie and privacy contact information.
+
+These changes enhance the crawler's flexibility for targeted regional analysis and expand the dataset for GDPR/CCPA compliance research.
+
 ## Command Options
 
 ### Main Crawler (cli.py)
 
 - `-u URL`: Single URL to crawl
 - `-uc CATEGORY`: Crawl URLs from category (eu/usa)
+- `-cu FILE`: Crawl domains from a custom CSV file (one domain per line)
 - `-t SECONDS`: Time to spend per website (default: 60)
 - `-p DIR`: Profiles directory (default: ./profiles)
 - `-ch`: Use Chromium browser

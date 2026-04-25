@@ -1,0 +1,46 @@
+[
+  {
+    "cookie_name": "SERVERID",
+    "cookie_value": "srv26",
+    "cookie_domain": "flexhosting.se",
+    "cookie_path": "/",
+    "cookie_secure": false,
+    "cookie_httpOnly": false,
+    "cookie_expires": -1,
+    "request_url": "https://flexhosting.se/HRM/",
+    "request_method": "GET",
+    "request_timestamp": "2026-04-14T04:09:46.124758",
+    "request_body": null,
+    "request_headers": {
+      "Host": "flexhosting.se",
+      "Connection": "keep-alive",
+      "Upgrade-Insecure-Requests": "1",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+      "Sec-Fetch-Site": "none",
+      "Sec-Fetch-Mode": "navigate",
+      "Sec-Fetch-User": "?1",
+      "Sec-Fetch-Dest": "document",
+      "sec-ch-ua": "\"Not-A.Brand\";v=\"24\", \"Chromium\";v=\"146\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Linux\"",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Accept-Language": "en-US,en;q=0.9"
+    },
+    "response_status_code": 404,
+    "response_headers": {
+      "content-type": "text/html; charset=us-ascii",
+      "server": "Microsoft-HTTPAPI/2.0",
+      "date": "Tue, 14 Apr 2026 03:09:46 GMT",
+      "content-length": "315",
+      "strict-transport-security": "max-age=15768000",
+      "set-cookie": "SERVERID=srv26; path=/",
+      "cache-control": "private"
+    },
+    "source_url": "https://flexhosting.se",
+    "timestamp": "2026-04-14T04:09:53.378965",
+    "page_title": "Not Found",
+    "browser_id": "flexhosting_se",
+    "party_type": "first-party"
+  }
+]
